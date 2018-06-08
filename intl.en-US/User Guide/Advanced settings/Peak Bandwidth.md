@@ -22,7 +22,7 @@ RAM subaccounts require CloudMonitor authorization to use this function. To gran
 
 3.  The bandwidth cap function is successfully enabled.
 
-    ![](images/3436_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5175/3436_en-US.png)
 
 4.  You can choose to enable or disable the bandwidth cap function based on the actual usage of your domain name.
 

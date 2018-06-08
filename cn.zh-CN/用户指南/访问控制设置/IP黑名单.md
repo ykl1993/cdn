@@ -1,0 +1,22 @@
+# IP黑名单 {#concept_drs_1q2_xdb .concept}
+
+## 功能介绍 {#section_xsf_2q2_xdb .section}
+
+支持黑名单规则，添加了黑名单的IP，表示此IP无法访问当前加速域名。
+
+## 注意事项 {#section_odl_2q2_xdb .section}
+
+IP黑名单当前支持ip网段添加，例如127.0.0.1/24。
+
+**说明：** 例如：127.0.0.1/24 24表示采用子网掩码中的前24位为有效位，即用32-24=8bit来表示主机号，该子网可以容纳2^8 - 2 = 254 台主机。故127.0.0.1/24 表示IP网段范围是：127.0.0.1~127.0.0.255。
+
+## 配置引导 {#section_i1n_2q2_xdb .section}
+
+进入CDN域名概览页，进入域名管理页面，选择需要设置的域名，单击**配置**。
+
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5153/3469_zh-CN.png)
+
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5153/3470_zh-CN.png)
+
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5153/3471_zh-CN.png)
+

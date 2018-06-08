@@ -16,6 +16,8 @@
 
 选择**添加解析**，添加CNAME记录：
 
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/6058_zh-CN.png)
+
 -   记录类型请选择为`CNAME`；
 -   主机记录即加速域名的前缀：
     -   例如您的加速域名为`testcdn.aliyun.com`，前缀就是`testcdn`；
@@ -37,7 +39,7 @@
 
 配置CNAME后，不同的DNS服务商CNAME配置生效的时间也不同。您可以`ping`或`dig`您所添加的加速域名，如果被转向`*.*kunlun*.com`，即表示CNAME配置已经生效，CDN功能也已生效:
 
- 
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/6060_zh-CN.png)
 
 另外我们还提供域名在DNSPod、新网解析的 配置CNAME示例：[DNSPod/腾讯云解析 配置流程](https://help.aliyun.com/document_detail/27145.html)、[新网 配置流程](https://help.aliyun.com/document_detail/27146.html)。
 
