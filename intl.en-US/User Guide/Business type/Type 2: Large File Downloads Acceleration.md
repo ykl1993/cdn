@@ -16,7 +16,7 @@ Distribution of large static website or application files, such as game installa
 
     Recommended configurations
 
-    -   [HTTPS Secure Acceleration](intl.en-US//HTTPS Acceleration/HTTPS Security Acceleration.md#), you You only need to enable the secure acceleration mode and then upload the certificate and the private key for the CDN domains. You can also view, disable and edit the certificate. For more information, see  [Certificate format instructions](intl.en-US//HTTPS Acceleration/Certificate Format.md#).
+    -   [HTTPS Secure Acceleration](intl.en-US/User Guide/Value-added service/HTTPS Acceleration/HTTPS Security Acceleration.md#), you You only need to enable the secure acceleration mode and then upload the certificate and the private key for the CDN domains. You can also view, disable and edit the certificate. For more information, see  [Certificate format instructions](intl.en-US/User Guide/Value-added service/HTTPS Acceleration/Certificate Format.md#).
     -   [Cache configuration](intl.en-US/User Guide/Node Cache Settings/Cache policy configuration.md#)，This feature can be used to set the actions of a cache server against resources in different **directory paths**and with different **file name suffixes**. You can customize cache expiration rules for specified resources.
     -   Access control settings: ensure the security of the distributed content, and prevent unnecessary traffic losses from leeching or malicious requests.
         -   [Refer anti-leech protection](intl.en-US/User Guide/Access Control Settings/Anti-leech.md#)

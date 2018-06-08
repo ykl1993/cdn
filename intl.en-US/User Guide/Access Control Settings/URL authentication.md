@@ -214,7 +214,7 @@ After this process, the CDN server authenticates the URL.
 
 ## Sample authentication code {#section_h25_k42_xdb .section}
 
-See [Sample Authentication Code  ](../intl.en-US//Sample authentication code.md#)document in CDN Utilities.
+See [Sample Authentication Code  ](../intl.en-US/Developer Guide/Utilities/Sample authentication code.md#)document in CDN Utilities.
 
 ## Procedure {#section_n5x_l42_xdb .section}
 

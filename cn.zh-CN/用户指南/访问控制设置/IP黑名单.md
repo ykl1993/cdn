@@ -14,9 +14,3 @@ IP黑名单当前支持ip网段添加，例如127.0.0.1/24。
 
 进入CDN域名概览页，进入域名管理页面，选择需要设置的域名，单击**配置**。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5153/3469_zh-CN.png)
-
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5153/3470_zh-CN.png)
-
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5153/3471_zh-CN.png)
-

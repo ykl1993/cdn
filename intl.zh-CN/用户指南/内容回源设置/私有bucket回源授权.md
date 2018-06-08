@@ -15,26 +15,14 @@
 如何开启私有bucket回源授权？
 
 1.  域名配置，源站设置，单击**私有Bucket回源设置** \> **开启**。
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5143/3335_zh-CN.png)
-
 2.  单击**立即授权**。
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5143/3336_zh-CN.png)
-
 3.  授权成功，为该域名开启私有bucket回源配置，单击**确定**。
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5143/3337_zh-CN.png)
-
 4.  设置成功。
 
 如何关闭私有bucket回源授权？
 
 1.  进入**访问控制** \> **角色管理**。
 2.  删除**AliyunCDNAccessingPrivateOSSRole**授权。
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5143/3338_zh-CN.png)
-
 3.  私有bucket授权删除成功。
 
 **说明：** 若您的加速域名正在使用私有bucket做为源站进行回源，请不要关闭或删除私有bucket授权。
