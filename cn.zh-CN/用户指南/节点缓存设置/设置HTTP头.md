@@ -29,11 +29,5 @@
     ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5149/3423_zh-CN.png)
 
 2.  单击**修改配置**，可以管理当前http header的规则列表。
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5149/3424_zh-CN.png)
-
 3.  单击**添加**，增加HTTP HEADER自定义设置。
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5149/3425_zh-CN.png)
-
 
