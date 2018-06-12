@@ -37,10 +37,7 @@
 
 HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费，当前计费标准详见 [HTTPS计费详情](https://www.aliyun.com/price/product?spm=5176.doc27271.2.9.vAt4dL#/cdn/detail)。
 
-**说明：** 
-
--   HTTPS根据请求数单独计费，费用不包含在CDN流量包内，请确保账户余额充足再开通HTTPS服务，以免HTTPS服务导致欠费影响CDN服务。
--   附：[如何查看HTTPS请求数使用情况](../intl.zh-CN/.md#)。
+**说明：** HTTPS根据请求数单独计费，费用不包含在CDN流量包内，请确保账户余额充足再开通HTTPS服务，以免HTTPS服务导致欠费影响CDN服务。
 
 证书相关
 
