@@ -6,11 +6,11 @@ Alibaba Cloud Content Delivery Network\(CDN\) is a distributed network that over
 
 ## Overview of CDN operation {#section_acy_tww_wdb .section}
 
-登录到 [CDN控制台](https://cdn.console.aliyun.com) 后，首页展示的就是当前账户下CDN运行概况总览情况，主要包括：
+After you log on to the [CDN console](https://cdn.console.aliyun.com), the CDN operation information for the current account is displayed on the home page as follows:
 
 1.  Billing method diaplay and change:
 2.  Key data: the number of domains in normal status and the total traffic for all domains this month
-3.  This month’s data:
+3.  This month's data:
 
     1.  Domain peak bandwidth
     2.  Top 4 domain names according to the accumulated downstream traffic
@@ -23,7 +23,7 @@ You can complete relevant function settings and view data in the left-side navig
 
 |Functions|Brief introduction|
 |:--------|:-----------------|
-|[Domain name management](../intl.en-US/Quick Start/Quick Start.md#)|Add a CDN domain name, manage, or delete a CDN domain name, and change the basic and configuration information of the CDN domain name.|
+|[Domain name management](../../../../intl.en-US/Quick Start/Quick start.md#)|Add a CDN domain name, manage, or delete a CDN domain name, and change the basic and configuration information of the CDN domain name.|
 |[Monitoring](intl.en-US/User Guide/Resource monitoring.md#)|Include four parts, Traffic Monitoring, User Access Monitoring, Data Analysis, and Security Protection|
 |[Refresh](intl.en-US/User Guide/Cache refresh.md#)|URL refresh and directory refresh are available.|
 |[Log](intl.en-US/User Guide/Log Management/Log Downloading.md#)|Log downloads, log storage \(upcoming\), Cloud reports|
