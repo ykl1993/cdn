@@ -69,7 +69,7 @@ Number of HTTPS requests
 
 ## Pre-paid traffic package {#section_o1z_pwl_zdb .section}
 
--   Traffic package sizes from**500G ~ 50TB** are available for 1 year. Learn more. Fore more information, see [learn more](https://common-buy.aliyun.com/?commodityCode=cdnflowbag_intl#/buy)。
+-   Traffic package sizes from**500G ~ 50TB** are available for 1 year. Learn more. Fore more information, see learn more.
 -   The packages are pre-paid in Subscription mode \(paid in one total sum and activated immediately\). The traffic beyond the package quota is billed in Pay-As-You-Go mode.
 -   For the duration of the resource package, fees are deducted for your use of the traffic quota. For traffic outside the quota, fees are billed based on the existing billing rules.
 
