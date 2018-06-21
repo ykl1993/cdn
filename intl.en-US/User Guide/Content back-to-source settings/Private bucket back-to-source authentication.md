@@ -14,7 +14,7 @@ Private bucket back-to-source authentication is performed when traffic of a CDN 
 
 How to enable private bucket back-to-source authorization
 
-1.  Choose “Domain Name Configuration” \> **“Origin Site Configuration”, ** \> **and click “Private Bucket Authorization”**.
+1.  Choose Domain Name Configuration \> **Origin Site Configuration, ** \> **Private Bucket Authorization**.
 
     ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5143/3335_en-US.png)
 
@@ -26,11 +26,11 @@ How to enable private bucket back-to-source authorization
 
     ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5143/3337_en-US.png)
 
-4.  Successful
+4.  Succeed.
 
 How to disable private bucket back-to-source authorization
 
-1.  Choose **“Access Control” \> ** \> **“Role Management”**.
+1.  Choose **Access Control** \> **Role Management**.
 2.  Delete AliyunCDNAccessingPrivateOSSRole authorization.
 
     ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5143/3338_en-US.png)
