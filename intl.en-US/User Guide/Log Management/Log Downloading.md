@@ -3,7 +3,7 @@
 -   You can query the log files in the Log Management within 4 hours.
 -   Log files are segmented on an hour basis.
 -   You can download the log files within **1 month**.
--   Name a log file based on the rule:`Acceleration domain name_year_month_date_start time_end time`.
+-   Name a log file based on the rule: `Acceleration domain name_year_month_date_start time_end time`.
 -   Log field format description.
 
 Sample log content
