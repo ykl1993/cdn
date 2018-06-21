@@ -2,8 +2,8 @@
 
 ## Introduction {#section_oxh_h1f_xdb .section}
 
--   In a video on demand scenario, when the playback progress bar is dragged, the client will send a URL request similar to `http://www.aliyun.com/test.flv?start=10,` to the server. The server returns the data starting from the key frame bprior to the10th second to the client\( If start=10 is not the position of the key frame\).  
--   After receiving such a request from a client and the Drag/Drop Playback function is enabled, a CDN node can directly return the data starting from the key frame prior to the10th second \( If start=10 is not the position of the key frame\) \(FLV format\) or starting from the 10th second to the client.
+-   In a video on demand scenario, when the playback progress bar is dragged, the client will send a URL request similar to `http://www.aliyun.com/test.flv?start=10` to the server. The server returns the data starting from the key frame prior to the10th second to the client \(If start=10 is not the position of the key frame\).  
+-   After receiving such a request from a client and the Drag/Drop Playback function is enabled, a CDN node can directly return the data starting from the key frame prior to the10th second \(If start=10 is not the position of the key frame\) \(FLV format\) or starting from the 10th second to the client.
 
 ## Attentions: {#section_hps_31f_xdb .section}
 
@@ -22,7 +22,7 @@
 
 -   Configuraton change
 
-    In the CDN domain name management page, click **Configure**, Video related Enable/Disable**Drag/Drop Playback**.
+    In the CDN domain name management page, click **Configure**, Video related Enable/Disable **Drag/Drop Playback**.
 
     ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5156/3507_en-US.png)
 
