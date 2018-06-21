@@ -2,9 +2,9 @@
 
 ## Global distribution of high performance nodes {#section_sbx_pq2_zdb .section}
 
-Alibaba Cloud CDN globally leverages 1300+ nodes to accelerate content delivery for websites and applications.   It covers the major cities in all 34 provinces of mainland China and 70+ countries and regions, with a large number of nodes located in the provincial capital and other first-tier cities   .
+Alibaba Cloud CDN globally leverages 1300+ nodes to accelerate content delivery for websites and applications. It covers the major cities in all 34 provinces of mainland China and 70+ countries and regions, with a large number of nodes located in the provincial capital and other first-tier cities   .
 
-10 G optical network card. 90 Tbps bandwidth capability reserve. 40 TB to 1.5 PB storage space.40 Gbps-200 Gbps bandwidth load capability .
+10 G optical network card. 90 Tbps bandwidth capability reserve. 40 TB to 1.5 PB storage space. 40 Gbps-200 Gbps bandwidth load capability .
 
 All these high-performance nodes substantially enhance the information delivering, enabling you to better cope with emergencies.
 
@@ -16,7 +16,7 @@ All these high-performance nodes substantially enhance the information deliverin
 
 -   At the same time, the system automatically adds corresponding mainland China node based on the access condition.
 
--   The system does not add overseas nodes by default. Submit a ticket to apply for outside-China CDN service if necessary, as long as you are an L3 or L4 VIP. [Learn more about Alibaba Cloud membership benefits.](https://club.aliyun.com/?accounttraceid)
+-   The system does not add overseas nodes by default. Submit a ticket to apply for outside-China CDN service if necessary, as long as you are an L3 or L4 VIP. Learn more about Alibaba Cloud membership benefits.
 
 
 ## Search nodes {#section_vbx_pq2_zdb .section}
