@@ -20,11 +20,11 @@ You can set an HTTP Response Header. Eight HTTP response header parameters are a
 
 -   The HTTP response header setting will affect responses to client programs \(for example, browser\) for all resources under the CDN domain, but will not affect the behavior of the cache server.
 -   Only the preceding HTTP header parameters are supported currently. If additional requirements for HTTP header settings are required, please submit a ticket to Alibaba Cloud technical support.
--   Access-Control-Allow-Origin can be set to `*`\(表示全部域名\)\(indicating all domains\) or to a complete domain name such as`www.aliyun.com`. Wildcard domain setting is not supported currently.
+-   Access-Control-Allow-Origin can be set to `*` \(indicating all domains\) or to a complete domain name such as `www.aliyun.com`. Wildcard domain setting is not supported currently.
 
 ## Procedure {#section_kv5_hd2_xdb .section}
 
-1.  CDN domain name overview page, select the domain name to go to the Domain Namespage, set HTTP header.
+1.  CDN domain name overview page, select the domain name to go to the Domain Names page, set HTTP header.
 
     ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5149/3423_en-US.png)
 
