@@ -4,25 +4,25 @@ Add CDN domain names. At one time, you can only submit one domain name. A single
 
 Restrictions:
 
--   Before creating a CDN domain name, the CDN service must be activated.
+-   Before creating CDN domain name, CDN service must be activated.
 -   The CDN domain name must complete registration process. 
 -   If the origin site content is not on the Alibaba Cloud platform, it must be reviewed. The review will be completed before the next workday.
 
 ## Request parameters {#section_cch_pjg_mdb .section}
 
-|Parameters|Parameters|Required|Example values|Description|
-|:---------|:---------|:-------|:-------------|:----------|
-|Action|String|Yes|AddCdnDomain| The name of this interface.  Value: 
+|Name |Type|Required|Example values|Description|
+|:----|:---|:-------|:-------------|:----------|
+|Action|String|Yes.|AddCdnDomain| The name of this interface.  Value:
 
  AddCdnDomain
 
  |
-|CdnType|String|Yes|web| The CDN domain business type.  Value range:
+|CdnType|String|Yes|web| The CDN domain business type.  Scope of value:
 
 -   web: distribution of images and small files. 
 -   download: acceleration of large file downloads.
 -   video: acceleration of video and audio on demand.
--   liveStream：acceleration of live streaming media.
+-   liveStream:: acceleration of live streaming media.
 
  |
 |DomainName|String|Yes|www.yourdomain.com| The domain name that requests access to CDN.  Supports generic domain name,  and starts with “.”, such as .a.com.
@@ -46,21 +46,21 @@ Restrictions:
 |ResourceGroupId|String|No|your resourceGroupId| ID of the resource group.
 
  |
-|Scope|String|No|domestic| Value range:
+|Scope|String|No|domestic| Scope of value:
 
 -   domestic
 -   overseas
 -   global
 
-Default value: domestic.  The setting is effective for international users, domestic users of level3 or above.
+Default value: domestic.  The setting is effective for international users, domestic users of level 3 or above.
 
  |
-|SourcePort|String|No|80| 443 and 80 can be specified. Default value: 80
+|SourcePort|String|No|80| You can specify Port 443 and 80. Default value: 800.
 
  443 port performs https source.  OSS does not suppport 443 port.
 
  |
-|SourceType|String|No|domain| Source type.  Value range:
+|SourceType|String|No|domain| Source type.  Scope of value:
 
 -   ipaddr：IP source site.
 -   domain：source site of domain name. 
@@ -69,21 +69,21 @@ Default value: domestic.  The setting is effective for international users, dom
 **Note:** If you select the business type of live streaming media acceleration, the source site type and information is not required.
 
  |
-|Sources|String|No|www.yourdomain.com| Source address, can be IP or domain name.
+|Sources|String|No|www.yourdomain.com| Source address,, which can be IP or domain name.
 
- -   IP supports up to 20, which are seperated by comma.
--   Only one domain name can be entered, and IP and domain name cannot be entered at the same time.
+ -   Supporting at most 10 IP addresses, separated by commas.
+-   You can only enter one domain name, and you cannot enter IP and domain names simultaneously.
 -   If the business type is live streaming media acceleration, the source address is not required to enter. If the business type is other type, source address is required \(inner user, the type is common source, and type enum value can be entered\).
 
  |
-|TopLevelDomain|String|No|www.yourTopLevelDomain| Top-level scheduling domain.
+|TopLevelDomain|String|否|www.yourTopLevelDomain| Top-level scheduling domain.
 
  |
 
-## Return Parameters {#section_hdn_f2c_5db .section}
+## Response parameters {#section_hdn_f2c_5db .section}
 
-|Parameters|Type|Example values|Description|
-|:---------|:---|:-------------|:----------|
+|Name|Type|Example value|Description|
+|:---|:---|:------------|:----------|
 |RequestId|String|16A96B9A-F203-4EC5-8E43-CB92E68F4CD8| RequestId
 
  |
@@ -101,9 +101,9 @@ Default value: domestic.  The setting is effective for international users, dom
 -   JSON format
 
     ```
-     
+    { 
          "RequestId":"15C66C7B-671A-4297-9187-2C4477247A74"
-    
+    }
     ```
 
 
@@ -112,12 +112,12 @@ Default value: domestic.  The setting is effective for international users, dom
 -   JSON format
 
     ```
-     
+    { 
         "Code":"InternalError", 
-         "Hostid": "maid ", 
+         "HostId":"cdn.aliyuncs.com", 
          "Message":"The request processing has failed due to some unknown error.",
          "RequestId":"16A96B9A-F203-4EC5-8E43-CB92E68F4CD8"
-    
+    }
     ```
 
 
