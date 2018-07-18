@@ -1,8 +1,6 @@
 # What is Alibaba Cloud CDN? {#concept_aml_tlg_tdb .concept}
 
-Alibaba Content Delivery Network \(CDN\) caches contents at physical nodes, then strategically delivers them to end users from the nearest node. Such distributed network substantially improves the website response, content access, and user experience.
-
-As a precise dispatching system, Alibaba Cloud CDN caches the source content to edge nodes, and distributes the user requests to the ideal nodes. It allows the users to efficiently acquire the resource they need, avoiding the possible network congestion, accelerating the user resource acquisition, and ensuring the user experience.
+Alibaba Cloud Content Delivery Network \(CDN\) caches contents at physical nodes, then strategically delivers them to end users from the nearest node. It allows the users to efficiently acquire the resource they need, avoiding the possible network congestion, accelerating the user resource acquisition, and ensuring the user experience.
 
 ## How it works {#section_dsj_nlb_n2b .section}
 
@@ -33,9 +31,9 @@ Suppose that your origin site is in Hong Kong, and domain name www.a.com has acc
 
 To quickly get started with CDN service, go to Quick Satrt. You can also check [CDN Learning Path](https://www.alibabacloud.com/getting-started/learningpath/cdn) to quickly get the full view of Alibaba Cloud CDN.
 
-You can log on CDN Console to experience all functions。
+You can log on [CDN Console](https://cdn.console.aliyun.com) to experience all functions。
 
-Moreover, you can check API documentations to flexibly realize your business target.
+Moreover, you can check [API documentations](https://www.alibabacloud.com/help/doc-detail/27155.htm) to flexibly realize your business target.
 
 ## Price and billing {#section_cdg_yqb_n2b .section}
 
