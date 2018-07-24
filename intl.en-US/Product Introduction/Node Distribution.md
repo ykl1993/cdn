@@ -1,10 +1,10 @@
 # Node Distribution {#concept_uqm_5h3_tdb .concept}
 
-## Global distribution of high performance nodes {#section_sbx_pq2_zdb .section}
+## Recognize Alibaba Cloud nodes {#section_sbx_pq2_zdb .section}
 
-Alibaba Cloud CDN globally leverages 1300+ nodes to accelerate content delivery for websites and applications. It covers the major cities in all 34 provinces of mainland China and 70+ countries and regions, with a large number of nodes located in the provincial capital and other first-tier cities   .
+Alibaba Cloud CDN globally leverages 1500+ nodes to accelerate content delivery for websites and applications. It covers the major cities in all 34 provinces of mainland China and 70+ countries and regions, with a large number of nodes located in the provincial capital and other first-tier cities.
 
-10 G optical network card. 90 Tbps bandwidth capability reserve. 40 TB to 1.5 PB storage space. 40 Gbps-200 Gbps bandwidth load capability .
+Alibaba Cloud CDN is well trusted by its ever-advancing technical performance, with10 G optical network card, 120 Tbps bandwidth capability reserve, 40 TB to 1.5 PB storage space, and 40 Gbps-200 Gbps bandwidth load capability .
 
 All these high-performance nodes substantially enhance the information delivering, enabling you to better cope with emergencies.
 
@@ -12,16 +12,14 @@ All these high-performance nodes substantially enhance the information deliverin
 
 ## Configure nodes {#section_uj3_dr2_zdb .section}
 
--   The system configures and adjusts Chinese nodes by default for the domain name you have added. \(For more information, see distribution of specific node.\)
+-   The system automatically configures and adjusts Chinese nodes for the domain name you have added. You can check more information from the Search node chapter.
 
--   At the same time, the system automatically adds corresponding mainland China node based on the access condition.
-
--   The system does not add overseas nodes by default. Submit a ticket to apply for outside-China CDN service if necessary, as long as you are an L3 or L4 VIP. Learn more about Alibaba Cloud membership benefits.
+-   The system also adds nodes in mainland China automatically based on the access condition.
 
 
 ## Search nodes {#section_vbx_pq2_zdb .section}
 
-You can search all Alibaba Cloud CDN nodes from the following list to learn about where the current Alibaba Cloud is located in mainland China, Hong Kong, Macau, Taiwan and overseas.
+You can search all Alibaba Cloud CDN nodes located in and out of mainland China from the list below.
 
 Mainland China
 
@@ -32,7 +30,7 @@ Mainland China
 -   Education Network: Beijing, Hubei, Jiangsu, and Guangdong.
 -   Other: Beijing, Zhejiang, Hunan, Sichuan, Liaoning, Jiangsu, Guangxi, Anhui, Shanghai, Beijing, Shandong, Shanghai, Guangdong, Hubei, Heilongjiang, and Chongqing.
 
-Hong Kong Macao and Taiwan and Outside-China
+Hong Kong, Macao, Taiwan and Outside-China
 
 -   Asia: Hong Kong, Macau, Kaohsiung, Taipei, Tokyo, Osaka, Seoul, Singapore 1, Kuala Lumpur, Bangkok, Surabaya, Batam, Banjarmasin, Makassar, Denpasar \(Bali\), Semarang \(Java\), Jakarta, Manila, Hanoi, Ho Chi Minh, Mumbai, New Delhi, Hyderabad, Bangalore, Chennai, Calcutta, and Dubai.
 -   Europe: Moscow, St. Petersburg, Minsk, Frankfurt, London, Amsterdam, Madrid, Milan, Brussels, and Stockholm.
