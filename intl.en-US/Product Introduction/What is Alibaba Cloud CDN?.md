@@ -53,5 +53,5 @@ For more information, see [Product Pricing](https://www.alibabacloud.com/product
 
 [Elastic Compute Service \(ECS\)](https://www.alibabacloud.com/help/product/25365.htm): Enhances website availability, protects the information on a server’s source station, and lowers the cost of bandwidth use.
 
-[Server Load Balancer](ttps://www.alibabacloud.com/help/product/27537.htm), Sets the server's IP address to the source site, which relieves the bandwidth pressure.
+[Server Load Balancer](ttps://www.alibabacloud.com/help/product/27537.htm): Sets the server's IP address to the source site, which relieves the bandwidth pressure.
 
