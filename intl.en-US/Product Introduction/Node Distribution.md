@@ -1,25 +1,25 @@
 # Node Distribution {#concept_uqm_5h3_tdb .concept}
 
-## Recognize Alibaba Cloud nodes {#section_sbx_pq2_zdb .section}
+## Discover Alibaba Cloud nodes {#section_sbx_pq2_zdb .section}
 
-Alibaba Cloud CDN globally leverages 1500+ nodes to accelerate content delivery for websites and applications. It covers the major cities in all 34 provinces of mainland China and 70+ countries and regions, with a large number of nodes located in the provincial capital and other first-tier cities.
+Alibaba Cloud Content Delivery Network \(CDN\) uses a global network of 1500+ nodes to accelerate content delivery for websites and applications. It covers the major cities in all 34 provinces of mainland China as well as 70+ other countries and regions.
 
-Alibaba Cloud CDN is well trusted by its ever-advancing technical performance, with10 G optical network card, 120 Tbps bandwidth capability reserve, 40 TB to 1.5 PB storage space, and 40 Gbps-200 Gbps bandwidth load capability .
+CDN continues to reliably serve businesses thanks to its ever-advancing technical specifications, including a 10 G optical network card, 120 Tbps bandwidth capability reserve, 40 TB to 1.5 PB storage space, and 40 Gbps to 200 Gbps bandwidth load capability.
 
-All these high-performance nodes substantially enhance the information delivering, enabling you to better cope with emergencies.
+High-performance nodes enhance information delivery compared with traditional methods, accelerating distribution and boosting reliability. With CDN, businesses are able to continue to provide a high-quality services in even the most demanding of situations.
 
 ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5099/4887_en-US.png)
 
 ## Configure nodes {#section_uj3_dr2_zdb .section}
 
--   The system automatically configures and adjusts Chinese nodes for the domain name you have added. You can check more information from the Search node chapter.
+-   The system automatically configures and adjusts nodes for the domain name you have added. For more information, see the following Search nodes chapter.
 
--   The system also adds nodes in mainland China automatically based on the access condition.
+-   The system also adds nodes automatically based on the access conditions.
 
 
 ## Search nodes {#section_vbx_pq2_zdb .section}
 
-You can search all Alibaba Cloud CDN nodes located in and out of mainland China from the list below.
+The full list of Alibaba Cloud CDN nodes is below, including those located inside and outside of mainland China.
 
 Mainland China
 
