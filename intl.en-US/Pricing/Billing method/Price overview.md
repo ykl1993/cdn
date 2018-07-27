@@ -15,6 +15,8 @@ Alibaba Cloud CDN pricing system consists of basic services and value-added serv
 
 -   [Value-added services](intl.en-US/Pricing/Billing method/Value-added services.md#): when you have activated HTTPS Secure Acceleration service or Dynamic Route for CDN service, you shall pay the bill beyond basic service.
 
+**Note:** [What's the differences between the traffic you billed and the traffic monitored by the console?](https://www.alibabacloud.com/help/faq-detail/40164.htm)
+
 ## How to pay {#section_mbr_rwl_l2b .section}
 
 -   Post Payment: for all above-mentioned basic services or value-added services.
@@ -37,7 +39,7 @@ How pricing zones distributes:
 
 See the following table for the pricing details:
 
-PayByBandwidth:![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15630/7130_en-US.png)
+PayByBandwidth:![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15630/15326822327130_en-US.png)
 
-PayByTraffic:![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15631/7129_en-US.png)
+PayByTraffic:![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15631/15326822337129_en-US.png)
 
