@@ -6,7 +6,7 @@ An acceleration domain name, provided by your side for CDN acceleration, can be 
 
 ## Origin site {#section_dym_wtb_p2b .section}
 
-The server where the your real business and service is. The origin site has three types for option: OSS back-to-origin domain, IP, or custom.
+The server where your real business and service is. The origin site has three types for option: OSS back-to-origin domain, IP, or custom.
 
 ## CNAME record {#section_cm2_nlc_5db .section}
 
@@ -16,7 +16,7 @@ For example, a large amount of information is stored in your server, which can b
 
 ## CNAME domain name {#section_dm2_nlc_5db .section}
 
-You will receive an acceleration domain name which is the CNAME domain name after CDN acceleration on the Alibaba Cloud console is configured \(This CNAME must be`*.*kunlun*.com`\). You must add CNAME record at your DNS service provider, to direct your CDN domain name to the CNAME of `*.*kunlun*.com`, then all the request under your domain name are transferred to Alibaba Cloud CDN node to achive acceleartion effect.
+After you open CDN service and complete adding your domain name on Alibaba Cloud Console, you will receive a CNAME domain name, in the format like `*.*kunlun*.com`. Then, add a CNAME record on your DNS provider, directing your acceleration domain name to the domain name of`*.*kunlun*.com`. When the CNAME record is activated, DNS, all requests to access the acceleration name can be transferred to CDN nodes.
 
 ## SSL/TLS {#section_ujl_jwv_m2b .section}
 
