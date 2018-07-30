@@ -101,7 +101,7 @@ Obtain the configuration of the specified CDN domain name.
 |  └RefererConfig| | |Referer blacklist and whitelist configuration.|
 |Hu HU └ ConfigId|String|123|Configuration ID.|
 |    └ReferType|String|block|Refer type.|
-|    └ReferList|String|www.google.com| Refer domain name, separated by commas \(,\). The front and back ends does not include period \(.\).  Suffix match.
+|    └ReferList|String|www.alibabacloud.com| Refer domain name, separated by commas \(,\). The front and back ends does not include period \(.\).  Suffix match.
 
  Example: sina.com matches www.sina.com and www.ch.sina.com
 
@@ -336,7 +336,7 @@ http://cdn.aliyuncs.com?Action=DescribeDomainConfigs&DomainName=test.com
     },
     "RefererConfig":{
     "AllowEmpty":"on",
-    "ReferList":"www.google.com",
+    "ReferList":"www.alibabacloud.com",
     "ReferType":"block"
     },
     "RemoveQueryStringConfig":{
