@@ -2,7 +2,7 @@
 
 This document describes how to quickly get started with the CDN service. The procedure is as follows:
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/6046_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/15329986196046_en-US.png)
 
 ## Step 1. Enable the CDN service {#section_fyr_1tv_tdb .section}
 
@@ -13,15 +13,13 @@ This document describes how to quickly get started with the CDN service. The pro
 
 1.  Add a domain name.
 
-    Go to the CDN console, select **Domain Names**. You can view all the CDN domain names and status that you have added. Click **Add Domain Name**：
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/6047_en-US.png)
+    Go to the CDN console, select **Domain Names**. You can view all the CDN domain names and status that you have added. Click **Add Domain Name**
 
 2.  Enter the basic information.
 
     Enter the CDN domain name \(typically a subdomain name or a wildcard domain name is used, for example `cdntest.example.com`\), and select an appropriate business type and origin site. Click **Next** to wait for the reviewing.
 
-    **Note:** If the origin site is Alibaba Cloud ECS and OSS, it can be unaudited.
+    **Note:** Using Alibaba Cloud ECS or OSS as your origin site will accelerate your domain name verification.
 
     CDN domain name Description:
 
