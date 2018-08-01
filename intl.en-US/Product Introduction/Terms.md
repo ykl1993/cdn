@@ -32,7 +32,7 @@ In this document, the terms edge node, CDN node, cache node, acceleration node, 
 
 ## Back-to-origin Host {#section_gm2_nlc_5db .section}
 
-The origin site determines where the request is to sent during back-to-origin .The Back-to-Origin HOST determines which specific site on the IP that the back-to-origin request is to access.
+The origin site determines the IP address to which a back-to-origin request is sent. The Back-to-origin Host determines the specific site of the IP address to which a back-to-origin request is sent.
 
 Example 1: The origin site is a domain name. If the origin site is`www.a.com` and the back-to-origin host is`www.b.com`, the actual back-to-origin request is sent to the IP address resolved from`www.a.com` corresponding to the site `www.b.com`on the host.
 
