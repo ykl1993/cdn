@@ -25,7 +25,7 @@ HTTP消息头是指，在超文本传输协议（ Hypertext Transfer Protocol �
 ## 注意事项 {#section_lzt_fd2_xdb .section}
 
 -   HTTP响应头的设置会影响该加速域名下所有资源客户端程序（例如浏览器）的响应行为，但不会影响缓存服务器的行为。
--   目前仅支持上述HTTP头参数取值设置。如果您有其他HTTP头部设置需求，请[提交工单](https://selfservice.console.aliyun.com)反馈。
+-   目前仅支持上述HTTP头参数取值设置。如果您有其他HTTP头部设置需求，请[提交工单](https://workorder-intl.console.aliyun.com)反馈。
 -   关于参数Access-Control-Allow-Origin的取值，您可以填写`*`表示全部域名；也可以填写完整域名，例如：`www.aliyun.com`。
 -   目前不支持泛域名设置。
 
@@ -33,5 +33,5 @@ HTTP消息头是指，在超文本传输协议（ Hypertext Transfer Protocol �
 
 1.  登录CDN控制台，进入域名管理页面，选择需要设置的域名，单击**管理**。
 2.  在**缓存配置** \> **HTTP头**，您可以单击**修改**或**删除**对HTTP的参数进行相应操作。
-3.  您也可以单击**添加**，选择参数，并输入取值，然后单击**确认**，添加自定义HTTP头参数。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5149/15330864597278_zh-CN.png)
+3.  您也可以单击**添加**，选择参数，并输入取值，然后单击**确认**，添加自定义HTTP头参数。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5149/15330874977278_zh-CN.png)
 

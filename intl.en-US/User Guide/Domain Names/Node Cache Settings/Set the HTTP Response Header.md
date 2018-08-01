@@ -22,8 +22,8 @@ You can set an HTTP Response Header. Eight HTTP response header parameters are a
 
 ## Note {#section_lzt_fd2_xdb .section}
 
--   The configuration of HTTP response header will affect all response actions to client programs \(for example, browser\) for all resources under the CDN domain name, rather than the actions of the cache server.
--   You can only customize HTTP header now. Submit a ticket if you have other custom requirements for HTTP header.
+-   The configuration of HTTP response header will affect the response actions of all resources' client program under the CDN domain name, rather than the actions of the cache server.
+-   You can only customize HTTP header now. [Submit a ticket](https://workorder-intl.console.aliyun.com) if you have other custom requirements for HTTP header.
 -   You can type in `*` \(indicating all domain names\) or full domain name \(such as `www.aliyun.com`\) for the parameter Access-Control-Allow-Origin.
 -   Setting HTTP headers for an extensive domain name is not available now.
 
