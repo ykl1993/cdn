@@ -4,7 +4,7 @@
 
 HTTP header \(fields\) are components of the header section of request and response messages in the Hypertext Transfer Protocol \(HTTP\). They define the operating parameters during HTTP process.
 
-HTTPS headers can be classified into general headers, request headers, response headers, and so on. You can set HTTP response headers, adding more information on server and Request-URI. 9 types of HTTP response headers are availabe for option.
+HTTPS headers can be classified into general headers, request headers, response headers, and so on. You can set HTTP response headers, adding more information on server and Request-URI. 9 types of HTTP response headers are available for option.
 
 You can set an HTTP Response Header. Eight HTTP response header parameters are available for customization. The parameters are as follows:
 

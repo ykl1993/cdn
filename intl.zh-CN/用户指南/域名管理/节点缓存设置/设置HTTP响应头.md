@@ -33,5 +33,5 @@ HTTP消息头是指，在超文本传输协议（ Hypertext Transfer Protocol �
 
 1.  登录CDN控制台，进入域名管理页面，选择需要设置的域名，单击**管理**。
 2.  在**缓存配置** \> **HTTP头**，您可以单击**修改**或**删除**对HTTP的参数进行相应操作。
-3.  您也可以单击**添加**，选择参数，并输入取值，然后单击**确认**，添加自定义HTTP头参数。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5149/15330874977278_zh-CN.png)
+3.  您也可以单击**添加**，选择参数，并输入取值，然后单击**确认**，添加自定义HTTP头参数。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5149/15330914197278_zh-CN.png)
 
