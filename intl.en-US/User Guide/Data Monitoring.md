@@ -31,14 +31,14 @@ You can select the**Domain Name**, **Region**, **Operator** or the **Time Range*
 ## Procedure {#section_kv5_hd2_xdb .section}
 
 1.  Log on to the CDN console, then go to the Domain Names page. Choose a domain name, then click **Manage**.
-2.  Go to **Data Monitoring** \> **Resource Monitoring** or **Real-time Monitoring**, then you can check the data you need.
+2.  Go to **Data Monitoring** \> **Resource Monitoring** or **Real-time Monitoring**, and select the monitoring items and metrics. Click **Query**.
 
     **Resource Monitoring**：
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15915/15332790608908_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15915/15332798268908_en-US.png)
 
     **Real-time Monitoring**：
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15915/15332790618909_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15915/15332798268909_en-US.png)
 
 
