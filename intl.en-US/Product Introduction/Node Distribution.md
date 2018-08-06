@@ -8,13 +8,15 @@ CDN continues to reliably serve businesses thanks to its ever-advancing technica
 
 High-performance nodes enhance information delivery compared with traditional methods, accelerating distribution and boosting reliability. With CDN, businesses are able to continue to provide a high-quality services in even the most demanding of situations.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5099/4887_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5099/15335192574887_en-US.png)
 
 ## Configure nodes {#section_uj3_dr2_zdb .section}
 
 -   The system automatically configures and adjusts nodes for the domain name you have added. For more information, see the following Search nodes chapter.
 
 -   The system also adds nodes automatically based on the access conditions.
+
+-   You can choose the acceleration zone: Mainland China, Hong Kong, Macao, Taiwan, and Outside-China.
 
 
 ## Search nodes {#section_vbx_pq2_zdb .section}
