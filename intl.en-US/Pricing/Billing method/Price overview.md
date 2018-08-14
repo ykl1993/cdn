@@ -37,27 +37,5 @@ How pricing zones distributes:
 -   Europe \(EU\)
 -   Middle East & Africa \(MEAA\)
 
-See the following table for the pricing details:
-
-PayByBandwidth:
-
-| Peak Bandwidth \(Unit: USD/Mbps/Day\)
-
- |Mainland China-CN|North America-NA|European Union-EU|Asia Pacific 1-AP1|Asia Pacific 2-AP2|Asia Pacific 3-AP3|Middle East & Africa-MEAA|South America-SA|
-|-----------------------------------------|-----------------|----------------|-----------------|------------------|------------------|------------------|-------------------------|----------------|
-|0Mbps ~ 500Mbps \(included\)|0.09|0.25|0.25|0.5|0.6|0.6|0.9|0.81|
-|500Mbps ~ 5Gbps \(included\)|0.09|0.23|0.23|0.48|0.58|0.58|0.88|0.79|
-|5Gbps ~ 20Gbps \(included\)|0.09|0.21|0.21|0.46|0.56|0.56|0.86|0.77|
-|\>20Gbps|0.08|0.2|0.2|0.45|0.55|0.55|0.85|0.76|
-
-PayByTraffic:
-
-| Traffic \(Unit: USD/Mbps/Day\)
-
- |Mainland China-CN|North America-NA|European Union-EU|Asia Pacific 1-AP1|Asia Pacific 2-AP2|Asia Pacific 3-AP3|Middle East & Africa-MEAA|South America-SA|
-|----------------------------------|-----------------|----------------|-----------------|------------------|------------------|------------------|-------------------------|----------------|
-|0GB ~ 50TB \(included\)|0.04|0.07|0.07|0.12|0.12|0.13|0.2|0.2|
-|50TB ~ 100TB \(included\)|0.03|0.06|0.06|0.1|0.11|0.11|0.18|0.18|
-|100TB ~ 1PB \(included\)|0.03|0.03|0.03|0.08|0.1|0.095|0.15|0.14|
-|\> 1PB|0.02|0.025|0.025|0.07|0.09|0.09|0.14|0.13|
+See the [pricing details](https://www.alibabacloud.com/product/cdn/pricing) for different billing methods in different zones.
 
