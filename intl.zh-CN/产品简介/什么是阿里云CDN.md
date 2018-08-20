@@ -10,7 +10,7 @@
 
 假设您的源站域名为 `www.a.com`。接入 CDN 开始使用加速服务后，当您的终端用户（北京）发起 HTTP 请求时，实际的处理流程如下：
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/4886_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15347608474886_zh-CN.png)
 
 1.  终端用户（北京） 向 `www.a.com`下的某资源发起请求，会先向 LDNS 发起域名解析请求。
 2.  当 LDNS 解析 `www.a.com` 时，会发现已经配置了 CNAME `www.a.tbcdn.com`。
