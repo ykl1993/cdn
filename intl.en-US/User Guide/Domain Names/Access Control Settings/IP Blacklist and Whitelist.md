@@ -10,8 +10,6 @@ You can use an IP network segment to add IP addresses to the blacklist or whitel
 
 ## Procedure {#section_i1n_2q2_xdb .section}
 
-Enter the CDN domain name overview page, go to Domain Names page, select the domain name that you want to set up, and click **Configure**.
-
 1.  Go to Domain Namespage, select the domain name, then click **Manage**.
 2.  On **Access Control** \> **IP Blacklist/Whitelist**, click **Modify**.
 3.  Choose**Blacklist** or **Whitelist**, and add the IP network segment in the box below.
