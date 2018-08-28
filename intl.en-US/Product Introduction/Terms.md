@@ -36,7 +36,7 @@ The origin site determines the IP address to which a back-to-origin request is s
 
 Example 1: The origin site is a domain name. If the origin site is`www.a.com` and the back-to-origin host is`www.b.com`, the actual back-to-origin request is sent to the IP address resolved from`www.a.com` corresponding to the site `www.b.com`on the host.
 
-Example 2: The origin site is an IP address. If the origin site is1.1.1.1, and the back-to-origin host is `www.b.com`. Then, the actual origin retrieval request is sent to`www.a.com` on the host corresponding to 1.1.1.1.
+Example 2: The origin site is an IP address. If the origin site is1.1.1.1, and the back-to-origin host is `www.b.com`. Then, the actual origin retrieval request is sent to`www.b.com` on the host corresponding to 1.1.1.1.
 
 ## Back-to-Origin Protocol  {#section_hm2_nlc_5db .section}
 
