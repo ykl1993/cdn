@@ -2,86 +2,81 @@
 
 ## 功能介绍 {#section_ynt_mnl_xdb .section}
 
--   HTTPS是以安全为目标的HTTP通道，简单讲是HTTP的安全版。即将HTTP用SSL/TLS协议进行封装，HTTPS的安全基础是SSL/TLS。
--   HTTPS加速优势：
-    -   传输过程中对用户的关键信息进行加密，防止类似Session ID或者Cookie内容被攻击者捕获造成的敏感信息泄露等安全隐患；
-    -   传输过程中对数据进行完整性校验，防止DNS或内容遭第三方劫持、篡改等中间人攻击（MITM）隐患，了解更多[使用HTTPS防止流量劫持](http://yq.aliyun.com/articles/2666)
--   阿里云CDN 提供HTTPS安全加速方案，仅需开启HTTPS后上传证书和私钥，并支持对证书进行查看、停用、启用、编辑操作。用户自定义上传的证书仅支持PEM格式的证书，具体请看 [证书格式说明及转化方法](cn.zh-CN/用户指南/域名管理/HTTPS安全加速/证书格式说明.md#)。
--   您可以在[阿里云云盾](https://yundun.console.aliyun.com)快速申请免费的证书或购买高级证书。
--   证书配置正确及开启状态，同时支持HTTP访问和HTTPS访问；证书不匹配或者停用证书，仅支持HTTP访问。
+HTTPS是以安全为目标的HTTP通道，简单讲是HTTP的安全版。即将HTTP用SSL/TLS协议进行封装，HTTPS的安全基础是SSL/TLS。
 
-**说明：** 目前不支持sni 回源。
+HTTPS加速优势：
 
-## 功能示意图 {#section_pcc_snl_xdb .section}
+-   传输过程中对用户的关键信息进行加密，防止类似Session ID或者Cookie内容被攻击者捕获造成的敏感信息泄露等安全隐患；
+-   传输过程中对数据进行完整性校验，防止DNS或内容遭第三方劫持、篡改等中间人攻击（MITM）隐患，了解更多[使用HTTPS防止流量劫持](http://yq.aliyun.com/articles/2666)。
 
-在阿里云CDN控制台开启的HTTPS，将实现用户和阿里云CDN节点之间请求的HTTPS加密。而CDN节点返回源站获取资源的请求仍按您源站配置的方式进行，建议您源站也配置并开启HTTPS，实现全链路的HTTPS加密：
+阿里云CDN 提供了HTTPS安全加速方案。您只需要开启HTTPS后上传证书和私钥，并支持对证书进行查看、停用、启用、编辑操作。您自定义上传的证书仅支持PEM格式的证书，具体请看 [证书格式说明及转化方法](cn.zh-CN/用户指南/域名管理/HTTPS安全加速/证书格式说明.md#)。您可以在[阿里云云盾控制台](https://yundun.console.aliyun.com/?spm=5176.8232292.domaindetail.24.9498142fSMfoJd&p=cas#/cas/home)快速申请免费的证书或购买高级证书。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/3698_zh-CN.png)
+**说明：** 如果您有SNI回源的需要，请[提交工单](https://selfservice.console.aliyun.com/ticket/createIndex)。
+
+## 工作原理 {#section_pcc_snl_xdb .section}
+
+在阿里云CDN控制台开启的HTTPS，将实现用户和阿里云CDN节点之间请求的HTTPS加密。而CDN节点返回源站获取资源的请求仍按您源站配置的方式进行。建议您源站也配置并开启HTTPS，实现全链路的HTTPS加密。
+
+以下是HTTPS加密流程：
+
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/15362164273698_zh-CN.png)
+
+1.  客户端发起HTTPS请求。
+2.  服务端生成公钥和私钥（可以自己制作，也可以向专业组织申请）。
+3.  服务端把相应的公钥证书传送给客户端。
+4.  客户端解析证书的正确性。
+
+    -   如果证书正确，则会生成一个随机数（密钥），并用公钥该随机数进行加密，传输给服务端。
+    -   如果证书不正确，则SSL握手失败。
+    **说明：** 正确性包括：证书未过期、发行服务器证书的 CA可靠、发行者证书的公钥能够正确解开服务器证书的发行者的数字签名、服务器证书上的域名和服务器的实际域名相匹配。
+
+5.  服务端用之前的私钥进行解密，得到随机数（密钥）。
+6.  服务端用密钥对传输的数据进行加密。
+7.  客户端用密钥对服务端的加密数据进行解密，拿到相应的数据。
 
 ## 注意事项 {#section_z5h_xnl_xdb .section}
 
-配置相关
+**配置相关**
 
--   支持**开启HTTPS安全加速**功能的业务类型为：
-    -   图片小文件加速
-    -   大文件下载加速
-    -   视音频点播加速
-    -   直播流媒体加速
-    -   暂不支持移动加速业务类型
+-   支持开启HTTPS安全加速功能的业务类型包括：图片小文件加速、大文件下载加速、视音频点播加速、直播流媒体加速。
 -   支持泛域名HTTPS服务。
--   支持该功能的**停用**和**启用**：
-    -   启用：支持修改证书，默认兼容用户的HTTP和HTTPS请求，支持**强制跳转**设置。
-    -   停用：不支持HTTPS请求且将不再保留证书/私钥信息，再次开启证书，需要重新上传证书/私钥。
--   允许用户查看证书，但是只支持查看证书，由于私钥信息敏感不支持私钥查看，请妥善保管证书相关信息。
--   支持修改编辑证书，但注意生效时间大约为10分钟，请慎重操作。
+-   支持HTTPS安全加速的**启用**和**停用**：
+    -   启用：您可以修改证书，系统默认兼容用户的HTTP和HTTPS请求。您也可以自定义对原请求方式设置**强制跳转**。
+    -   停用：停用后，系统不再支持HTTPS请求且将不再保留证书或私钥信息。再次开启证书，需要重新上传证书或私钥。
+-   您可以查看证书，但由于私钥信息敏感，不支持私钥查看。请妥善保管证书相关信息。
+-   您可以修改编辑证书，但请慎重操作。生效时间大约为10分钟。
 
-计费相关
+**计费相关**
 
 HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费，当前计费标准详见 [HTTPS计费详情](https://www.aliyun.com/price/product?spm=5176.doc27271.2.9.vAt4dL#/cdn/detail)。
 
-**说明：** HTTPS根据请求数单独计费，费用不包含在CDN流量包内，请确保账户余额充足再开通HTTPS服务，以免HTTPS服务导致欠费影响CDN服务。
+**说明：** HTTPS根据请求数单独计费，费用不包含在CDN流量包内。请确保账户余额充足再开通HTTPS服务，以免因HTTPS服务欠费影响您的CDN服务。
 
-证书相关
+**证书相关**
 
--   开启**HTTPS安全加速**功能的加速域名，须要上传证书，包含证书/私钥，均为 PEM 格式。
+-   开启**HTTPS安全加速**功能的加速域名，须要上传证书，包含证书/私钥，均为 `PEM`格式。
 
-    **说明：** CDN采用的Tengine服务是基于Nginx的，因此只支持Nginx能读取的证书，即PEM格式\)。具体请看 [证书格式说明及转化方法](cn.zh-CN/用户指南/域名管理/HTTPS安全加速/证书格式说明.md#)。
+    **说明：** 由于CDN采用的Tengine服务基于Nginx，因此只支持Nginx能读取的证书，即`PEM`格式\)。具体方法，请看参考[证书格式说明及转化方法](cn.zh-CN/用户指南/域名管理/HTTPS安全加速/证书格式说明.md#)。
 
--   只支持带SNI信息的SSL/TLS握手。
+-   只支持携带SNI信息的SSL/TLS握手。
 -   用户上传的证书和私钥要匹配，否则会校验出错。
--   更新证书的生效时间约为10分钟。
+-   更新证书的生效时间约为1分钟。
 -   不支持带密码的私钥。
 
-## 配置引导 {#section_p3r_l4l_xdb .section}
+## 操作步骤 {#section_p3r_l4l_xdb .section}
 
-1.  购买证书。开启HTTPS安全加速，需要您具备匹配加速域名的证书，可以在 [阿里云云盾](https://yundun.console.aliyun.com) 快速申请免费的证书或购买高级证书。
-2.  加速域名配置。
+1.  购买证书。您需要具备匹配加速域名的证书才能开启HTTPS安全加速。您可以在[云盾控制台](https://yundun.console.aliyun.com/?spm=5176.8232292.domaindetail.24.9498142fSMfoJd&p=cas#/cas/home)快速申请免费的证书或购买高级证书。
+2.  登录[CDN控制台](http://partners-intl.console.aliyun.com/#/cdn)，进入CDN**域名管理**页。选择域名，单击**管理**。
+3.  在**HTTPS设置** \> **HTTPS证书**，单击**修改配置**。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/153621642711410_zh-CN.png)
+4.  在HTTPS设置对话框中，开启**HTTPS安全加速**。
+5.  选择证书。您可以选择的证书类型包括：云盾、自定义和免费证书。目前仅支持 `PEM`的证书格式。具体请参考 [证书格式说明及转化方法](cn.zh-CN/用户指南/域名管理/HTTPS安全加速/证书格式说明.md#)。
 
-    登录[CDN控制台](https://cdn.console.aliyun.com)，进入CDN域名列表页，选择域名进入配置页面，HTTPS设置，修改配置。
+    -   您可以选择云盾。若证书列表中无当前适配的证书，您可以选择自定义上传。您需要在设置证书名称后，上传证书内容和私钥，该证书将会在阿里云云盾的证书服务中保存。您可以在[我的证书](https://yundun.console.aliyun.com/?spm=5176.2020520110.all.12.16df56a1u1IhI6&p=cas#/cas/home)里查看。
+    -   您也可以选择免费证书，即阿里云的Digicert免费型DV版SSL证书。
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/153621642711413_zh-CN.png)
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/3699_zh-CN.png)
+6.  验证证书是否生效。证书生效后（约1小时），使用HTTPS方式访问资源。如果浏览器中出现绿色HTTPS标识，表明当前与网站建立的是私密连接，HTTPS安全加速生效。
 
-    单击**修改配置**，可以进行相应设置：
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/3700_zh-CN.png)
-
-    1.  确认当前域名**HTTPS设置**是否开启，单击**修改配置**按钮进入设置界面并**开启**。
-
-        **说明：** HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费，了解[计费详情](https://cn.aliyun.com/price/product?spm=5176.8232292.0.0.tGqYZq#/cdn/detail)。
-
-    2.  选择证书：
-        -   可在[阿里云云盾证书服务](https://yundun.console.aliyun.com)快速申请免费证书或购买高级证书， 云盾的证书，可以通过证书名称直接选择适配该加速域名；
-        -   若证书列表中无当前适配的证书可以选择自定义上传，需要设置证书名称后上传证书内容和私钥，该证书将会在“云盾证书服务”中保存，可以在**我的证书**部分查看。
-    3.  仅支持 PEM 的证书格式。具体请看 [证书格式说明及转化方法](cn.zh-CN/用户指南/域名管理/HTTPS安全加速/证书格式说明.md#)。
-    4.  支持**设置强制跳转**：自定义将用户的原请求方式进行强制跳转：
-        -   例如开启**强制HTTPS跳转**后，用户发起了一个HTTP请求，服务端返回302重定向响应，原来的HTTP请求强制重定向为HTTPS请求。
-        -   默认：兼容用户的HTTP和HTTPS请求。
-        -   强制HTTPS跳转：用户的请求将强制重定向为HTTPS请求。
-        -   强制HTTP跳转：用户的请求将强制重定向为HTTP请求。
-3.  验证证书是否生效。
-
-    设置完成待证书生效后（设置HTTPS证书后约1小时后生效），使用HTTPS方式访问资源，如果浏览器中出现绿色HTTPS标识，表明当前与网站建立的是私密连接，HTTPS安全加速生效。
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/3701_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/15362164283701_zh-CN.png)
 
 
