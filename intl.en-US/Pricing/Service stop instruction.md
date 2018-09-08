@@ -10,5 +10,5 @@
 -   PayByTraffic: The system determines whether your account balance is sufficient to pay for your CDN service for the next 3 billing cycles based on the average amount due of your CDN service during last 7 hours. If not, you will receive a short message or email reminder.
 -   PayByBandwidth: The system determines whether your account balance is sufficient to pay for your CDN service for the next billing cycle \(day\) based on the amount due of your CDN service during the last billing cycle \(day\). If not, you will receive a short message or email reminder.
 
-You can log on to the CDN console and enter [CDN Billing Management](https://billing.console.aliyun.com). In the Billing Alerts page, set **Threshold Alert** and **Credit Limit Alert**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5110/153640634711592_en-US.png)
+You can log on to the CDN console and enter [CDN Billing Management](https://billing.console.aliyun.com). In the Billing Alerts page, set **Threshold Alert** and **Credit Limit Alert**. You will receive a short message or email reminder when your account balance is less than the threshold or limit value you set. ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5110/153640653111592_en-US.png)
 
