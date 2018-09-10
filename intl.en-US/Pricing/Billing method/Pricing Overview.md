@@ -10,7 +10,7 @@ Alibaba Cloud CDN pricing system consists of basic services and value-added serv
 
     **Note:** Bandwidth utilization refers to actual used traffic \(Gbps\)/\(peak bandwidth \(Mbps\) x  10.54\). For 1 Mbps bandwidth, 100% utilization for a whole day would generate approximately 10.54 Gbps of traffic.
 
--   [Value-added services](intl.en-US/Pricing/Billing method/Value-added Services.md#): when you have activated HTTPS Secure Acceleration service or Dynamic Route for CDN service, you shall pay the bill beyond basic service.
+-   [Value-added services](intl.en-US/Pricing/Billing method/Value-added services.md#): when you have activated HTTPS Secure Acceleration service or Dynamic Route for CDN service, you shall pay the bill beyond basic service.
 
 **Note:** [What's the differences between the traffic you billed and the traffic monitored by the console?](https://www.alibabacloud.com/help/faq-detail/40164.htm)
 
