@@ -4,7 +4,12 @@ For basic services, you can choose any of two methods for billing: PayByBandwidt
 
 See the [Pricing Details](https://www.alibabacloud.com/product/cdn/pricing) in different zones.
 
- 
+Choose the billing method suitable for you according to the table below.
+
+|When your ...|We recommend ...|Description|
+|-------------|:---------------|:----------|
+|Domain name traffic curve is relatively flat or bandwidth utilization exceeds 30% for the whole day.|[PayByBandwidth](intl.en-US/Pricing/Billing method/Basic Services.md#section_bcd_1wl_zdb)| You are billed by daily peak bandwidth. A peak bandwidth value is recorded at intervals of 5 minutes for a total of 288 values each day. The highest value is used for billing.|
+|Domain name traffic curve varies and bandwidth spikes, or where the bandwidth utilization is less than 30% for the whole day.|[PayByTraffic](intl.en-US/Pricing/Billing method/Basic Services.md#section_ejq_v5h_t2b)|Your are billed according to the actual traffic used hourly.|
 
 ## PayByBandwidth {#section_bcd_1wl_zdb .section}
 
