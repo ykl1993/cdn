@@ -9,7 +9,7 @@ HTTPS Acceleration Advantages:
 -   Encrypt important information during transmission, avoiding attack-caused information leaking, such as session ID or cookies.
 -   Perform the data integrity during transimission, preventing man-in-the-middle attack \(MITM\), such as DNS or contents being hijacked by third party.
 
-Alibaba Cloud CDN provides HTTPS Security acceleration. When you have uploaded certificate and secret keys after enabling HTTPS, so that you can check, disable, enable and edit the certificate.
+Alibaba Cloud CDN provides HTTPS Secure acceleration. When you have uploaded certificate and secret keys after enabling HTTPS, so that you can check, disable, enable and edit the certificate.
 
 **Note:** [Submit a ticket](https://workorder-intl.console.aliyun.com) if you need SNI back-to-origin.
 
@@ -66,13 +66,13 @@ HTTPS Secure Acceleration is a value-added service, so that you need to pay for 
 
 1.  Purchase a certificate. Only when you own the certificate that is matched with your domain name can you enable HTTPS Secure Acceleration. You can easily purchase AliCloud Certificate in the [YunDun console](https://yundun.console.aliyun.com/?spm=5176.2020520110.aliyun_sidebar.19.3ff6ZSicZSiceU&p=cas#/cas/home), or apply for free certificate.
 2.  Log on to the [CDN console](https://cdn.console.aliyun.com), and enter the **Domain Names** page. Select the domain name, and click **Manage**.
-3.  In **HTTPS Configurations** \> **HTTPS Cert**, click **Modify**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/153656002211410_en-US.png)
+3.  In **HTTPS Configurations** \> **HTTPS Cert**, click **Modify**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/153656015811410_en-US.png)
 4.  In the HTTPS Settings dialogue, enable **HTTPS Secure**.
 5.  Select a certificate. You can choose Alicloud, custom or free certificate. Currently, only the `PEM` format is available.
     -   You can choose the Alicloud Certificate. If you have no matched certificate in your list, choose custom certificate. You need to upload the certificate contents and secret key after setting the certificate name. This certificate will be saved in your YunDun. You can check in [My Certificate](https://yundun.console.aliyun.com/?spm=5176.2020520001.aliyun_sidebar.17.12004bd303Zdr8#/all).
     -   You can also choose free certificate, namely, Alicloud CDN Digicert DV version SSL Free certificate.
 6.  Verify whether the certificate is effective. You can access resources by using HTTPS after the certificate becomes effective \(about 1 hour\). Green HTTPS mark indicates that you have established private connection with the website, and HTTPS secure acceleration has comes into effect.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/15365600223701_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/15365601583701_en-US.png)
 
 
