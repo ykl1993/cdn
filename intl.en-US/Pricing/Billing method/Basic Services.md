@@ -2,8 +2,6 @@
 
 For basic services, you can choose any of two methods for billing: PayByBandwidth or PayByTraffic.
 
-See the [Pricing Details](https://www.alibabacloud.com/product/cdn/pricing) in different zones.
-
 Choose the billing method suitable for you according to the table below.
 
 |When your ...|We recommend ...|Description|
@@ -28,7 +26,7 @@ Choose the billing method suitable for you according to the table below.
 -   Payment method: Pay-As-You-Go.
 -   Upper bandwidth limit by default: 10Gbps. \(Reason: to avoid high costs due to irregular or malicious traffic\)
 -   Billing cycle: Billed by hour, and the fees are deducted in real time.
--   How to calculate traffic data: The system collects summary data from domain names of the nodes across the CDN at intervals of 5 minutes \(288 nodes a day\). This data is used as the basis for billing. [What's the differences between the traffic you billed and the traffic monitored by the console?](https://www.alibabacloud.com/help/faq-detail/40164.htm)
+-   How to calculate traffic data: The system collects summary data from domain names of the nodes across the CDN at intervals of 5 minutes \(288 nodes a day\). This data is used as the basis for billing.
 -   Billing rules: Pay by traffic on a tiered pricing basis according to different billing zones monthly.
 
 -   Billing standard: the billing time ends with the current billing cycle. A bill is typically issued within one hour after the current billing cycle ends. For example, the bill for traffic consumed between 10:00-11:00 is generated after 11:00. Fees are then automatically deducted from your account balance.
