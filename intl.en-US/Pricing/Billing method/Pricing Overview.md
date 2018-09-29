@@ -6,13 +6,11 @@ Alibaba Cloud CDN billing methods charges for two parts of services: basic servi
 
 Alibaba Cloud CDN pricing system consists of basic services and value-added services.
 
--   Basic services: [PayByBandwidth](intl.en-US/Pricing/Billing method/Basic Services.md#section_bcd_1wl_zdb) and [PayByTraffic](intl.en-US/Pricing/Billing method/Basic Services.md#section_ejq_v5h_t2b) . You can switch between PayByTraffic and PayByBandwidth based on your needs. The new billing method will take effect for the billing cycle following the change. See the table below of different scenarios for the two billing methods.
+-   Basic services: [PayByBandwidth](reseller.en-US/Pricing/Billing method/Basic Services.md#section_bcd_1wl_zdb) and [PayByTraffic](reseller.en-US/Pricing/Billing method/Basic Services.md#section_ejq_v5h_t2b) . You can switch between PayByTraffic and PayByBandwidth based on your needs. The new billing method will take effect for the billing cycle following the change. See the table below of different scenarios for the two billing methods.
 
     **Note:** Bandwidth utilization refers to actual used traffic \(Gbps\)/\(peak bandwidth \(Mbps\) x  10.54\). For 1 Mbps bandwidth, 100% utilization for a whole day would generate approximately 10.54 Gbps of traffic.
 
--   [Value-added services](intl.en-US/Pricing/Billing method/Value-added services.md#): when you have activated HTTPS Secure Acceleration service or Dynamic Route for CDN service, you shall pay the bill beyond basic service.
-
-**Note:** [What's the differences between the traffic you billed and the traffic monitored by the console?](https://www.alibabacloud.com/help/faq-detail/40164.htm)
+-   [Value-added services](reseller.en-US/Pricing/Billing method/Value-added services.md#): when you have activated HTTPS Secure Acceleration service or Dynamic Route for CDN service, you shall pay the bill beyond basic service.
 
 ## Pricing zones {#section_gl3_gdl_l2b .section}
 
@@ -28,6 +26,4 @@ How pricing zones distributes:
 -   South America \(SA\)
 -   Europe \(EU\)
 -   Middle East & Africa \(MEAA\)
-
-See the [pricing details](https://www.alibabacloud.com/product/cdn/pricing) for different billing methods in different zones.
 
