@@ -10,8 +10,6 @@ In addition to the basic services, the HTTPS Acceleration and Dynamic Route for 
 -   Billing cycle: Billed by day, and fees are deducted in real time \(the bill for the previous day is issued and fees are deducted after 00:00 each day\).
 -   Billing time: The end of the current billing cycle \(on a calendar day basis\). A bill is usually generated within one hour after the current billing cycle ends. For example, the bill for June 17 is generated after 0:00 June 18. The system determines the specific time of billing. After a bill is generated, fees are automatically deducted from your account balance to settle the bill.
 
-For more information, see [Pricing](https://www.alibabacloud.com/zh/product/cdn).
-
 ## Dynamic Route for CDN {#section_cwj_bll_l2b .section}
 
 Currently, the Alibaba Cloud Dynamic Route for CDN has been on service. See [Pricing](https://help.aliyun.com/noticelist/articleid/20701439.html).
