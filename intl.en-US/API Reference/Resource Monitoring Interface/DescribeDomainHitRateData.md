@@ -9,7 +9,7 @@ Obtain the bytes hit rate \(percentage of hit bytes\) of CDN domains.
 ## Request parameters {#section_nvk_rrm_vdb .section}
 
 |Parameters|Type|Required| Example values|Description|
-|Action|String|Yes|DescribeDomainHitRateData|The name of this interface.  Value: DescribeDomainHitRateData|
+|Action|String|Yes|DescribeDomainHitRateData|The name of this interface. Value: DescribeDomainHitRateData|
 |DomainName|String|No|www.yourdomain.com|CDN domain to be queried. This parameter can be set to support only one domain name. If this parameter is left blank, the system queries all domain names.|
 |EndTime|String|No|2017-12-22T08:00:00:00Z| -   The end time must be later than the start time.
 -   The date format adopts ISO8601 notation and uses the UTC time.
