@@ -2,12 +2,12 @@
 
 Sets the IP address blacklist of a CDN domain.
 
-**Note:** You can add an IP address segment to the blacklist.  For example, 127.0.0.1/24.In 127.0.0.1/24, “24” indicates that the first 24 bits in the subnet mask are used as valid bits. That is, 32 - 24 = 8 bits are used to express the host number. In this way, the subnet can accommodate 2 ^ 8 - 2 = 254 Hosts.  The IP address segment range of “127.0.0.1/24” is 127.0.0.1 - 127.0.0.255.
+**Note:** You can add an IP address segment to the blacklist.  For example, 127.0.0.1/24.In 127.0.0.1/24, "24" indicates that the first 24 bits in the subnet mask are used as valid bits. That is, 32 - 24 = 8 bits are used to express the host number. In this way, the subnet can accommodate 2 ^ 8 - 2 = 254 Hosts.  The IP address segment range of "127.0.0.1/24" is 127.0.0.1-127.0.0.255.
 
 ## Request parameters {#section_ekn_jkl_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|SetIpBlackListConfig|The name of this interface.  Value: SetIpBlackListConfig|
+|Action|String|Yes|SetIpBlackListConfig|The name of this interface. Value: SetIpBlackListConfig|
 |BlockIps|String|Yes.|192.168.0.1|IP address blacklist. Access by the listed IP addresses is forbidden. Multiple IP addresses are separated by commas \(,\).|
 |DomainName|String|Yes.|www.macaron.org.cn|Your CDN domain name.|
 
