@@ -9,7 +9,7 @@ Obtain the file size shares of a CDN domain name. The minimum granularity is 1 h
 ## Request parameters {#section_nnl_b2n_vdb .section}
 
 |Parameters|Type| Required| Example values|Description|
-|Action|String|Yes|Describedomainfilesizeproportiondata|The name of this interface.  Value: DescribeDomainFileSizeProportionData|
+|Action|String|Yes|DescribeDomainFileSizeProportionData|The name of this interface. Value: DescribeDomainFileSizeProportionData|
 |DomainName|String|No|test.test.com|CDN domain name to be queried. This parameter can be set to support only one domain name. If this parameter is left blank, all domain names belonging to the current user are queried.|
 |EndTime|String|No|2015-11-30T05:40Z| -   The end time must be later than the start time.
 -   The date format adopts ISO8601 notation and uses the UTC time.
