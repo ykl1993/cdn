@@ -1,4 +1,4 @@
-# Querying traffic monitoring data {#reference_fqg_5tl_vdb .reference}
+# DescribeDomainFlowData {#reference_fqg_5tl_vdb .reference}
 
 Obtain the network traffic metric data of a CDN domain. The unit is bytes.
 
@@ -17,7 +17,7 @@ Obtain the network traffic metric data of a CDN domain. The unit is bytes.
  |
 |DomainType|String|No|dynamic| Query type.
 
- -   If the parameter is set to “dynamic”, the system queries the real-time traffic of dynamic and static resources during full-site acceleration.
+ -   If the parameter is set to "dynamic", the system queries the real-time traffic of dynamic and static resources during full-site acceleration.
 -   If the parameter is left blank, the system queries the real-time traffic of static resources.
 
  |
