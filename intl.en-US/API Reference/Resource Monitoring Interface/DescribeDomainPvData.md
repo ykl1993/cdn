@@ -9,7 +9,7 @@ Obtain the PV page access statistics. The minimum granularity is 1 hour.
 ## Request parameters {#section_o2w_qxm_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|DescribeDomainPvData|The name of this interface.  Value: DescribeDomainPvData|
+|Action|String|Yes|DescribeDomainPvData|The name of this interface. Value: DescribeDomainPvData|
 |DomainName|String|No|test.test.com|CDN domain name to be queried. This parameter can be set to support only one domain name. If this parameter is left blank, all domain names belonging to the current user are queried.|
 |EndTime|String|No|2015-11-29| -   The end time must be later than the start time.
 -   The date format adopts ISO8601 notation and uses the UTC time.
