@@ -5,9 +5,9 @@ Set custom HTTP headers.
 ## Request parameters {#section_u4z_2hl_vdb .section}
 
 |Parameters|Type|Required|Example value|Description|
-|Action|String|Yes|Sethttpheaderconfig|The name of this interface.  Value: sethttpheaderconfig|
+|Action|String|Yes|SetHttpHeaderConfig|The name of this interface. Value: SetHttpHeaderConfig|
 |Domainname|String|Yes|www.yourdomain.com|Your CDN domain name.|
-|Headerkey|String|Yes|Content-Type| HTTP header parameter.  Value:
+|Headerkey|String|Yes|Content-Type| HTTP header parameter. Value:
 
  -   Content-Type
 -   Cache-control
