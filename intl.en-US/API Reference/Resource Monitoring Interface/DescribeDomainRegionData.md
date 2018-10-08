@@ -9,7 +9,7 @@ Obtain the regional user distribution of CDN domains with day granularity.
 ## Request parameters {#section_qtb_bzm_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|DescribeDomainRegionData|The name of this interface.  Value: DescribeDomainRegionData|
+|Action|String|Yes|DescribeDomainRegionData|The name of this interface. Value: DescribeDomainRegionData|
 |DomainName|String|No|test.test.com|CDN domain name to be queried. This parameter can be set to support only one domain name. If this parameter is left blank, the system queries all domain names.|
 |EndTime|String|No|2016-03-13| -   The end time must be later than the start time, and adopts Beijing time.
 -   Format: YYYY-MM-DD.
