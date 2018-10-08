@@ -1,4 +1,4 @@
-# Enable a disabled CDN domain, changing the DomainStatus to online. {#reference_gwk_pry_5db .reference}
+# StartCdnDomain {#reference_gwk_pry_5db .reference}
 
 Enables an accelerated domain name with a status of "disabled" and changes the DomainStatus to online.
 
@@ -8,7 +8,7 @@ Enables an accelerated domain name with a status of "disabled" and changes the D
 
 |Parameters|Type|Required|Example values|Description|
 |----------|----|--------|--------------|-----------|
-|Action|String|Yes|StartCdnDomain| The name of this interface.  Value:
+|Action|String|Yes|StartCdnDomain| The name of this interface. Value:
 
  StartCdnDomain
 
