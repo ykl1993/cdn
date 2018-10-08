@@ -12,7 +12,7 @@ Restrictions:
 
 |Parameters|Type|Required|Instance Value|Description|
 |:---------|:---|:-------|:-------------|:----------|
-|Action|String|Yes|DescribeRefreshQuota| The name of this interface.  Value: 
+|Action|String|Yes|DescribeRefreshQuota| The name of this interface. Value: 
 
  DescribeRefreshQuota
 
