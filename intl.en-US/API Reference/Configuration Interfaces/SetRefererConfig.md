@@ -5,15 +5,15 @@ Set the referer anti-leech function for CDN domain names.
 ## Request parameters {#section_cfq_mdg_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|SetRefererConfig|The name of this interface.  Value: SetRefererConfig|
+|Action|String|Yes|SetRefererConfig|The name of this interface. Value: SetRefererConfig|
 |DomainName|String|Yes.|www.yourdomain.com|Your CDN domain name.|
-|ReferType|String|Yes.|block| Refer type.  Value:
+|ReferType|String|Yes.|block| Refer type. Value:
 
  -   block: blacklist 
 -   allow: whitelist
 
  |
-|AllowEmpty|String|No|on|Whether to allow access with a blank referer.  Value:
+|AllowEmpty|String|No|on|Whether to allow access with a blank referer. Value:
 
  -   on: allowed
 -   off: not allowed
@@ -21,7 +21,7 @@ Set the referer anti-leech function for CDN domain names.
  Default value: on|
 |DisableAst|String|No|off|Whether CDN domain name is matched exactly. Value:
 
- -   on: exact match, not automatically match the sub-domain-name.
+-   on: exact match, not automatically match the sub-domain-name.
 -   off: fuzzy match, automatically match the sub-domain-name.
 
  Default value: off|
