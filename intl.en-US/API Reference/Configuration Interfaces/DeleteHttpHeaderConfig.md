@@ -5,7 +5,7 @@ Delete the Referer anti-leech configuration of a CDN domain.
 ## Request parameters {#section_eqx_gjl_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|DeleteHttpHeaderConfig|The name of this interface.  Value: DeleteHttpHeaderConfig|
+|Action|String|Yes|DeleteHttpHeaderConfig|The name of this interface. Value: DeleteHttpHeaderConfig|
 |ConfigID|String|Yes|438205|ConfigID|
 |DomainName|String|Yes|www.yourdomain.com|DomainName|
 
