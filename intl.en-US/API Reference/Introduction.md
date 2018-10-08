@@ -1,6 +1,6 @@
 # Introduction {#concept_bl3_frv_tdb .concept}
 
-Welcome to the Alibaba Cloud Content Delivery Network \(CDN\) service. You can use this documentation to familiarize themselves with the relevant API operations for the CDN service.
+Welcome to the Alibaba Cloud Content Delivery Network \(CDN\) service. You can use this documentation to familiarize yourself with the relevant API operations for the CDN service.
 
 Before using these interfaces, make sure that you fully understand the CDN product instructions, usage protocols, and billing methods.
 
