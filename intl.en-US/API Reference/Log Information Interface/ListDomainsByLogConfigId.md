@@ -5,7 +5,7 @@ Query the list of all the domain names using a custom log configuration.
 ## Request parameters {#section_w3c_qmf_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|ListDomainsByLogConfigId|The name of this interface.  Value: ListDomainsByLogConfigId|
+|Action|String|Yes|ListDomainsByLogConfigId|The name of this interface. Value: ListDomainsByLogConfigId|
 |Configid|String|Yes|123|Custom configuration ID.|
 |Version|String|No|2014-11-11|API version.|
 
@@ -23,7 +23,7 @@ Query the list of all the domain names using a custom log configuration.
 https://cdn.aliyuncs.com?Action=ListDomainsByLogConfigId&ConfigId=9732E117-8A37-49FD-A36F-ABBB87556CA7&Public request parameter
 ```
 
-**Example of normal return**
+**Normal return example**
 
 -   JSON format
 
