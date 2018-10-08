@@ -8,7 +8,7 @@ Obtain the domain names that are ranked by traffic.
 ## Request parameters {#section_oth_xwm_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|DescribeTopDomainsByFlow|The name of this interface.  Value: DescribeTopDomainsByFlow|
+|Action|String|Yes|DescribeTopDomainsByFlow|The name of this interface. Value: DescribeTopDomainsByFlow|
 |EndTime|String|No|2017-12-22T08:00:00:00Z| -   The end time must be later than the start time.
 -   The date format adopts ISO8601 notation and uses the UTC time.
 -   Format: YYYY-MM-DDThh:mmZ.
