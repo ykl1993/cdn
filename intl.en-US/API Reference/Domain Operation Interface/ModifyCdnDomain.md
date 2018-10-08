@@ -11,7 +11,7 @@ Restrictions:
 
 |Name|Type|Required|Example|Description|
 |:---|:---|:-------|:------|:----------|
-|Action|String|Yes|ModifyCdnDomain| The name of this interface.  Value: 
+|Action|String|Yes|ModifyCdnDomain| The name of this interface. Value: 
 
  ModifyCdnDomain
 
@@ -32,7 +32,7 @@ Restrictions:
 |SourcePort|Integer|No|80| The source site port.
 
  |
-|SourceType|String|No|domain| The source site type.  Value:
+|SourceType|String|No|domain| The source site type. Value:
 
 -   ipaddr: IP source site. 
 -   domain: domain name source site.
