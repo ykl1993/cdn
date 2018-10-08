@@ -9,7 +9,7 @@ Obtain the HTTP return code proportion of CDN domains. The minimum granularity i
 ## Request parameters {#section_gqh_n5m_vdb .section}
 
 |Parameters|Type|Required |Example values|Description|
-|Action|String|Yes|DescribeDomainHttpCodeData|The name of this interface.  Value: DescribeDomainHttpCodeData|
+|Action|String|Yes|DescribeDomainHttpCodeData|The name of this interface. Value: DescribeDomainHttpCodeData|
 |DomainName|String|No|test.test.com|CDN domain name to be queried. Batch query is supported. Multiple domain names are separated by commas \(half width\).|
 |EndTime|String|No|2015-11-30T05:40Z| -   The end time must be later than the start time.
 -   The date format adopts ISO8601 notation and uses the UTC time.
