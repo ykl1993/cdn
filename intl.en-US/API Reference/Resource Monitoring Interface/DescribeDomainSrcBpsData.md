@@ -9,7 +9,7 @@ Obtain the back-to-source bandwidth metric data of CDN domains. The unit is bit/
 ## Request parameters {#section_ijp_tnm_vdb .section}
 
 |Name|Type|Required|Example values|Description|
-|Action|String|Yes|DescribeDomainSrcBpsData|The name of this interface. Value: DescribeDomainSrcData|
+|Action|String|Yes|DescribeDomainSrcBpsData|The name of this interface. Value: DescribeDomainSrcBpsData|
 |DomainName|String|No|www.yourdomain.com| -   If the parameter is left blank, the system returns the combined data of all CDN domains by default.
 -   You can enter CDN domains to be queried.
 -   Batch domain name query is supported. Multiple domain names are separated by commas \(half width\).
