@@ -9,7 +9,7 @@ Obtain the back-to-source traffic metric data on a CDN domain in bits.
 ## Request parameters {#section_w3t_tqm_vdb .section}
 
 |Name|Type|Required|Example values|Description|
-|Action|String|Yes|DescribeDomainSrcFlowData|The name of this interface.  Value: DescribeDomainSrcFlowData|
+|Action|String|Yes|DescribeDomainSrcFlowData|The name of this interface. Value: DescribeDomainSrcFlowData|
 |DomainName|String|No|www.yourdomain.com| -   If the parameter is left blank, the system returns the combined data of all CDN domains by default.
 -   You can enter CDN domains to be queried.
 -   Batch domain name query is supported. Multiple domain names are separated by commas \(half width\).
