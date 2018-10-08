@@ -16,7 +16,7 @@ Restrictions:
 
 |Parameters|Type|Required|Example values|Description|
 |:---------|:---|:-------|:-------------|:----------|
-|Action|String|Yes|RefreshObjectCaches| The name of this interface.  Value: 
+|Action|String|Yes|RefreshObjectCaches| The name of this interface. Value: 
 
  RefreshObjectCaches
 
@@ -49,7 +49,7 @@ Restrictions:
 https://cdn.aliyuncs.com?&Action=RefreshObjectCaches&ObjectPath=test.test.com/test.txt&ObjectType=File&Public request parameter
 ```
 
-**Example of normal return**
+**Normal return example**
 
 -   JSON format
 
