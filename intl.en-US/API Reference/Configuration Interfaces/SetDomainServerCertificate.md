@@ -5,11 +5,11 @@ Set whether to enable the certificate function under a domain name and modify ce
 ## Request parameters {#section_bcw_rjl_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|SetDomainServerCertificate|The name of this interface.  Value: SetDomainServerCertificate|
+|Action|String|Yes|SetDomainServerCertificate|The name of this interface. Value: SetDomainServerCertificate|
 |DomainName|String|Yes|www.yourdomain.com|CDN domain name of a specified certificate, which belongs to the HTTPS acceleration type.|
 |ServerCertificateStatus|String|Yes|on|Whether the HTTPS certificate is enabled. Value:
 
- -   on: enabled
+-   on: enabled
 -   off: disabled
 
  Default value: off, disabled|
