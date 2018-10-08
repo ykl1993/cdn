@@ -8,7 +8,7 @@ Obtain the bandwidth data of a CDN domain name on different locations and ISPs a
 ## Request parameters {#section_pzz_pfn_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|DescribeDomainBpsDataByTimeStamp|The name of this interface.  Value: DescribeDomainBpsDataByTimeStamp|
+|Action|String|Yes|DescribeDomainBpsDataByTimeStamp|The name of this interface. Value: DescribeDomainBpsDataByTimeStamp|
 |DomainName|String|Yes.|www.yourdomain.com|Domain name to be queried. The value cannot be blank.|
 |IspNames|String|Yes.|unicom,telecom| Target ISP lists to be queried, separated by commas \(,\). The value cannot be blank. 
 
