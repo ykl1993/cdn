@@ -7,15 +7,15 @@ Set the range back-to-source function.
 ## Request parameters {#section_slq_3yf_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|SetRangeConfig|The name of this interface.  Value: SetRangeConfig|
+|Action|String|Yes|SetRangeConfig|The name of this interface. Value: SetRangeConfig|
 |DomainName|String|Yes|www.macaron.org.cn|The accelerated domain name to turn on this feature.|
-|Enable|字符串|Yes|On| Configure the range back to the source feature to turn on or off.
+|Enable|String|Yes|On| Configure the range back to the source feature to turn on or off.
 
  Values: On, off
 
  |
 
-## Response parameters {#section_xbc_lyf_vdb .section}
+## Return parameters {#section_xbc_lyf_vdb .section}
 
 |Parameters|Type|Example values|Description|
 |RequestId|String|16A96B9A-F203-4EC5-8E43-CB92E68F4CD8|Request ID|
