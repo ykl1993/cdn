@@ -6,7 +6,7 @@ Obtain the basic information for the specified CDN domain name configuration.
 
 |Parameters|Type|Required|Example values|Description|
 |:---------|:---|:-------|:-------------|:----------|
-|Action|String|Yes|Describecdndomaindetail| The name of this interface.  Value:
+|Action|String|Yes|Describecdndomaindetail| The name of this interface. Value:
 
  DescribeCdnDomainDetail
 
@@ -31,7 +31,7 @@ Obtain the basic information for the specified CDN domain name configuration.
 |└GmtModified|String|2017-06-25T03:30:50Z| Recent modification time.
 
  |
-|└ SourceType|String|domain| Source site type.  Value meaning:
+|└ SourceType|String|domain| Source site type. Value meaning:
 
 -   ipaddr indicates IP source site.
 -   domain indicates domain name source site.
@@ -44,7 +44,7 @@ Obtain the basic information for the specified CDN domain name configuration.
 |└SourcePort|Integer|80| The source port number.
 
  |
-|└CdnType|String|web| The business type of CDN domain name.  Value meaning:
+|└CdnType|String|web| The business type of CDN domain name. Value meaning:
 
 -   web: the acceleration of images and small files. 
 -   download: acceleration of large file downloads.
@@ -91,7 +91,7 @@ Obtain the basic information for the specified CDN domain name configuration.
 |└Content|String|test.com| Source site address.
 
  |
-|└Type|String|domain| The source site type.  Value:
+|└Type|String|domain| The source site type. Value:
 
 -   ipaddr: IP source site.
 -   domain: the domain name source site.
