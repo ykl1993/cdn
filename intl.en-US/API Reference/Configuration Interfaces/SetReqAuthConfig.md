@@ -2,8 +2,8 @@
 
 Set CDN domain access authentication configuration.
 
--   [URL authentication.](https://help.aliyun.com/document_detail/27135.html)
--   [Sample authentication code for python version.](https://help.aliyun.com/document_detail/27277.html)
+-   [URL authentication.](../../../../reseller.en-US//URL authentication.md#)
+-   [Sample authentication code for python version.](../../../../reseller.en-US/Developer Guide/Utilities/Sample authentication code.md#)
 
 ## Request parameters {#section_gvp_cgl_vdb .section}
 
