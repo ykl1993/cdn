@@ -9,7 +9,7 @@ Obtain the distribution of users and carriers of CDN domain names with day granu
 ## Request parameters {#section_s4r_tzm_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|DescribeDomainISPData|The name of this interface.  Value: DescribeDomainISPData|
+|Action|String|Yes|DescribeDomainISPData|The name of this interface. Value: DescribeDomainISPData|
 |DomainName|String|No|test.test.com|CDN domain name to be queried. This parameter can be set to support only one domain name. If this parameter is left blank, all domain names belonging to the current user are queried.|
 |EndTime|String|No|2015-12-05| -   The end time must be later than the start time, and adopts Beijing time.
 -   Format: YYYY-MM-DD.
