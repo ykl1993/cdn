@@ -6,7 +6,7 @@ Alibaba Cloud Content Delivery Network\(CDN\) is a distributed network that over
 
 ## Overview of CDN operation {#section_acy_tww_wdb .section}
 
-After you log on to the [CDN console](https://cdn.console.aliyun.com), the CDN operation information for the current account is displayed on the home page as follows:
+After you log on to the [CDN console](http://partners-intl.console.aliyun.com/#/cdn), the CDN operation information for the current account is displayed on the home page as follows:
 
 1.  Billing method diaplay and change:
 2.  Key data: the number of domains in normal status and the total traffic for all domains this month
@@ -23,9 +23,9 @@ You can complete relevant function settings and view data in the left-side navig
 
 |Functions|Brief introduction|
 |:--------|:-----------------|
-|[Domain name management](../../../../intl.en-US/Quick Start/Quick start.md#)|Add a CDN domain name, manage, or delete a CDN domain name, and change the basic and configuration information of the CDN domain name.|
-|[Monitoring](intl.en-US/User Guide/Statistical Analysis.md#)|Include four parts, Traffic Monitoring, User Access Monitoring, Data Analysis, and Security Protection|
-|[Refresh](intl.en-US/User Guide/Cache refresh.md#)|URL refresh and directory refresh are available.|
-|[Log](intl.en-US/User Guide/Log Management/Log Downloading.md#)|Log downloads, log storage \(upcoming\), Cloud reports|
-|[Tools](intl.en-US/User Guide/Diagnostic Tools.md#)|Link diagnostic tools, IP queries|
+|[Domain name management](../../../../reseller.en-US/Quick Start/Quick start.md#)|Add a CDN domain name, manage, or delete a CDN domain name, and change the basic and configuration information of the CDN domain name.|
+|[Monitoring](reseller.en-US/User Guide/Statistical Analysis.md#)|Include four parts, Traffic Monitoring, User Access Monitoring, Data Analysis, and Security Protection|
+|[Refresh](reseller.en-US/User Guide/Cache refresh.md#)|URL refresh and directory refresh are available.|
+|[Log](reseller.en-US/User Guide/Log Management/Log Downloading.md#)|Log downloads, log storage \(upcoming\), Cloud reports|
+|[Tools](reseller.en-US/User Guide/Diagnostic Tools.md#)|Link diagnostic tools, IP queries|
 
