@@ -8,7 +8,7 @@ Obtain bandwidth data of domain name with 1-minute granularity.
 ## Request parameters {#section_ngq_qns_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|DescribeDomainRealTimeBpsData|The name of this interface.  Value: DescribeDomainRealTimeBpsData|
+|Action|String|Yes|DescribeDomainRealTimeBpsData|The name of this interface. Value: DescribeDomainRealTimeBpsData|
 |DomainName|String|Yes.|test.test.com|CDN domain name.|
 |EndTime|String|No|2016-10-20T04:00:00Z| End time.
 
