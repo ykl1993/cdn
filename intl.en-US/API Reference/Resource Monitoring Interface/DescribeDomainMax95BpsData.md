@@ -9,8 +9,8 @@ Obtain the 95th percentile bandwidth metric data of CDN domain names. Unit: bit/
 ## Request parameters {#section_kcl_5hn_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|DescribeDomainMax95BpsData|The system sets parameters. 取值：DescribeDomainMax95BpsData|
-|DomainName|String|否|www.yourdomain.com| If the parameter is left blank, the system returns the combined data of all CDN domain names by default.
+|Action|String|Yes|DescribeDomainMax95BpsData|The system sets parameters. Value: DescribeDomainMax95BpsData|
+|DomainName|String|No|www.yourdomain.com| If the parameter is left blank, the system returns the combined data of all CDN domain names by default.
 
  -   You can enter CDN domain names to be queried.
 -   Batch domain name query is supported. Multiple domain names are separated by commas \(half width\).
