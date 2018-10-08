@@ -10,9 +10,9 @@ Set the drag/drop playback function.
 ## Request parameters {#section_vlp_g1g_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|SetVideoSeekConfig|The name of this interface.  Value: SetVideoSeekConfig|
+|Action|String|Yes|SetVideoSeekConfig|The name of this interface. Value: SetVideoSeekConfig|
 |DomainName|String|Yes.|www.macaron.org.cn|Your CDN domain name.|
-|Enable|String|Yes.|On|Enable or disable the drag/drop playback function.  Value: On, off|
+|Enable|String|Yes.|On|Enable or disable the drag/drop playback function. Value: On, off|
 
 ## Return parameters {#section_zvm_j1g_vdb .section}
 
