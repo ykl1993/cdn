@@ -16,14 +16,14 @@ Distribution of static website or application contents, such as various image fi
 
     Recommended configurations:
 
-    -   [HTTPS Secure Acceleration](intl.en-US/User Guide/Value-added service/HTTPS Acceleration/HTTPS Security Acceleration.md#): You only need to enable the secure acceleration mode and then upload the certificate and the private key for the CDN domains. You can also view, disable or edit the certificate. For more information, see [Certificates formats instructions](intl.en-US/User Guide/Value-added service/HTTPS Acceleration/Certificate Format.md#).
-    -   [Cache configuration](intl.en-US/User Guide/Node Cache Settings/Cache Configuration.md#): This feature can be used to set the actions of a cache server against resources in different **directory paths** or with different **file name suffixes**. You can customize cache expiration rules for specified resources.
+    -   [HTTPS Secure Acceleration](intl.en-US/User Guide/Domain Names/HTTPS Acceleration/HTTPS Secure Acceleration.md#): You only need to enable the secure acceleration mode and then upload the certificate and the private key for the CDN domains. You can also view, disable or edit the certificate. For more information, see [Certificates formats instructions](intl.en-US/User Guide/Domain Names/HTTPS Acceleration/Certificate Format.md#).
+    -   [Cache configuration](intl.en-US/User Guide/Domain Names/Node Cache Settings/Cache Configuration.md#): This feature can be used to set the actions of a cache server against resources in different **directory paths** or with different **file name suffixes**. You can customize cache expiration rules for specified resources.
     -   Access control settings: ensure the security of the distributed content, and prevent unnecessary traffic losses from leeching or malicious requests.
-        -   [Refer anti-leech protection](intl.en-US/User Guide/Access Control Settings/Anti-leech.md#)
-        -   [IP blacklist](intl.en-US/User Guide/Access Control Settings/IP blacklist.md#)
+        -   [Refer anti-leech protection](intl.en-US/User Guide/Domain Names/Access Control Settings/Anti-leech.md#)
+        -   [IP blacklist](intl.en-US/User Guide/Domain Names/Access Control Settings/IP Blacklist and Whitelist.md#)
     -   Performance optimization settings: intelligently compress the distributed content and ignore URL parameters to improve cache hit rate.
-        -   [Page optimization](intl.en-US/User Guide/Performance Optimization settings/Page optimization.md#)
-        -   [Smart compression](intl.en-US/User Guide/Performance Optimization settings/Smart compression.md#)
-        -   [Filter parameters](intl.en-US/User Guide/Performance Optimization settings/Filter parameter.md#)
+        -   [Page optimization](intl.en-US/User Guide/Domain Names/Performance Optimization settings/Page Optimization.md#)
+        -   [Smart compression](intl.en-US/User Guide/Domain Names/Performance Optimization settings/Smart Compression.md#)
+        -   [Filter parameters](intl.en-US/User Guide/Domain Names/Performance Optimization settings/Filter Parameter.md#)
     -   For more features, see [CDN feature list](intl.en-US/User Guide/Function overview.md#).
 
