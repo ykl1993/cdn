@@ -11,7 +11,7 @@ Query whether or not refresh and push status have taken effect for the whole sit
 
 |Parameters|Type|Required|Example values|Description|
 |:---------|:---|:-------|:-------------|:----------|
-|Action|String|Yes|DescribeRefreshTasks| The name of this interface.  Value:
+|Action|String|Yes|DescribeRefreshTasks| The name of this interface. Value:
 
  DescribeRefreshTasks
 
