@@ -5,7 +5,7 @@ Delete a custom cache policy.
 ## Request parameters {#section_xjc_mjg_vdb .section}
 
 |Parameters|Type| Required|Example values|Description|
-|Action|String|Yes|DeleteCacheExpiredConfig|The name of this interface.  Value: DeleteCacheExpiredConfig|
+|Action|String|Yes|DeleteCacheExpiredConfig|The name of this interface. Value: DeleteCacheExpiredConfig|
 |CacheType|String|Yes.|suffix| Cached content type.  Value:
 
  -   suffix: filename suffix.
