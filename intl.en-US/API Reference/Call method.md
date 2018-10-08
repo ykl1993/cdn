@@ -210,7 +210,7 @@ When a user calls a server, the following method is used to sign the request:
 
 ## Sample code {#section_rfb_hpc_b2b .section}
 
-Attachment: Signature Mechanism\_python\_sdk: [Click download](https://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/cn/cdn/0.1.99/assets/api/callmethod_sdk_python.zip)
+Attachment: Signature Mechanism\_python\_sdk: [Click download](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/27149/cn_zh/1535445996600/callmethod_sdk_python.zip)
 
 Signature Mechanism\_java\_sdk: [Click download](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/27149/cn_zh/1504765657536/SignatureUtils%281%29.java)
 
