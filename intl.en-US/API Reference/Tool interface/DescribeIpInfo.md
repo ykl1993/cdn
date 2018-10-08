@@ -6,7 +6,7 @@ Verifies whether the specified IP address is the IP address of an Alibaba Cloud 
 
 |Parameter|Type| Required|Description|
 |:--------|:---|:--------|:----------|
-|Action|String|Yes|Operation interface name, which is a required parameter; value: DescribeIpInfo|
+|Action|String|Yes|Operation interface name, which is a required parameter. Value: DescribeIpInfo|
 |IP|String|Yes.|Specified IP address. Batch IP addresses are not supported.|
 
 ## Return parameters {#section_kcx_3ml_vdb .section}
