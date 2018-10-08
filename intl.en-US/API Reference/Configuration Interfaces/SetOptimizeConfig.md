@@ -1,11 +1,11 @@
 # SetOptimizeConfig {#reference_ar2_cvf_vdb .reference}
 
-The page optimization function can be used to delete comments and repeated white spaces embedded in HTML, Javascript and CSS   to effectively remove redundant page content, reduce the file size, and improve the efficiency of accelerated delivery.
+The page optimization function can be used to delete comments and repeated white spaces embedded in HTML, Javascript and CSS to effectively remove redundant page content, reduce the file size, and improve the efficiency of accelerated delivery.
 
 ## Request parameters {#section_awn_fvf_vdb .section}
 
 |Name|Type|Required|Example values|Description|
-|Action|String|Yes|SetOptimizeConfig|The name of this interface.  Value: SetOptimizeConfig|
+|Action|String|Yes|SetOptimizeConfig|The name of this interface. Value: SetOptimizeConfig|
 |DomainName|String|Yes|www.macaron.org.cn|The CDN domain name which needs the page optimization function.|
 |Enable|String|Yes|On| Enable or disable the page optimization function. 
 
