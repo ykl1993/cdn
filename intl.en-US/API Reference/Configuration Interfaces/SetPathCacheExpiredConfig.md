@@ -5,7 +5,7 @@ Modify directory expiration configuration.
 ## Request parameters {#section_osy_tfg_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|Setpathcacheexpiredconfig|The name of this interface.  Value: SetPathCacheExpiredConfig|
+|Action|String|Yes|Setpathcacheexpiredconfig|The name of this interface. Value: SetPathCacheExpiredConfig|
 |CacheContent|String|Yes.|/static/html/|Enter the path.|
 |DomainName|String|Yes.|www.yourdomain.com|Your CDN domain name.|
 |TTL.|String|Yes.|600| Cache time configuration. 
