@@ -9,7 +9,7 @@ Obtain the popular URL list for a CDN domain name on a specific day.
 ## Request parameters {#section_hd5_t1n_vdb .section}
 
 |Parameters|Type|Required| Example values|Description|
-|Action|String|Yes|DescribeDomainTopUrlVisit|The name of this interface.  Value: DescribeDomainTopUrlVisit|
+|Action|String|Yes|DescribeDomainTopUrlVisit|The name of this interface. Value: DescribeDomainTopUrlVisit|
 |DomainName|String|No|test.test.com|Only one domain name is supported. If the parameter is left blank, the return results contain the combined data of all CDN domains by default.|
 |SortBy|String|No|pv| Sorting manner.
 
@@ -50,7 +50,7 @@ Obtain the popular URL list for a CDN domain name on a specific day.
 
  |
 |  └FlowProportion|Float|0.35|Traffic proportion.|
-|Url300List| | |返回为3xx的Urllist。|
+|Url300List| | |Returned URL list in 3xx format.|
 |  └UrlDetail|String|[http://test.com/nn\_live/nn\_x64/a0.m3u8](http://test.com/nn_live/nn_x64/a0.m3u8)|Complete URL.|
 |  └VisitData|String|161673|Times of access.|
 |  └VisitProportion|Float|0.35|Access proportion.|
