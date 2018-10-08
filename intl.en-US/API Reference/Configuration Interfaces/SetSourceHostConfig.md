@@ -7,7 +7,7 @@ Set the back-to-source host function.
 ## Request parameters {#section_rwc_51g_vdb .section}
 
 |Parameters|Type|Required|Example value|Description|
-|Action|String|Yes|Setsourcehostconfig|The name of this interface.  Value: SetSourceHostConfig|
+|Action|String|Yes|Setsourcehostconfig|The name of this interface. Value: SetSourceHostConfig|
 |DomainName|String|Yes|www.yourdomain.com|Your CDN domain name.|
 |BackSrcDomain|String|No|www.aliyun.com|Custom back-to-source domain name.|
 |Enable|String|No|On| Enum on, off. Whether the custom host configuration is enabled. 
