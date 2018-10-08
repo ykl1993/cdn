@@ -5,10 +5,10 @@ Modify custom HTTP headers.
 ## Request parameters {#section_bxg_r3l_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|ModifyHttpHeaderConfig|The name of this interface.  Value: ModifyHttpHeaderConfig|
+|Action|String|Yes|ModifyHttpHeaderConfig|The name of this interface. Value: ModifyHttpHeaderConfig|
 |ConfigID|String|Yes.|892783|Configuration ID to be modified.|
 |DomainName|String|Yes.|www.yourdomain.com|Your CDN domain name.|
-|HeaderKey|String|Yes.|content-type| HTTP header parameter.  Value:
+|HeaderKey|String|Yes.|content-type| HTTP header parameter. Value:
 
  -   content-type
 -   cache-control
@@ -41,7 +41,7 @@ http://cdn.aliyuncs.com/?Action=ModifyHttpHeaderConfig
 &public request parameters
 ```
 
-**&公共请求参数**
+**Normal return example**
 
 -   JSON format
 
