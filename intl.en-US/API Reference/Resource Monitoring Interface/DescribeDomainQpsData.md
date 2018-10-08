@@ -17,7 +17,7 @@ Obtain the times of access to a CDN domain per second. The value is expressed in
  |
 |DomainType|String|No|dynamic| Query type.
 
- -   If the parameter is set to “dynamic”, the system queries the QPS of dynamic resources during full-site acceleration.
+ -   If the parameter is set to "dynamic", the system queries the QPS of dynamic resources during full-site acceleration.
 -   If the parameter is left blank, the system queries the QPS of static resources.
 
  |
