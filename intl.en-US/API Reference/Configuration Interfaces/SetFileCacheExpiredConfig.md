@@ -5,8 +5,8 @@ Set file expiration configuration.
 ## Request parameters {#section_bzz_bfg_vdb .section}
 
 |Parameters|Type| Required|Example values|Description|
-|Action|String|Yes|SetFileCacheExpiredConfig|The name of this interface.  Value: SetFileCacheExpiredConfig|
-|CacheContentCachecontent|String|Yes.|jpg,png|Filename suffixes, which are separated by commas \(,\).|
+|Action|String|Yes|SetFileCacheExpiredConfig|The name of this interface. Value: SetFileCacheExpiredConfig|
+|CacheContentCachecontent|String|Yes.|jpg, png|Filename suffixes, which are separated by commas \(,\).|
 |DomainName|String|Yes.|www.yourdomain.com|Your CDN domain name.|
 |TTL.|String|Yes.|600| Cache time configuation. 
 
