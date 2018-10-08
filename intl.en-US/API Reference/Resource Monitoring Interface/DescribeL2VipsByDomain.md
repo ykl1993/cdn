@@ -5,12 +5,12 @@ Query the virtual IP address list of an L2 node by the domain name.  This inter
 **Note:** 
 
 -   Users with daily peak bandwidth greater than 1 Gbps can open a ticket to apply for the interface call permission.  Click [Apply now](https://workorder.console.aliyun.com/console.htm?lang=#/ticket/add?productCode=cdn).
--   For more information about scenarios, see[What back-to-origin addresses does the Alibaba Cloud CDN support?](https://help.aliyun.com/document_detail/40205.html)
+-   For more information about scenarios, see What back-to-origin addresses does the Alibaba Cloud CDN support?
 
 ## Request parameters {#section_km5_h4n_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|DescribeL2VipsByDomain|The name of this interface.  Value: DescribeL2VipsByDomain|
+|Action|String|Yes|DescribeL2VipsByDomain|The name of this interface. Value: DescribeL2VipsByDomain|
 |DomainName|String|Yes.|www.yourdomain.com| Domain name.
 
  Value range: Only one domain name is supported and it must be added to the whitelist.
