@@ -14,4 +14,9 @@
 |2015-10-13|Alibaba Cloud CDN added support to setting caching policy and priorities for multiple origins.|
 |2016-12-29|Alibaba Cloud CDN established its complete OpenAPI system and released APIs for domain name configuration and resource monitoring.|
 |2016-02-02|Alibaba Cloud CDN added its pricing policy, making prepay CDN resource package available.|
+|2016-03|Alibaba Cloud CDN released video, big data, HTTPS, and many other functions.|
+|2016-12|Alibaba Cloud CDN got the first CDN license in Mainland China.|
+|2017-08|Alibaba Cloud CDN released SCDN and Dynamic Route for CDN, respectively emphasizing security and dynamic resources.|
+|2018-07|Alibaba Cloud CDN updated the console, optimizing user experience.|
+|2018-09|Alibaba Cloud CDN released new versions of API.|
 
