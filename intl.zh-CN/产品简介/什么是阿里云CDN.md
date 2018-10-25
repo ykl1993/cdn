@@ -10,7 +10,7 @@
 
 假设您的源站域名为 `www.a.com`。接入 CDN 开始使用加速服务后，当您的终端用户（北京）发起 HTTP 请求时，实际的处理流程如下：
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15382038524886_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15404613134886_zh-CN.png)
 
 1.  终端用户（北京） 向 `www.a.com`下的某资源发起请求，会先向 LDNS 发起域名解析请求。
 2.  当 LDNS 解析 `www.a.com` 时，会发现已经配置了 CNAME `www.a.tbcdn.com`。
@@ -58,5 +58,5 @@ CDN的[定价策略](../../../../intl.zh-CN/产品定价/计费方式/计费概�
 
 您可以借助[云服务器ECS](../../../../intl.zh-CN/产品简介/什么是云服务器ECS.md#)提高网站可用性，保护服务器源站信息，降低带宽使用成本。
 
-您可以将[负载均衡](../../../../intl.zh-CN/产品简介/什么是负载均衡.md#)服务器的IP地址设置为回源地址，降低回源带宽压力。
+您可以将[负载均衡](../../../../intl.zh-CN/产品简介/85974什么是负载均衡.md#)服务器的IP地址设置为回源地址，降低回源带宽压力。
 
