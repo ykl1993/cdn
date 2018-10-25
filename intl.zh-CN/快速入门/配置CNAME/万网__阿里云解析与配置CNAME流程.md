@@ -1,24 +1,24 @@
 # 万网/阿里云解析与配置CNAME流程 {#concept_uwr_kbw_tdb .concept}
 
-如果您想启用CDN加速服务，需要将您的加速域名指向阿里云CDN分配的CNAME地址，这样访问加速域名的请求才能转发到 CDN节点 上，达到加速效果。本文档以您的域名在阿里云解析（原万网）为例。您可以参考[DNSPod](intl.zh-CN/快速入门/配置CNAME/DNSPod 配置CNAME流程.md#)或[新网](intl.zh-CN/快速入门/配置CNAME/新网 配置CNAME流程.md#)配置的方法。
+如果您想启用CDN加速服务，需要将您的加速域名指向阿里云CDN分配的CNAME地址，这样访问加速域名的请求才能转发到 CDN节点 上，达到加速效果。本文档以您的域名在阿里云解析（原万网）为例。此外，您还可以参考[DNSPod](intl.zh-CN/快速入门/配置CNAME/DNSPod 配置CNAME流程.md#)或[新网](intl.zh-CN/快速入门/配置CNAME/新网 配置CNAME流程.md#)配置的方法解析。
 
-## 1. 获取加速域名的CNAME值 {#section_ey5_p4c_5db .section}
+## 获取加速域名的CNAME值 {#section_ey5_p4c_5db .section}
 
 **a.** 登录[CDN控制台](https://cdn.console.aliyun.com)，单击**域名管理**。
 
-**b.**单击您想复制域名的CNAME值。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15401786366056_zh-CN.png)
+**b.**单击您想复制域名的CNAME值。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15404712706056_zh-CN.png)
 
 ## 2. 添加CNAME记录 {#section_gy5_p4c_5db .section}
 
-**a.**登录万网/阿里云解析 的 [域名解析控制台](https://dc.console.aliyun.com/dns/?spm=5176.200001.0.0.pbY4Je)。
+**a.**登录 [域名解析控制台](https://dc.console.aliyun.com/dns/?spm=5176.200001.0.0.pbY4Je)。
 
 **b.**在域名列表中找到您加速域名对应的主域名，进入**解析设置**页。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15401786366057_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15404712706057_zh-CN.png)
 
 **c.**单击**添加解析**，添加CNAME记录：
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15401786366058_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15404712706058_zh-CN.png)
 
 -   记录类型请选择为`CNAME`；
 -   主机记录即加速域名的前缀，例如：
@@ -45,7 +45,7 @@
 
 配置CNAME后，不同的DNS服务商CNAME配置生效的时间也不同。您可以`ping`或`dig`您所添加的加速域名，如果被转向`*.*kunlun*.com`，即表示CNAME配置已经生效，CDN功能也已生效。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15401786366060_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15404712706060_zh-CN.png)
 
-另外我们还提供域名在DNSPod、新网解析的 配置CNAME示例：[DNSPod/腾讯云解析 配置流程](https://help.aliyun.com/document_detail/27145.html)、[新网 配置流程](https://help.aliyun.com/document_detail/27146.html)。
+另外我们还提供域名在[DNSPod配置CNAME](intl.zh-CN/快速入门/配置CNAME/DNSPod 配置CNAME流程.md#)和[新网配置CNAME](intl.zh-CN/快速入门/配置CNAME/新网 配置CNAME流程.md#)。
 
