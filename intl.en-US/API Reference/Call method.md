@@ -18,7 +18,7 @@ The system supports the sending of HTTP GET requests. For this method, the reque
 
 Request Parameters
 
-For each request, the operation to be executed must be specified, namely the Action parameter \(e.g. CreateCDNServer\), and each operation must contain the common request parameters and the specific request parameters of the specified operation.
+For each request, the operation to be executed must be specified, namely the Action parameter \(e.g. OpenCdnService\), and each operation must contain the common request parameters and the specific request parameters of the specified operation.
 
 Character encoding
 
@@ -44,7 +44,7 @@ Common request parameters specify the request parameters that must be used by ev
 Request example:
 
 ```
-https://cdn.aliyuncs.com/?Format=xml&Version=2013-01-10&Signature=Pc5WB8gokVn0xfeu%2FZV%2BiNM1dgI%3D&SignatureMethod=HMAC-SHA1&SignatureNonce=15215528852396&SignatureVersion=1.0&AccessKeyId=key-test&Timestamp=2012-06-01T12:00:00Z
+https://cdn.aliyuncs.com/?Format=xml&Version=2014-11-11&Signature=Pc5WB8gokVn0xfeu%2FZV%2BiNM1dgI%3D&SignatureMethod=HMAC-SHA1&SignatureNonce=15215528852396&SignatureVersion=1.0&AccessKeyId=key-test&Timestamp=2012-06-01T12:00:00Z
 ```
 
 Common return parameters
