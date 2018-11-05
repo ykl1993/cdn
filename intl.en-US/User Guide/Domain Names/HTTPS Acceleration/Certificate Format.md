@@ -20,7 +20,7 @@ Certificates issued by a root CA
 
 In Linux environments, certificates are  in the `PEM` format:
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5135/15389984863703_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5135/15414064863703_en-US.png)
 
 Certificate rules:
 
@@ -48,7 +48,7 @@ Certificate link rules:
 
 ## RSA private key format requirements {#section_yvf_lql_xdb .section}
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5135/15389984863704_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5135/15414064863704_en-US.png)
 
 RSA private key rules:
 
@@ -127,6 +127,8 @@ The PFX format is generally used in Windows Server.
 
 
 ## Free certificates {#section_rbm_std_zdb .section}
+
+The free certificate here is Alicloud CDN Digicert DV version SSL Free certificate, only available for Alibaba Cloud CDN service. It cannot be managed in the SSL Certificates service of Alibaba Cloud Security. This certificate is only used to enable HTTPS Secure Acceleration in CDN, and you cannot obtain its public and private keys for other use.
 
 -   The application process for a free certificate takes 5-10 minutes. While waiting, you can also go back and choose to upload a custom certificate or select a managed certificate.
 -   You can always switch among custom, managed or free certificate no matter which one you enable at the beginning.
