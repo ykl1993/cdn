@@ -66,17 +66,17 @@ HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费，�
 
 1.  购买证书。您需要具备匹配加速域名的证书才能开启HTTPS安全加速。您可以在[云盾控制台](https://yundun.console.aliyun.com/?spm=5176.2020520110.aliyun_sidebar.19.3ff6ZSicZSiceU&p=cas#/cas/home)快速申请免费的证书或购买高级证书。
 2.  登录[CDN控制台](https://cdn.console.aliyun.com)，进入CDN**域名管理**页。选择域名，单击**管理**。
-3.  在**HTTPS设置** \> **HTTPS证书**，单击**修改配置**。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/154140645211410_zh-CN.png)
+3.  在**HTTPS设置** \> **HTTPS证书**，单击**修改配置**。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/154141068311410_zh-CN.png)
 4.  在HTTPS设置对话框中，开启**HTTPS安全加速**。
-5.  选择证书。您可以选择的证书类型包括：云盾、自定义和免费证书。目前仅支持 `PEM`的证书格式。
+5.  选择证书。您可以选择的证书类型包括：**云盾**、**自定义**和**免费证书**。目前仅支持 `PEM`的证书格式。
 
-    -   您可以选择云盾。若证书列表中无当前适配的证书，您可以选择自定义上传。您需要在设置证书名称后，上传证书内容和私钥，该证书将会在阿里云云盾的证书服务中保存。您可以在[我的证书](https://yundun.console.aliyun.com/?spm=5176.2020520001.aliyun_sidebar.17.12004bd303Zdr8#/all)里查看。
-    -   您也可以选择免费证书，即阿里云的Digicert免费型DV版SSL证书。设置完成后，您需要等待大约10分钟生效。
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/154140645211413_zh-CN.png)
+    -   您可以选择云盾。若证书列表中无当前适配的证书，您可以选择自定义上传。您需要在设置证书名称后，上传证书内容和私钥，该证书将会在阿里云云盾的证书服务中保存。您可以在[我的证书](https://yundun.console.aliyun.com/?spm=5176.2020520110.all.12.16df56a1u1IhI6&p=cas#/cas/home)里查看。
+    -   您也可以选择免费证书，即阿里云的Digicert免费型DV版SSL证书。CDN的免费证书的只适用于CDN的HTTP安全加速业务，因此您无法在阿里云云盾控制台管理该证书，也无法查看到公钥和私钥。设置免费证书后，大约需要等候10分钟生效。
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/154141068411413_zh-CN.png)
 
 6.  验证证书是否生效。证书生效后（约1小时），使用HTTPS方式访问资源。如果浏览器中出现绿色HTTPS标识，表明当前与网站建立的是私密连接，HTTPS安全加速生效。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/15414064523701_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/15414106843701_zh-CN.png)
 
 
 **说明：** 关于更换证书：
