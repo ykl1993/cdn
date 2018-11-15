@@ -1,5 +1,7 @@
 # CDN命令介绍 {#concept_pcn_x2m_xdb .concept}
 
+本文档介绍了您使用CLI工具的方法。
+
 ## aliyuncli 安装 {#section_gg2_bgm_xdb .section}
 
 阿里云命令行工具\(aliyuncli\)是基于阿里云开放API建立的手边管理工具。借助这个工具，您可以轻松的调用阿里云开放API，管理您的阿里云产品。阿里云命令行工具与阿里云open API一一对应，灵活性高且易于扩展。您可以基于阿里云命令行工具对阿里云原子的API进行封装，扩展出自己想要的功能。
@@ -18,13 +20,13 @@
     $sudo pip install --upgrade aliyuncli
     ```
 
--   更多产品细节, 请参考：[CLI产品文档](https://docs.aliyun.com/?spm=5176.1970908.105.1.kBS7lo#/pub/aliyun-command-line-interface)。
+-   更多产品细节, 请参考[CLI产品文档](https://help.aliyun.com/product/29991.html)
 
 ## CDN SDK安装 {#section_c31_3gm_xdb .section}
 
 使用CDN的功能，需要与CDN SDK配合使用，因此需要您安装CDN SDK。
 
-**说明：** pip 安装SDK会自动帮助您处理好各种依赖还有升级, 因此强烈建议您采用pip方式安装SDK。
+**说明：** pip 安装SDK会自动帮助您处理好各种依赖还有升级。因此，建议您采用pip方式安装SDK。
 
 -   您可以直接采用下面的命令安装CDN SDK：
 
@@ -41,9 +43,9 @@
 
 ## aliyuncli cdn 命令说明 {#section_fgk_ngm_xdb .section}
 
-**服务操作命令**
+服务操作命令
 
-**OpenCdnService**
+OpenCdnService
 
 -   命令说明：
 
@@ -82,5 +84,5 @@
     ```
 
 
-更多 API 接口详细信息，请进入[API 手册](https://docs.aliyun.com/#/pub/cdn/api-reference/overview)了解详情。
+更多 API 接口详细信息，请进入[API手册](https://help.aliyun.com/document_detail/91856.html)了解详情。
 
