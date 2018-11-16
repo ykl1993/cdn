@@ -21,8 +21,6 @@ Obtain the bytes hit rate \(percentage of hit bytes\) of CDN domains.
 -   When the parameter is left blank or when the value is not supported, the default value 300 seconds is used.
 
  |
-|IspNameEn|String|No|unicom|Carrier name in English, which is obtained using the DescribeCdnRegionAndIsp interface. If the parameter is left blank, the English names of all carriers are obtained.|
-|LocationNameEn|String|No|beijing|Region name in English, which is obtained using the DescribeCdnRegionAndIsp interface. If the parameter is left blank, the English names of all regions are obtained.|
 |StartTime|String|No|2017-12-21T08:00:00:00Z| -   Start time of data query.
 -   The date format adopts ISO8601 notation and uses the UTC time.
 -   Format: YYYY-MM-DDThh:mmZ.
