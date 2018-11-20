@@ -8,8 +8,6 @@ CDN continues to reliably serve businesses thanks to its ever-advancing technica
 
 High-performance nodes enhance information delivery compared with traditional methods, accelerating distribution and boosting reliability. With CDN, businesses are able to continue to provide a high-quality services in even the most demanding of situations.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5099/15369352424887_en-US.png)
-
 ## Configure nodes {#section_uj3_dr2_zdb .section}
 
 -   The system automatically configures and adjusts nodes for the domain name you have added. For more information, see the following Search nodes chapter.
@@ -21,23 +19,11 @@ High-performance nodes enhance information delivery compared with traditional me
 
 ## Search nodes {#section_vbx_pq2_zdb .section}
 
-The full list of Alibaba Cloud CDN nodes is below, including those located inside and outside of mainland China.
+The list of Alibaba Cloud CDN nodes is below in the image. Beyond Mainland China, over 300 nodes are distributed across the globe.
 
 Mainland China
 
--   China Telecom: Shanghai, Jiangsu, Zhejiang, Anhui, Fujian, Jiangxi, Guangdong, Guangxi, Hainan, Hubei, Hunan, Sichuan, Chongqing, Yunnan, Guizhou, Shaanxi, Gansu, Xinjiang, Beijing, Hebei, Shandong, Henan, Liaoning, and Tianjin.
--   China Unicom: Beijing, Tianjin, Shandong, Henan, Hebei, Shanxi, Inner Mongolia, Liaoning, Heilongjiang, Jilin, Shaanxi, Zhejiang, Guangdong, Fujian, Shanghai, Chongqing, Jiangsu, Hunan, and Hubei.
--   China Mobile: Zhejiang, Shanghai, Jiangsu, Guangdong, Fujian, Jiangxi, Shandong, Hubei, Shanxi, Beijing, Chongqing, Anhui, Sichuan, Guangxi, Guizhou, Yunnan, Henan, Hebei, Shaanxi, Hunan, Jilin, Heilongjiang, Xinjiang, Gansu, Tianjin, and Liaoning.
--   Dr. Peng Technology: Beijing, Shanghai, Hubei, and Guangdong.
--   Education Network: Beijing, Hubei, Jiangsu, and Guangdong.
--   Other: Beijing, Zhejiang, Hunan, Sichuan, Liaoning, Jiangsu, Guangxi, Anhui, Shanghai, Beijing, Shandong, Shanghai, Guangdong, Hubei, Heilongjiang, and Chongqing.
+In Mainland China, there are over 1200 edge nodes in 34 provinces.
 
-Hong Kong, Macao, Taiwan and Outside-China
-
--   Asia: Hong Kong, Macau, Kaohsiung, Taipei, Tokyo, Osaka, Seoul, Singapore 1, Kuala Lumpur, Bangkok, Surabaya, Batam, Banjarmasin, Makassar, Denpasar \(Bali\), Semarang \(Java\), Jakarta, Manila, Hanoi, Ho Chi Minh, Mumbai, New Delhi, Hyderabad, Bangalore, Chennai, Calcutta, and Dubai.
--   Europe: Moscow, St. Petersburg, Minsk, Frankfurt, London, Amsterdam, Madrid, Milan, Brussels, and Stockholm.
--   North America: Vancouver, Los Angeles, Miami, Chicago, New York, Dallas, Seattle, and Denver.
--   Oceania: Australia and Auckland.
--   Africa: Johannesburg.
--   South America: Sao Paulo.
+Hong Kong, Macao, Taiwan and Outside-China ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5099/154269468132402_en-US.png)
 
