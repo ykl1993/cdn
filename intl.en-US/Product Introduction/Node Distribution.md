@@ -14,7 +14,7 @@ High-performance nodes enhance information delivery compared with traditional me
 
 -   The system also adds nodes automatically based on the access conditions.
 
--   You can choose the acceleration zone: Mainland China, Hong Kong, Macao, Taiwan, and Outside-China.
+-   You can choose the acceleration zone: Mainland China, Hong Kong, Macao, Taiwan, and Outside-China, and Global Acceleration.
 
 
 ## Search nodes {#section_vbx_pq2_zdb .section}
@@ -25,5 +25,5 @@ Mainland China
 
 In Mainland China, there are over 1200 edge nodes in 34 provinces.
 
-Hong Kong, Macao, Taiwan and Outside-China ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5099/154269468132402_en-US.png)
+Hong Kong, Macao, Taiwan and Outside-China ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5099/154269604432402_en-US.png)
 
