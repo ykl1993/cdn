@@ -25,5 +25,5 @@ Mainland China
 
 In Mainland China, there are over 1200 edge nodes in 34 provinces.
 
-Hong Kong, Macao, Taiwan and Outside-China ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5099/154269604432402_en-US.png)
+Hong Kong, Macao, Taiwan and Outside-China ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5099/154340557632402_en-US.png)
 
