@@ -8,7 +8,7 @@ You can query the data by the following dimensions:
 
 -   Domain name or user
 -   Traffic, bandwidth, or requests.
--   Billing regions. For more information, see [Billing regions](../../../../intl.en-US/Pricing/Billing method/Pricing Overview.md#section_gl3_gdl_l2b).
+-   Billing regions. For more information, see [Billing regions](../../../../reseller.en-US/Pricing/Billing method/Basic Service.md#section_gl3_gdl_l2b).
 
 **Note:** You cannot export data from the Usage page. To export the data you require, go to Billing export or Detail export.
 
@@ -16,5 +16,5 @@ You can query the data by the following dimensions:
 
 1.  Log on to the [CDN Console](https://cdn.console.aliyun.com).
 2.  On CDN Overview page, click **Usage** on the left.
-3.  On the Usage page, configure all conditions, including traffic/bandwidth/requests, time range, and billing regions. Then click**Query**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15905/15367175848923_en-US.png)
+3.  On the Usage page, configure all conditions, including traffic/bandwidth/requests, time range, and billing regions. Then click**Query**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15905/15434060718923_en-US.png)
 
