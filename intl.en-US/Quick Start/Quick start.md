@@ -2,7 +2,7 @@
 
 This document describes how to quickly get started with the CDN service. The procedure is as follows:
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/15382971546046_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/15434717466046_en-US.png)
 
 ## Step 1. Enable the CDN service {#section_fyr_1tv_tdb .section}
 
@@ -13,7 +13,7 @@ This document describes how to quickly get started with the CDN service. The pro
 
 1.  Add a domain name.
 
-    Go to the CDN console, select **Domain Names**. You can view all the CDN domain names and status that you have added. Click **Add Domain Name**
+    Go to the [CDN console](https://cdn.console.aliyun.com), select **Domain Names**. You can view all the CDN domain names and status that you have added. Click **Add Domain Name**
 
 2.  Enter the basic information.
 
@@ -33,10 +33,10 @@ This document describes how to quickly get started with the CDN service. The pro
 
     |Business type|Note|
     |:------------|:---|
-    |[Images and small files](https://help.aliyun.com/document_detail/34992.html)|If the content to be accelerated is mostly images and web files \(For example, small files, images and web-styled file\), we recommend that you select the "images and small files" business type.|
-    |[Large file downloads](https://help.aliyun.com/document_detail/34999.html)|If the content to be accelerated is large files \(static files larger than 20 MB\), for example, games installation package, application update, mobile ROM update, application program package download and other scenarios, acceleration of **large file downloads** is recommended.|
-    |[On-demand video/audio](https://help.aliyun.com/document_detail/35005.html)|For large video files, acceleration of live streaming media is recommended to accelerate video on demand and live streaming services.|
-    |[Live streaming media](https://help.aliyun.com/document_detail/27117.html)|The acceleration of live streaming media is provided. Currently, RTMP-based and HLS-based live streaming acceleration is supported. For live streaming business, user-defined origin servers are not supported, and a central live streaming server `video-center.alivecdn.com`.|
+    |[Images and small files](https://www.alibabacloud.com/help/doc-detail/34992.htm)|If the content to be accelerated is mostly images and web files \(For example, small files, images and web-styled file\), we recommend that you select the "images and small files" business type.|
+    |[Large file downloads](https://www.alibabacloud.com/help/doc-detail/34999.htm)|If the content to be accelerated is large files \(static files larger than 20 MB\), for example, games installation package, application update, mobile ROM update, application program package download and other scenarios, acceleration of **large file downloads** is recommended.|
+    |[On-demand video/audio](https://www.alibabacloud.com/help/doc-detail/35005.htm)|For large video files, acceleration of live streaming media is recommended to accelerate video on demand and live streaming services.|
+    |[Live streaming media](https://www.alibabacloud.com/help/doc-detail/27117.htm)|The acceleration of live streaming media is provided. Currently, RTMP-based and HLS-based live streaming acceleration is supported. For live streaming business, user-defined origin servers are not supported, and a central live streaming server `video-center.alivecdn.com`.|
 
     Types of origin sites:
 
@@ -66,9 +66,7 @@ This document describes how to quickly get started with the CDN service. The pro
 ## Step 3. Configure cname {#section_efx_nzv_tdb .section}
 
 1.  Copy the CNAME address assigned by the system from the domain name list in **Domain Names** in the CDN console:
-2.  Go to the DNS console of your DNS service provider \(for example, www.net.cn, Alibaba Cloud DNS, DNSPod, xinnet. Tencent DNS, route53 and godaddy\) to add the cname record. Examples of the following service providers are provided:
-
--   [Configure Alibaba Cloud DNS](reseller.en-US//Configure CNAME by Alibaba Cloud DNS.md#)
+2.  Go to the DNS console of your DNS service provider \(for example, www.net.cn, Alibaba Cloud DNS, DNSPod, xinnet. Tencent DNS, route53 and godaddy\) to add the cname record. Examples of the following service providers are provided: [Configure Alibaba Cloud DNS](reseller.en-US//Configure CNAME by Alibaba Cloud DNS.md#).
 
 ## Step 4. Verify if CNAME is enabled for the domain name {#section_g4d_jzc_b2b .section}
 
