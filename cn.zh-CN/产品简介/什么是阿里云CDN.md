@@ -10,7 +10,7 @@
 
 假设您的源站域名为 `www.a.com`。接入 CDN 开始使用加速服务后，当您的终端用户（北京）发起 HTTP 请求时，实际的处理流程如下：
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15422670644886_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15434566544886_zh-CN.png)
 
 1.  终端用户（北京） 向 `www.a.com`下的某资源发起请求，会先向 LDNS 发起域名解析请求。
 2.  当 LDNS 解析 `www.a.com` 时，会发现已经配置了 CNAME `www.a.tbcdn.com`。
@@ -38,7 +38,7 @@
 
 您可以登录[CDN控制台](../../../../intl.zh-CN/用户指南/新控制台说明.md#)，了解并使用了CDN的[全部功能](../../../../intl.zh-CN/用户指南/CDN功能列表.md#)。
 
-您还可以使用CDN的[API](../../../../intl.zh-CN/旧版API 参考/简介.md#)，更灵活地帮助您的业务。
+您还可以使用CDN的[API](https://help.aliyun.com/document_detail/91856.html)，更灵活地帮助您的业务。
 
 ## CDN定价 {#section_c3q_dnf_l2b .section}
 
