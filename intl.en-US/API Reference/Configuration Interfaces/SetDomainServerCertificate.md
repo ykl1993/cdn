@@ -17,6 +17,7 @@ Set whether to enable the certificate function under a domain name and modify ce
 |PrivateKey|String|No|XXXXXXXX|Private key content. If the certificate is not enabled, the parameter is left blank. Enter the certificate content if any certificate is configured.|
 |Region|String|No|cn-hangzhou|Region|
 |Servercertificate|String|No|xxxxxx|Security certificate content. If the certificate is not enabled, the parameter is left blank. Enter the certificate content if any certificate is configured.|
+|ForceSet|String|No|1|When you set to 1, ignore the repeated verification for certificate name, and cover the information of the origin certificate \(with the same name\).|
 
 ## Return parameters {#section_nrn_yjl_vdb .section}
 
