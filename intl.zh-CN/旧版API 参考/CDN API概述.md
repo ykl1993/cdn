@@ -108,25 +108,9 @@
 |[DescribeDomainRealTimeReqHitRateData](intl.zh-CN/旧版API 参考/资源监控接口/获取域名1分钟粒度请求命中率数据.md)|获取域名1分钟粒度请求命中率数据|
 |[DescribeDomainSlowRatio](intl.zh-CN/旧版API 参考/资源监控接口/查询视频加速域名的慢速比数据.md)|获取视频加速域名5分钟维度的慢速比数据|
 
+## 全站加速接口 {#section_szw_dlx_yfb .section}
+
 |API|描述|
 |:--|:-|
-|[DescribeDomainFlowData](intl.zh-CN/旧版API 参考/资源监控接口/查询流量监控数据.md)|网络流量信息|
-|[DescribeDomainSrcBpsData](intl.zh-CN/旧版API 参考/资源监控接口/查询回源带宽监控数据.md)|回源带宽信息|
-|[DescribeDomainSrcFlowData](intl.zh-CN/旧版API 参考/资源监控接口/查询回源流量监控数据.md)|回源流量信息|
-|[DescribeDomainHitRateData](intl.zh-CN/旧版API 参考/资源监控接口/查询字节命中率.md)|缓存字节命中率信息|
-|[DescribeDomainReqHitRateData](intl.zh-CN/旧版API 参考/资源监控接口/查询请求命中率.md)|缓存请求命中率信息|
-|[DescribeDomainQpsData](intl.zh-CN/旧版API 参考/资源监控接口/查询域名的每秒访问次数QPS.md)|每秒访问次数信息|
-|[DescribeDomainHttpCodeData](intl.zh-CN/旧版API 参考/资源监控接口/查询域名HTTP返回码占比数据.md)|响应码占比信息|
-|[DescribeDomainsUsageByDay](intl.zh-CN/旧版API 参考/资源监控接口/查询域名的天粒度监控统计数据.md)|天粒度资源使用信息|
-|[DescribeTopDomainsByFlow](intl.zh-CN/旧版API 参考/资源监控接口/查询按流量排名的域名列表.md)|天粒度按流量域名排名|
-|[DescribeDomainPvData](intl.zh-CN/旧版API 参考/资源监控接口/查询域名的PV页面访问统计.md)|pv趋势数据|
-|[DescribeDomainUvData](intl.zh-CN/旧版API 参考/资源监控接口/查询域名的UV页面独立访问统计数据.md)|uv趋势数据|
-|[DescribeDomainRegionData](intl.zh-CN/旧版API 参考/资源监控接口/查询域名的用户区域分布数据.md)|用户区域占比|
-|[DescribeDomainISPData](intl.zh-CN/旧版API 参考/资源监控接口/查询域名的用户运营商数据.md)|运营商占比|
-|[DescribeDomainTopUrlVisit](intl.zh-CN/旧版API 参考/资源监控接口/查询域名某天的热门URL列表.md)|热门url访问统计|
-|[DescribeDomainTopReferVisit](intl.zh-CN/旧版API 参考/资源监控接口/查询域名某天的热门页面引用次数排名.md)|热门refer统计|
-|[DescribeDomainFileSizeProportionData](intl.zh-CN/旧版API 参考/资源监控接口/查询域名的文件大小占比统计数据.md)|文件访问占比|
-|[DescribeDomainBpsDataByTimeStamp](intl.zh-CN/旧版API 参考/资源监控接口/查询域名某时刻Locate和Isp的带宽数据.md)|获取某时刻带宽数据，支持地区或者运营商筛选条件|
-|[DescribeDomainBpsDataByTimeStamp](intl.zh-CN/旧版API 参考/资源监控接口/查询区域和运营商列表.md)|获取区域和运营商列表|
-|[DescribeL2VipsByDomain](intl.zh-CN/旧版API 参考/资源监控接口/根据域名查询L2节点的vip列表.md)|查询L2节点的vip列表|
+|[SetDynamicConfig](intl.zh-CN/旧版API 参考/全站加速接口/设置全站加速缓存规则.md)|全站加速，缓存规则的配置|
 
