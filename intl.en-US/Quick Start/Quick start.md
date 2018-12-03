@@ -2,7 +2,7 @@
 
 This document describes how to quickly get started with the CDN service. The procedure is as follows:
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/15434717466046_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/15438171526046_en-US.png)
 
 ## Step 1. Enable the CDN service {#section_fyr_1tv_tdb .section}
 
@@ -25,7 +25,7 @@ This document describes how to quickly get started with the CDN service. The pro
 
     -   Wildcard domain acceleration is supported. Chinese domain acceleration is not supported. Note this rule when you enter wildcard domains: `*.test.com`. For more information, see Wildcard Domain Acceleration Rules
     -   A CDN domain cannot added multiple times. If you encounter a **Domain already added** issue, submit a ticket to us for help.
-    -   Up to 20 CDN domains can be added under one account.
+    -   Up to 50 CDN domains can be added under one account.
     -   The domain content must comply with CDN specifications. For more information, see [CDN Service Use Restrictions](../../../../reseller.en-US/User Guide/Limits.md#).
     Business type description:
 
