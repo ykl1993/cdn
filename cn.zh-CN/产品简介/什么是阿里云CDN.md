@@ -10,7 +10,7 @@
 
 假设您的源站域名为 `www.a.com`。接入 CDN 开始使用加速服务后，当您的终端用户（北京）发起 HTTP 请求时，实际的处理流程如下：
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15434566544886_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15438215834886_zh-CN.png)
 
 1.  终端用户（北京） 向 `www.a.com`下的某资源发起请求，会先向 LDNS 发起域名解析请求。
 2.  当 LDNS 解析 `www.a.com` 时，会发现已经配置了 CNAME `www.a.tbcdn.com`。
@@ -21,24 +21,15 @@
     -   若该 IP 对应的节点已经缓存了该资源，则会将数据直接返回给用户（如图中步骤7、8），此时请求结束。
     -   若该节点未缓存该资源，则节点会向业务源站发起对该资源的请求。获取资源后，结合用户自定义配置的缓存策略（可参考产品文档中的[缓存配置](../../../../intl.zh-CN/用户指南/域名管理/节点缓存设置/缓存配置.md#)），将资源缓存至节点（如图：北京节点），并返回给用户，此时请求结束。
 
-## 相关概念 {#section_gh2_by2_l2b .section}
-
--   CNAME：即别名\( Canonical Name \)，可以用来把一个域名解析到另一个域名。
-
--   [回源HOST](../../../../intl.zh-CN/用户指南/域名管理/内容回源设置/回源HOST.md#)：使用回源HOST，您可以自定义CDN节点回源时所需访问的具体服务器域名。
-
--   [协议回源](../../../../intl.zh-CN/用户指南/域名管理/内容回源设置/协议跟随回源.md#)：开启该功能后，回源使用协议和客户端访问资源的协议保持一致。
-
--   [过滤参数](../../../../intl.zh-CN/用户指南/域名管理/性能优化设置/过滤参数.md#)：URL请求中，如果携带“？” （半角）和参数，则请求到CDN节点时，CDN节点在收到该请求后是否将该带参数的请求URL请求回源站。
-
-
 ## 使用CDN {#section_i4g_cnf_l2b .section}
+
+您可以查看[CDN名词解释](intl.zh-CN/产品简介/名词解释.md#)，了解阿里云CDN的基本概念。
 
 您可以查看[CDN学习路径](https://www.alibabacloud.com/zh/getting-started/learningpath/cdn)，快速了解并上手CDN。
 
 您可以登录[CDN控制台](../../../../intl.zh-CN/用户指南/新控制台说明.md#)，了解并使用了CDN的[全部功能](../../../../intl.zh-CN/用户指南/CDN功能列表.md#)。
 
-您还可以使用CDN的[API](https://help.aliyun.com/document_detail/91856.html)，更灵活地帮助您的业务。
+您还可以使用CDN的[API](https://www.alibabacloud.com/help/zh/doc-detail/91856.htm)，更灵活地帮助您的业务。
 
 ## CDN定价 {#section_c3q_dnf_l2b .section}
 
