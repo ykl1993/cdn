@@ -4,30 +4,11 @@
 
 Procedure
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5117/15414064183166_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5117/15438273483166_en-US.png)
 
 1.  Real-name registration must be performed for accounts on the Alibaba Cloud official website.
 2.  A CDN domain must have an [ICP license](https://beian.aliyun.com/?spm=5176.8142029.388261.3.a0SCC3) and be connected to Alibaba Cloud.
 3.  The origin site content of a CDN domain must be stored on Elastic Compute Service \(ECS\) or Object Storage Service \(OSS\).  If the origin site content is not stored on Alibaba Cloud, access must be reviewed.
-
-Domain Name reviewing standards
-
-All domains attempting to access CDN must be reviewed. CDN access is not allowed in any of the following scenarios:
-
--   The CDN domain cannot be accessed normally or the content does not include any substantive information.
--   The CDN domain is for a private game server.
--   The CDN domain is used for role playing games or card games.
--   The CDN domain name is for website that has no download rights such as pirate software
--   The CDN domain is for a P2P website.
--   The CDN domain is for a lottery website.
--   The CDN domain is for an illegal hospital or pharmaceutical website.
--   The CDN domain is for a site involving porn, gambling, drugs, etc.
--   An automatic timeout rejection occurs, and outputs the following: Your domain name is rejected because it failed to comply with CDN access rules. Reference the feedback and submit a qualified domain name to be reviewed again.
-
-The losses incurred by attacks or malicious download because the CDN domain name does not comply with the previous rules will be born on you, and Alibaba Cloud CDN carries no responsibilities.
-
--   Domains that have accessed Alibaba Cloud CDN will be reviewed regularly.  If any of these violations are detected, the system immediately terminates the CDN acceleration of the domain name, and stops the CDN service for all your domain names at the same time.
--   If your CDN domain name cannot be accessed normally or is denied due to reason which does not contain any substantive information, and your business is a compliance business, you can submit a ticket, and send the screenshots of the web site business content\(which contains the domain name\) through the ticket. After the ticket is reviewed separately, you will be informed of the results of the second audit.
 
 ## Restriction {#section_r1h_lgx_wdb .section}
 
