@@ -2,7 +2,7 @@
 
 This document describes how to quickly get started with the CDN service. The procedure is as follows:
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/15438171526046_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/15438209216046_en-US.png)
 
 ## Step 1. Enable the CDN service {#section_fyr_1tv_tdb .section}
 
@@ -55,15 +55,21 @@ This document describes how to quickly get started with the CDN service. The pro
     -   Select the acceleration region based on your needs: Mainland China, overseas only \(domestic nodes unavailable\), or world-wide.
     -   L3 and above members can apply for this feature by submitting a ticket.
     -   Traffic generated from overseas nodes incurs a higher cost than that from domestic nodes.
-    -   If you select overseas acceleration only, the registration at China's Ministry of Industry and Information Technolog is not required.
-3.  Complete adding domain name.
+    -   If you select overseas acceleration only, the registration at China's Ministry of Industry and Information Technology is not required.
+3.  Click **Next**, then wait for review.
+
+    **Note:** 
+
+    -   You can [submit a ticket](https://workorder-intl.console.aliyun.com/?spm=5176.2020520001.aliyun_topbar.18.6a284bd3ZILqMe#/ticket/add?productId=92) if you have an urgent requirement for review.
+    -   If your origin site is Aliababa Cloud ECS or OSS, you will finish reviewing faster.
+4.  Complete adding domain name.
 
     After the CDN domain name reviewing is completed, it displays in **Domain Names**, and the status **Running** indicates it has been added successfully.
 
     **Note:** After adding the CDN domain name, Alibaba Cloud CDN assigns you the corresponding cname address, you must  configure cname for the CDN service to take effect. See the following Step 3.
 
 
-## Step 3. Configure cname {#section_efx_nzv_tdb .section}
+## Step 3. Configure CNAME {#section_efx_nzv_tdb .section}
 
 1.  Copy the CNAME address assigned by the system from the domain name list in **Domain Names** in the CDN console:
 2.  Go to the DNS console of your DNS service provider \(for example, www.net.cn, Alibaba Cloud DNS, DNSPod, xinnet. Tencent DNS, route53 and godaddy\) to add the cname record. Examples of the following service providers are provided: [Configure Alibaba Cloud DNS](reseller.en-US//Configure CNAME by Alibaba Cloud DNS.md#).
