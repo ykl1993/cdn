@@ -8,7 +8,7 @@ Alibaba Cloud Content Delivery Network\(CDN\) is a distributed network that over
 
 After you log on to the [CDN console](http://partners-intl.console.aliyun.com/#/cdn), the CDN operation information for the current account is displayed on the home page as follows:
 
-1.  Billing method diaplay and change:
+1.  Billing method display and change:
 2.  Key data: the number of domains in normal status and the total traffic for all domains this month
 3.  This month's data:
 
