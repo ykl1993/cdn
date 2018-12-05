@@ -16,7 +16,7 @@ Restrictions:
 
 |Parameters|Type|Required|Example Value|Description|
 |:---------|:---|:-------|:------------|:----------|
-|Action|String|Yes|PushObjectCache| The name of this interface.  Value: 
+|Action|String|Yes|PushObjectCache| The name of this interface. Value: 
 
  PushObjectCacheValue:
 
