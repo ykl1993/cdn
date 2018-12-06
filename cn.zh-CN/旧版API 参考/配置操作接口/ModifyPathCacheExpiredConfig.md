@@ -1,0 +1,63 @@
+# ModifyPathCacheExpiredConfig {#reference_rc4_pgg_vdb .reference}
+
+您可以使用该接口，修改路径缓存策略。
+
+## 请求参数 {#section_rqy_fhg_vdb .section}
+
+|参数|类型|是否必选|描述|
+|:-|:-|:---|:-|
+|Action|String|是|操作接口名，系统规定参数。取值：ModifyPathCacheExpiredConfig|
+|DomainName|String|是|您的加速域名。|
+|ConfigID|String|是|要修改的配置ID。|
+|CacheContent|String|是|填写路径。|
+|TTL|String|是|缓存时间设置，单位为秒。|
+|Weight|String|否|配置的权重值，取值范围为1 ~ 99。数值越大，优先级越高。默认值为1。|
+
+## 返回参数 {#section_sf5_xhg_vdb .section}
+
+|参数|类型|描述|
+|:-|:-|:-|
+|RequestID|String|该条任务请求ID。|
+
+## 示例 {#section_g1p_gcg_vdb .section}
+
+**请求示例**
+
+```
+
+http://cdn.aliyuncs.com/?Action=ModifyPathCacheExpiredConfig
+&CacheContent=%2Fstatic%2Fhtml%2F
+&DomainName=www.macaron.org.cn
+&TTL=600
+&Weight=50
+&ConfigID=905535
+&公共请求参数
+```
+
+**返回示例**
+
+JSON格式
+
+```
+{
+    "RequestId": "04F0F334-1335-436C-A1D7-6C044FE73368"
+}
+```
+
+XML格式
+
+```
+
+AED00EC1-32A8-4D48-BEB9-BD782AF3C6BD
+
+```
+
+## 特殊错误码 {#section_c2n_b3g_vdb .section}
+
+以下为本接口特有的错误码。更多错误码，请访问[API错误中心](https://error-center.alibabacloud.com/status/product/Cdn)。
+
+|错误代码|错误信息|HTTP状态码|说明|
+|:---|:---|:------|:-|
+|InvalidCacheContent.Malformed|The specified value of parameter CacheContent is malformed.|400|指定的 CacheContent值不合法（格式错误）。|
+|InvalidWeight.ValueNotSupported|The specified value of parameter Weight is not supported.|400|指定的 Weight不合法（超出可选范围）。|
+
