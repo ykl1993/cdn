@@ -12,7 +12,7 @@ Obtain metric data of 5 minutes of CDN domain names path level, including traffi
 ## Request parameters {#section_ujn_t3n_vdb .section}
 
 |Parameters|Type| Required| Example values|Description|
-|Action|String|Yes|DescribeDomainPathData|The name of this interface.  Value: DescribeDomainPathData|
+|Action|String|Yes|DescribeDomainPathData|The name of this interface. Value: DescribeDomainPathData|
 |DomainName|String|Yes.|test.test.com|CDN domain name.|
 |EndTime|String|No|2016-10-20T04:00:00Z| End time.
 
