@@ -17,7 +17,7 @@ Obtain the network bandwidth metric data of a CDN domain. The unit is bit/second
  |
 |DomainType|String|No|dynamic| Query type.
 
- -   If the parameter is set to “dynamic”, the system queries the real-time bandwidth of dynamic and static resources during full-site acceleration.
+ -   If the parameter is set to "dynamic", the system queries the real-time bandwidth of dynamic and static resources during full-site acceleration.
 -   If the parameter is left blank, the system queries the real-time bandwidth of static resources.
 
  |
