@@ -2,8 +2,8 @@
 
 Set CDN domain access authentication configuration.
 
--   [URL authentication.](../../../../reseller.en-US//URL authentication.md#)
--   [Sample authentication code for python version.](../../../../reseller.en-US/Developer Guide/Utilities/Sample authentication code.md#)
+-   [URL authentication](../../../../reseller.en-US/User Guide/Domain Names/Access Control Settings/Authentication configuration.md#).
+-   Sample authentication code for python version.
 
 ## Request parameters {#section_gvp_cgl_vdb .section}
 
