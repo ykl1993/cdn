@@ -5,8 +5,8 @@ Modify file expiration settings.
 ## Request parameters {#section_mzs_fgg_vdb .section}
 
 |Parameters|Type| Required|Example values|Description|
-|Action|String|Yes|Modifyfilecacheexpiredconfig|The name of this interface.  Value: ModifyFileCacheExpiredConfig|
-|CacheContent|String|Yes.|jpg,png|Filename suffixes, which are separated by commas \(,\).|
+|Action|String|Yes|Modifyfilecacheexpiredconfig|The name of this interface. Value: ModifyFileCacheExpiredConfig|
+|CacheContent|String|Yes.|jpg, png|Filename suffixes, which are separated by commas \(,\).|
 |ConfigID|String|Yes.|905535|Configuration ID to be modified.|
 |DomainName|String|Yes.|www.yourdomain.com|Your CDN domain name.|
 |TTL.|String|Yes.|600| Cache time configuration. 
@@ -14,13 +14,13 @@ Modify file expiration settings.
  Unit: seconds
 
  |
-|Weight|String|No|22| Weight of the configuration.  Value range: 1-99.  A greater value indicates a higher priority. 
+|Weight|String|No|22| Weight of the configuration.  Value range: 1-99. A greater value indicates a higher priority. 
 
  Default value: 1
 
  |
 
-## Response parameters {#section_efp_jgg_vdb .section}
+## Return parameters {#section_efp_jgg_vdb .section}
 
 |Parameters|Type|Example values|Description|
 |RequestId|String|16A96B9A-F203-4EC5-8E43-CB92E68F4CD8|The ID of the request.|
