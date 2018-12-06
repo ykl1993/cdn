@@ -7,7 +7,7 @@ Set the force redirect method, and currently support HTTP and HTTPS force redire
 ## Request parameters {#section_b1s_vcg_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|SetForceRedirectConfig|The name of this interface.  Value: SetForceRedirectConfig|
+|Action|String|Yes|SetForceRedirectConfig|The name of this interface. Value: SetForceRedirectConfig|
 |DomainName|String|Yes.|www.macaron.org.cn|Your CDN domain name.|
 |RedirectType|String|Yes.|Off| Force redirect type.  Value:
 
