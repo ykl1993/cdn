@@ -5,7 +5,7 @@ Set custom 404 page redirect for a CDN domain.
 ## Request parameters {#section_myj_mbg_vdb .section}
 
 |Parameters|Type|Required|Example values|Description|
-|Action|String|Yes|SetErrorPageConfig|The name of this interface.  Value: SetErrorPageConfig|
+|Action|String|Yes|SetErrorPageConfig|The name of this interface. Value: SetErrorPageConfig|
 |DomainName|String|Yes.|www.yourdomain.com|Your CDN domain name.|
 |Pagetype|String|Yes.|default| Error page type.  Value:
 
