@@ -2,10 +2,6 @@
 
 ## Restrictions on the use of CDN {#section_zhn_q2x_wdb .section}
 
-Procedure
-
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5117/15438273483166_en-US.png)
-
 1.  Real-name registration must be performed for accounts on the Alibaba Cloud official website.
 2.  A CDN domain must have an [ICP license](https://beian.aliyun.com/?spm=5176.8142029.388261.3.a0SCC3) and be connected to Alibaba Cloud.
 3.  The origin site content of a CDN domain must be stored on Elastic Compute Service \(ECS\) or Object Storage Service \(OSS\).  If the origin site content is not stored on Alibaba Cloud, access must be reviewed.
@@ -15,7 +11,7 @@ Procedure
 |Quantity|Limit quantity|
 |:-------|:-------------|
 |Quantity|Limit quantity|
-|Domain Name|The maximum number of CDN domains for each Alibaba Cloud account is **20** . |
+|Domain Name|The maximum number of CDN domains for each Alibaba Cloud account is **50** . |
 |IP origin site|The maximum number of IP origin sites for each CDN domain is **10**.|
 |Cache refresh and push operations|**refresh:**2000items/day/account. **Directory refresh:**100100 items/day/account.|
 
