@@ -1,94 +1,114 @@
 # CDN API概述 {#reference_ckk_xml_vdb .reference}
 
+本文档介绍了阿里云CDN的各API名称。您可以分别点击链接查看各API接口的具体参数。
+
 ## 服务操作接口 {#section_tsp_qnl_vdb .section}
 
 |API|描述|
 |:--|:-|
-|[OpenCdnService](https://help.aliyun.com/document_detail/27157.html?spm=a2c4g.11186623.2.4.vqQvrL)|开通CDN服务|
-|[DescribeCdnService](https://help.aliyun.com/document_detail/27158.html?spm=a2c4g.11186623.2.5.vqQvrL)|查询CDN服务状态。包括当前计费类型，服务开通时间，下次生效的计费类型，当前业务状态等|
-|[ModifyCdnService](https://help.aliyun.com/document_detail/27159.html?spm=a2c4g.11186623.2.6.vqQvrL)|变更CDN服务的计费类型|
-
-## 域名操作接口 {#section_iv2_tnl_vdb .section}
-
-|API|描述|
-|:--|:-|
-|[DescribeUserDomains](https://help.aliyun.com/document_detail/27162.html?spm=a2c4g.11186623.2.7.vqQvrL)|查询用户名下所有的域名与状态|
-|[DescribeCdnDomainDetail](https://help.aliyun.com/document_detail/27163.html?spm=a2c4g.11186623.2.8.vqQvrL)|获取指定加速域名配置的基本信息|
-|[AddCdnDomain](https://help.aliyun.com/document_detail/27161.html?spm=a2c4g.11186623.2.9.vqQvrL)|添加加速域名，一次只能提交一个加速域名|
-|[StartCdnDomain](https://help.aliyun.com/document_detail/27165.html?spm=a2c4g.11186623.2.10.vqQvrL)|启用状态为“停用”的加速域名，将DomainStatus变更为online|
-|[StopCdnDomain](https://help.aliyun.com/document_detail/27166.html?spm=a2c4g.11186623.2.11.vqQvrL)|停用某个加速域名，将DomainStatus变更为offline|
-|[DeleteCdnDomain](https://help.aliyun.com/document_detail/27167.html?spm=a2c4g.11186623.2.12.vqQvrL)|【慎用】删除当前加速域名，每次只能提交一个加速域名|
-|[DescribeDomainsBySource](https://help.aliyun.com/document_detail/50453.html?spm=a2c4g.11186623.2.13.vqQvrL)|根据源站查询对应的域名信息|
-
-## 域名配置接口 {#section_lqd_5nl_vdb .section}
-
-|API|描述|
-|:--|:-|
-|[DescribeDomainConfigs](https://help.aliyun.com/document_detail/27169.html?spm=a2c4g.11186623.2.14.vqQvrL)|查询域名配置|
-|[SetOptimizeConfig](https://help.aliyun.com/document_detail/27170.html?spm=a2c4g.11186623.2.15.vqQvrL)|设置页面优化|
-|[SetPageCompressConfig](https://help.aliyun.com/document_detail/27171.html?spm=a2c4g.11186623.2.16.vqQvrL)|设置智能压缩|
-|[SetIgnoreQueryStringConfig](https://help.aliyun.com/document_detail/27172.html?spm=a2c4g.11186623.2.17.vqQvrL)|设置过滤参数|
-|[SetRangeConfig](https://help.aliyun.com/document_detail/27173.html?spm=a2c4g.11186623.2.18.vqQvrL)|设置Range回源|
-|[SetVideoSeekConfig](https://help.aliyun.com/document_detail/27174.html?spm=a2c4g.11186623.2.19.vqQvrL)|设置拖拽播放|
-|[SetSourceHostConfig](https://help.aliyun.com/document_detail/27175.html?spm=a2c4g.11186623.2.20.vqQvrL)|设置回源host|
-|[SetErrorPageConfig](https://help.aliyun.com/document_detail/27176.html?spm=a2c4g.11186623.2.21.vqQvrL)|设置404页面|
-|[SetForceRedirectConfig](https://help.aliyun.com/document_detail/27177.html?spm=a2c4g.11186623.2.22.vqQvrL)|设置强制跳转|
-|[SetRefererConfig](https://help.aliyun.com/document_detail/27178.html?spm=a2c4g.11186623.2.23.vqQvrL)|设置防盗链|
-|[SetFileCacheExpiredConfig](https://help.aliyun.com/document_detail/27179.html?spm=a2c4g.11186623.2.24.vqQvrL)|设置文件类型缓存策略|
-|[SetPathCacheExpiredConfig](https://help.aliyun.com/document_detail/27180.html?spm=a2c4g.11186623.2.25.vqQvrL)|设置路径缓存策略|
-|[ModifyFileCacheExpiredConfig](https://help.aliyun.com/document_detail/27181.html?spm=a2c4g.11186623.2.26.vqQvrL)|修改文件类型缓存策略|
-|[ModifyPathCacheExpiredConfig](https://help.aliyun.com/document_detail/27182.html?spm=a2c4g.11186623.2.27.vqQvrL)|修改路径缓存策略|
-|[DeleteCacheExpiredConfig](https://help.aliyun.com/document_detail/27183.html?spm=a2c4g.11186623.2.28.vqQvrL)|删除缓存配置|
-|[SetReqAuthConfig](https://help.aliyun.com/document_detail/27184.html?spm=a2c4g.11186623.2.29.vqQvrL)|设置鉴权|
-|[SetHttpHeaderConfig](https://help.aliyun.com/document_detail/27185.html?spm=a2c4g.11186623.2.30.vqQvrL)|设置HTTP头信息|
-|[ModifyHttpHeaderConfig](https://help.aliyun.com/document_detail/27186.html?spm=a2c4g.11186623.2.31.vqQvrL)|修改HTTP头信息|
-|[DeleteHttpHeaderConfig](https://help.aliyun.com/document_detail/27187.html?spm=a2c4g.11186623.2.32.vqQvrL)|删除HTTP头信息|
-|[SetDomainServerCertificate](https://help.aliyun.com/document_detail/45014.html?spm=a2c4g.11186623.2.33.vqQvrL)|配置证书|
+|[OpenCdnService](intl.zh-CN/API 参考/服务操作接口/OpenCdnService.md)|开通CDN服务|
+|[DescribeCdnService](intl.zh-CN/API 参考/服务操作接口/DescribeCdnService.md)|查询CDN服务状态。包括当前计费类型，服务开通时间，下次生效的计费类型，当前业务状态等|
+|[ModifyCdnService](intl.zh-CN/API 参考/服务操作接口/ModifyCdnService.md)|变更CDN服务的计费类型|
 
 ## 刷新预热接口 {#section_tzc_vnl_vdb .section}
 
 |API|描述|
 |:--|:-|
-|[RefreshObjectCaches](https://help.aliyun.com/document_detail/27200.html?spm=a2c4g.11186623.2.34.vqQvrL)|刷新节点上的文件内容，支持批量|
-|[PushObjectCache](https://help.aliyun.com/document_detail/27201.html?spm=a2c4g.11186623.2.35.vqQvrL)|将源站的内容主动预热到L2 Cache节点上，用户首次访问可直接命中缓存，缓解源站压力，支持批量|
-|[DescribeRefreshTasks](https://help.aliyun.com/document_detail/27202.html?spm=a2c4g.11186623.2.36.vqQvrL)|查询预热刷新状态，是否在全网生效|
-|[DescribeRefreshQuota](https://help.aliyun.com/document_detail/27203.html?spm=a2c4g.11186623.2.37.vqQvrL)|查询预热刷新操作余量|
-
-## 资源监控接口 {#section_mn2_wnl_vdb .section}
-
-|API|描述|
-|:--|:-|
-|[DescribeDomainBpsData](https://help.aliyun.com/document_detail/27205.html?spm=a2c4g.11186623.2.38.vqQvrL)|网络带宽信息|
-|[DescribeDomainFlowData](https://help.aliyun.com/document_detail/27206.html?spm=a2c4g.11186623.2.39.vqQvrL)|网络流量信息|
-|[DescribeDomainSrcBpsData](https://help.aliyun.com/document_detail/27207.html?spm=a2c4g.11186623.2.40.vqQvrL)|回源带宽信息|
-|[DescribeDomainSrcFlowData](https://help.aliyun.com/document_detail/27208.html?spm=a2c4g.11186623.2.41.vqQvrL)|回源流量信息|
-|[DescribeDomainHitRateData](https://help.aliyun.com/document_detail/27209.html?spm=a2c4g.11186623.2.42.vqQvrL)|缓存字节命中率信息|
-|[DescribeDomainReqHitRateData](https://help.aliyun.com/document_detail/27210.html?spm=a2c4g.11186623.2.43.vqQvrL)|缓存请求命中率信息|
-|[DescribeDomainQpsData](https://help.aliyun.com/document_detail/27211.html?spm=a2c4g.11186623.2.44.vqQvrL)|每秒访问次数信息|
-|[DescribeDomainHttpCodeData](https://help.aliyun.com/document_detail/27212.html?spm=a2c4g.11186623.2.45.vqQvrL)|响应码占比信息|
-|[DescribeDomainsUsageByDay](https://help.aliyun.com/document_detail/27213.html?spm=a2c4g.11186623.2.46.vqQvrL)|天粒度资源使用信息|
-|[DescribeTopDomainsByFlow](https://help.aliyun.com/document_detail/27214.html?spm=a2c4g.11186623.2.47.vqQvrL)|天粒度按流量域名排名|
-|[DescribeDomainPvData](https://help.aliyun.com/document_detail/27215.html?spm=a2c4g.11186623.2.48.vqQvrL)|pv趋势数据|
-|[DescribeDomainUvData](https://help.aliyun.com/document_detail/27216.html?spm=a2c4g.11186623.2.49.vqQvrL)|uv趋势数据|
-|[DescribeDomainRegionData](https://help.aliyun.com/document_detail/27217.html?spm=a2c4g.11186623.2.50.vqQvrL)|用户区域占比|
-|[DescribeDomainISPData](https://help.aliyun.com/document_detail/27218.html?spm=a2c4g.11186623.2.51.vqQvrL)|运营商占比|
-|[DescribeDomainTopUrlVisit](https://help.aliyun.com/document_detail/27219.html?spm=a2c4g.11186623.2.52.vqQvrL)|热门url访问统计|
-|[DescribeDomainTopReferVisit](https://help.aliyun.com/document_detail/27220.html?spm=a2c4g.11186623.2.53.vqQvrL)|热门refer统计|
-|[DescribeDomainFileSizeProportionData](https://help.aliyun.com/document_detail/27221.html?spm=a2c4g.11186623.2.54.vqQvrL)|文件访问占比|
-|[DescribeDomainBpsDataByTimeStamp](https://help.aliyun.com/document_detail/43473.html?spm=a2c4g.11186623.2.55.vqQvrL)|获取某时刻带宽数据，支持地区或者运营商筛选条件|
-|[DescribeDomainBpsDataByTimeStamp](https://help.aliyun.com/document_detail/43474.html?spm=a2c4g.11186623.2.56.vqQvrL)|获取区域和运营商列表|
-|[DescribeRangeDataByLocateAndIspService](https://help.aliyun.com/document_detail/44723.html?spm=a2c4g.11186623.2.57.vqQvrL)|获取区域和运营商资源信息|
-|[DescribeL2VipsByDomain](https://help.aliyun.com/document_detail/48769.html?spm=a2c4g.11186623.2.58.vqQvrL)|查询L2节点的vip列表|
+|[RefreshObjectCaches](intl.zh-CN/API 参考/刷新预热接口/RefreshObjectCaches.md)|刷新节点上的文件内容，支持批量|
+|[PushObjectCache](intl.zh-CN/API 参考/刷新预热接口/PushObjectCache.md)|将源站的内容主动预热到L2 Cache节点上，用户首次访问可直接命中缓存，缓解源站压力，支持批量|
+|[DescribeRefreshTasks](intl.zh-CN/API 参考/刷新预热接口/DescribeRefreshTasks.md)|查询预热刷新状态，是否在全网生效|
+|[DescribeRefreshQuota](intl.zh-CN/API 参考/刷新预热接口/DescribeRefreshQuota.md)|查询预热刷新操作余量|
 
 ## 日志信息接口 {#section_c3h_xnl_vdb .section}
 
 |API|描述|
 |:--|:-|
-|[DescribeCdnDomainLogs](https://help.aliyun.com/document_detail/27224.html?spm=a2c4g.11186623.2.59.vqQvrL)|获取指定域名的原始访问日志的下载地址。|
+|[DescribeCdnDomainLogs](intl.zh-CN/API 参考/日志信息接口/DescribeCdnDomainLogs.md)|获取指定域名的原始访问日志的下载地址|
+|[DescribeCustomLogConfig](intl.zh-CN/API 参考/日志信息接口/DescribeCustomLogConfig.md)|根据configId查询自定义日志配置详细信息|
+|[DescribeDomainCustomLogConfig](intl.zh-CN/API 参考/日志信息接口/DescribeDomainCustomLogConfig.md)|获取域名自定义日志格式配置信息|
+|[DescribeUserCustomLogConfig](intl.zh-CN/API 参考/日志信息接口/DescribeUserCustomLogConfig.md)|获取用户所有自定义日志配置信息|
+|[ListDomainsByLogConfigId](intl.zh-CN/API 参考/日志信息接口/ListDomainsByLogConfigId.md)|查询应用某自定义日志格式的所有域名列表|
+|[ModifyDomainCustomLogConfig](intl.zh-CN/API 参考/日志信息接口/ModifyDomainCustomLogConfig.md)|修改域名所属日志自定义日志配置信息|
+|[ModifyUserCustomLogConfig](intl.zh-CN/API 参考/日志信息接口/ModifyUserCustomLogConfig.md)|修改用户下自定义日志配置信息|
+
+## 配置操作接口 {#section_lqd_5nl_vdb .section}
+
+|API|描述|
+|:--|:-|
+|[DescribeDomainConfigs](intl.zh-CN/API 参考/配置操作接口/DescribeDomainConfigs.md)|查询域名配置|
+|[SetOptimizeConfig](intl.zh-CN/API 参考/配置操作接口/SetOptimizeConfig.md)|设置页面优化|
+|[SetPageCompressConfig](intl.zh-CN/API 参考/配置操作接口/SetPageCompressConfig.md)|设置智能压缩|
+|[SetIgnoreQueryStringConfig](intl.zh-CN/API 参考/配置操作接口/SetIgnoreQueryStringConfig.md)|设置过滤参数|
+|[SetRangeConfig](intl.zh-CN/API 参考/配置操作接口/SetRangeConfig.md)|设置Range回源|
+|[SetVideoSeekConfig](intl.zh-CN/API 参考/配置操作接口/SetVideoSeekConfig.md)|设置拖拽播放|
+|[SetSourceHostConfig](intl.zh-CN/API 参考/配置操作接口/SetSourceHostConfig.md)|设置回源host|
+|[SetErrorPageConfig](intl.zh-CN/API 参考/配置操作接口/SetErrorPageConfig.md)|设置404页面|
+|[SetForceRedirectConfig](intl.zh-CN/API 参考/配置操作接口/SetForceRedirectConfig.md)|设置强制跳转|
+|[SetRefererConfig](intl.zh-CN/API 参考/配置操作接口/SetRefererConfig.md)|设置防盗链|
+|[SetFileCacheExpiredConfig](intl.zh-CN/API 参考/配置操作接口/SetFileCacheExpiredConfig.md)|设置文件类型缓存策略|
+|[SetPathCacheExpiredConfig](intl.zh-CN/API 参考/配置操作接口/SetPathCacheExpiredConfig.md)|设置路径缓存策略|
+|[ModifyFileCacheExpiredConfig](intl.zh-CN/API 参考/配置操作接口/ModifyFileCacheExpiredConfig.md)|修改文件类型缓存策略|
+|[ModifyPathCacheExpiredConfig](intl.zh-CN/API 参考/配置操作接口/ModifyPathCacheExpiredConfig.md)|修改路径缓存策略|
+|[DeleteCacheExpiredConfig](intl.zh-CN/API 参考/配置操作接口/DeleteCacheExpiredConfig.md)|删除缓存配置|
+|[SetReqAuthConfig](intl.zh-CN/API 参考/配置操作接口/SetReqAuthConfig.md)|设置鉴权|
+|[SetHttpHeaderConfig](intl.zh-CN/API 参考/配置操作接口/SetHttpHeaderConfig.md)|设置HTTP头信息|
+|[ModifyHttpHeaderConfig](intl.zh-CN/API 参考/配置操作接口/ModifyHttpHeaderConfig.md)|修改HTTP头信息|
+|[DeleteHttpHeaderConfig](intl.zh-CN/API 参考/配置操作接口/DeleteHttpHeaderConfig.md)|删除HTTP头信息|
+|[SetDomainServerCertificate](intl.zh-CN/API 参考/配置操作接口/SetDomainServerCertificate.md)|配置证书|
+|[SetIpBlackListConfig](intl.zh-CN/API 参考/配置操作接口/SetIpBlackListConfig.md)|设置加速域名的IP黑名单|
+
+## 域名操作接口 {#section_iv2_tnl_vdb .section}
+
+|API|描述|
+|:--|:-|
+|[AddCdnDomain](intl.zh-CN/API 参考/域名操作接口/AddCdnDomain.md)|添加加速域名，一次只能提交一个加速域名|
+|[DescribeUserDomains](intl.zh-CN/API 参考/域名操作接口/DescribeUserDomains.md)|查询用户名下所有的域名与状态|
+|[DescribeCdnDomainDetail](intl.zh-CN/API 参考/域名操作接口/DescribeCdnDomainDetail.md)|获取指定加速域名配置的基本信息|
+|[ModifyCdnDomain](intl.zh-CN/API 参考/域名操作接口/ModifyCdnDomain.md)|修改加速域名，目前支持修改源站|
+|[StartCdnDomain](intl.zh-CN/API 参考/域名操作接口/StartCdnDomain.md)|启用状态为“停用”的加速域名，将DomainStatus变更为online|
+|[StopCdnDomain](intl.zh-CN/API 参考/域名操作接口/StopCdnDomain.md)|停用某个加速域名，将DomainStatus变更为offline|
+|[DeleteCdnDomain](intl.zh-CN/API 参考/域名操作接口/DeleteCdnDomain.md)|【慎用】删除当前加速域名，每次只能提交一个加速域名|
+|[DescribeDomainsBySource](intl.zh-CN/API 参考/域名操作接口/DescribeDomainsBySource.md)|根据源站查询对应的域名信息|
 
 ## 辅助工具接口 {#section_ttd_ynl_vdb .section}
 
 |API|描述|
 |:--|:-|
-|[DescribeIpInfo](https://help.aliyun.com/document_detail/27226.html?spm=a2c4g.11186623.2.60.vqQvrL)|验证指定的IP是否为阿里云CDN节点的IP地址。|
+|[DescribeIpInfo](intl.zh-CN/API 参考/辅助工具接口/DescribeIpInfo.md)|验证指定的IP是否为阿里云CDN节点的IP地址|
+
+## 资源监控接口 {#section_mn2_wnl_vdb .section}
+
+|API|Description|
+|:--|:----------|
+|[DescribeDomainFlowData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainFlowData.md)|获取加速域名的网络流量监控数据，单位：byte|
+|[DescribeDomainSrcBpsData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainSrcBpsData.md)|获取加速域名的回源带宽监控数据，单位：bit/second|
+|[DescribeDomainSrcFlowData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainSrcFlowData.md)|获取加速域名的回源流量监控数据，单位：bit|
+|[DescribeDomainHitRateData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainHitRateData.md)|获取加速域名的字节命中率（命中字节百分比）|
+|[DescribeDomainReqHitRateData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainReqHitRateData.md)|获取加速域名的请求命中率（命中请求百分比）|
+|[DescribeDomainQpsData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainQpsData.md)|获取加速域名的每秒访问次数QPS|
+|[DescribeDomainHttpCodeData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainHttpCodeData.md)|获取加速域名最小5分钟粒度的HTTP返回码占比数据|
+|[DescribeDomainsUsageByDay](intl.zh-CN/API 参考/资源监控接口/DescribeDomainsUsageByDay.md)|获取加速域名天粒度监控统计数据|
+|[DescribeTopDomainsByFlow](intl.zh-CN/API 参考/资源监控接口/DescribeTopDomainsByFlow.md)|获取用户按流量排名的域名|
+|[DescribeDomainPvData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainPvData.md)|获取加速域名最小1小时粒度的PV页面访问统计|
+|[DescribeDomainUvData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainUvData.md)|获取加速域名最小1小时粒度的UV页面独立访问统计|
+|[DescribeDomainRegionData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainRegionData.md)|获取加速域名天粒度的用户区域分布数据统计|
+|[DescribeDomainISPData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainISPData.md)|获取加速域名天粒度的用户运营商分布数据统计|
+|[DescribeDomainTopUrlVisit](intl.zh-CN/API 参考/资源监控接口/DescribeDomainTopUrlVisit.md)|获取加速域名某天内的热门URL列表|
+|[DescribeDomainTopReferVisit](intl.zh-CN/API 参考/资源监控接口/DescribeDomainTopReferVisit.md)|获取加速域名某天的热门页面引用次数排名|
+|[DescribeDomainFileSizeProportionData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainFileSizeProportionData.md)|获取加速域名最小1小时粒度的文件大小占比统计|
+|[DescribeCdnRegionAndIsp](intl.zh-CN/API 参考/资源监控接口/DescribeCdnRegionAndIsp.md)|获取区域和运营商列表|
+|[DescribeDomainBpsDataByTimeStamp](intl.zh-CN/API 参考/资源监控接口/DescribeDomainBpsDataByTimeStamp.md)|获取加速域名的在某个时刻不同Locate和Isp上的带宽数据，单位 bit/second|
+|[DescribeDomainMax95BpsData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainMax95BpsData.md)|获取加速域名95带宽峰值监控数据，单位：bit/second|
+|[DescribeDomainPathData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainPathData.md)|获取加速域名路径级别的5分钟维度的监控数据，包括流量和访问次数|
+|[DescribeL2VipsByDomain](intl.zh-CN/API 参考/资源监控接口/DescribeL2VipsByDomain.md)|按域名查询L2节点vip列表。配置白名单后才可以生效|
+|[DescribeDomainRealTimeBpsData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainRealTimeBpsData.md)|获取域名1分钟粒度带宽数据|
+|[DescribeDomainRealTimeByteHitRateData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainRealTimeByteHitRateData.md)|获取域名1分钟粒度字节命中率数据|
+|[DescribeDomainRealTimeQpsData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainRealTimeQpsData.md)|获取域名1分钟粒度每秒访问次数数据|
+|[DescribeDomainRealTimeReqHitRateData](intl.zh-CN/API 参考/资源监控接口/DescribeDomainRealTimeReqHitRateData.md)|获取域名1分钟粒度请求命中率数据|
+
+## 全站加速接口 {#section_szw_dlx_yfb .section}
+
+|API|描述|
+|:--|:-|
+|[SetDynamicConfig](intl.zh-CN/API 参考/全站加速接口/SetDynamicConfig.md)|全站加速，缓存规则的配置|
 

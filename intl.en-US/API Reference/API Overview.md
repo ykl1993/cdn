@@ -78,7 +78,6 @@
 
 |API|Description|
 |:--|:----------|
-|[DescribeDomainBpsData](https://www.alibabacloud.com/help/doc-detail/27205.htm)|Obtain the network bandwidth metric data of a CDN domain.|
 |[DescribeDomainFlowData](https://www.alibabacloud.com/help/doc-detail/27206.htm)|Obtain the network traffic metric data of a CDN domain.|
 |[DescribeDomainSrcBpsData](https://www.alibabacloud.com/help/doc-detail/27207.htm)|Obtain the back-to-source bandwidth metric data of CDN domains.|
 |[DescribeDomainSrcFlowData](https://www.alibabacloud.com/help/doc-detail/27208.htm)|Obtain the back-to-source traffic metric data on a CDN domain in bits.|
@@ -104,7 +103,6 @@
 |[DescribeDomainRealTimeByteHitRateData](https://www.alibabacloud.com/help/doc-detail/65027.htm)|Obtain byte hit rate data of domain names with 1-minute granularity.|
 |[DescribeDomainRealTimeQpsData](https://www.alibabacloud.com/help/doc-detail/65028.htm)|Obtain Queries per second \(QPS\) of the domain name for every 1 minute.|
 |[DescribeDomainRealTimeReqHitRateData](https://www.alibabacloud.com/help/doc-detail/65029.htm)|Obtain the request hit rate of the domain name with 1-minute granularity.|
-|[DescribeDomainSlowRatio](https://www.alibabacloud.com/help/doc-detail/63078.htm)|Obtain slow ration of video CDN domain names with 5-minute granularity.|
 
 ## Dynamic Route for CDN Interface {#section_ggs_h2x_yfb .section}
 
