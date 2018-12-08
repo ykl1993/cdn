@@ -22,7 +22,7 @@ High-performance and stable live broadcast technical support is provided for vid
 
     Operation on the console: Select the CDN domain for live broadcast in**Domain Name Management** to go to the configuration page:
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5123/15389982983633_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5123/15442578093633_en-US.png)
 
     **Note:** 
 
@@ -43,13 +43,13 @@ High-performance and stable live broadcast technical support is provided for vid
 
     The following figure shows the location of a stream push address on the console.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5123/15389982983634_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5123/15442578093634_en-US.png)
 
 4.  Domain name configuration
 
     After the domains are added, use the appropriate feature to configure the CDN domains based on your business needs. All domain configurations are optional. The following configurations are recommended for the acceleration of “live streaming media”.
 
-    -   [Authentication settings](reseller.en-US//URL authentication.md#): The URL authentication feature is implemented by collaboration between the Alibaba Cloud CDN nodes and client resource sites to provide a more secure and reliable way to protect origin server resources from theft.
+    -   [Authentication settings](reseller.en-US/User Guide/Domain Names/Access Control Settings/Authentication configuration.md#): The URL authentication feature is implemented by collaboration between the Alibaba Cloud CDN nodes and client resource sites to provide a more secure and reliable way to protect origin server resources from theft.
 
         **Note:** 
 
