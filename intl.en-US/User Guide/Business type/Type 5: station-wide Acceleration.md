@@ -24,7 +24,7 @@ For each of the above scenarios, the Ali cloud CDN station-wide acceleration is 
 
 1.  Add a CDN domain name.
 
-    Please refer to [Quick Start](../../../../intl.en-US/Quick Start/Quick start.md#), be aware to select a business type of: All Station acceleration.
+    Please refer to [Quick Start](../../../../reseller.en-US/Quick Start/Quick start.md#), be aware to select a business type of: All Station acceleration.
 
 2.  Domain Name configuration.
 
@@ -32,21 +32,21 @@ For each of the above scenarios, the Ali cloud CDN station-wide acceleration is 
 
     -   Dynamic static acceleration rule settings:
 
-        -   [Static file type](intl.en-US/User Guide/Dynamic Route for CDN Settings/Static file type.md#)
-        -   [Static URI settings](intl.en-US/User Guide/Dynamic Route for CDN Settings/Set Static File URI.md#)
-        -   [Static path settings](intl.en-US/User Guide/Dynamic Route for CDN Settings/Static path settings.md#)
-        -   [Special header settings](intl.en-US/User Guide/Dynamic Route for CDN Settings/Special header settings.md#)
-        -   [Dynamic Protocol follows back Source](intl.en-US/User Guide/Dynamic Route for CDN Settings/Dynamic Protocol follows back Source.md#)
+        -   [Static file type](reseller.en-US/User Guide/Value-added service/Dynamic Route for CDN/Static file type.md#)
+        -   [Static URI settings](reseller.en-US/User Guide/Value-added service/Dynamic Route for CDN/Set Static File URI.md#)
+        -   [Static path settings](reseller.en-US/User Guide/Value-added service/Dynamic Route for CDN/Static path settings.md#)
+        -   [Special header settings](reseller.en-US/User Guide/Value-added service/Dynamic Route for CDN/Special header settings.md#)
+        -   [Dynamic Protocol follows back Source](reseller.en-US/User Guide/Value-added service/Dynamic Route for CDN/Dynamic Protocol follows back Source.md#)
     -   Recommended Configuration:
 
         -   HTTPS Security acceleration, just upload the accelerated Domain Name Certificate/private key after you turn on secure acceleration mode, and supports viewing, disabling, enabling, editing of certificates to understand Certificate Format description.
         -   Access control related settings to ensure the distribution of content security, prevent chain theft or malicious requests from causing unnecessary loss of traffic.
-            -   [Refer security chain](intl.en-US/User Guide/Access Control Settings/Anti-leech.md#)
-            -   [IP blacklist](intl.en-US/User Guide/Access Control Settings/IP blacklist.md#)
+            -   [Refer security chain](reseller.en-US/User Guide/Domain Names/Access Control Settings/Anti-leech.md#)
+            -   [IP blacklist](reseller.en-US/User Guide/Domain Names/Access Control Settings/IP Blacklist and Whitelist.md#)
         -   Performance Optimization related settings, smart compression distribution, ignore URL parameters to increase cache hit ratio.
-            -   [Page Optimization](intl.en-US/User Guide/Performance Optimization settings/Page optimization.md#)
-            -   [Intelligent Compression](intl.en-US/User Guide/Performance Optimization settings/Smart compression.md#)
-            -   [Filter parameters](intl.en-US/User Guide/Performance Optimization settings/Filter parameter.md#)
+            -   [Page Optimization](reseller.en-US/User Guide/Domain Names/Performance Optimization settings/Page Optimization.md#)
+            -   [Intelligent Compression](reseller.en-US/User Guide/Domain Names/Performance Optimization settings/Smart Compression.md#)
+            -   [Filter parameters](reseller.en-US/User Guide/Domain Names/Performance Optimization settings/Filter Parameter.md#)
         -   For more features, browse the CDN features list.
 
 ## Billing rules {#section_lvt_b3k_xdb .section}
