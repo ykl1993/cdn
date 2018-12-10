@@ -20,7 +20,7 @@ Certificates issued by a root CA
 
 In Linux environments, certificates are  in the `PEM` format:
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5135/15414064863703_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5135/15444098143703_en-US.png)
 
 Certificate rules:
 
@@ -48,7 +48,7 @@ Certificate link rules:
 
 ## RSA private key format requirements {#section_yvf_lql_xdb .section}
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5135/15414064863704_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5135/15444098143704_en-US.png)
 
 RSA private key rules:
 
@@ -142,6 +142,4 @@ The free certificate here is Alicloud CDN Digicert DV version SSL Free certifica
 -   Ensure that the certificate and private key you upload match.
 -   Certificate updates take effect in 10 minutes.
 -   Private keys with passwords are not supported.
-
-For more certificate-related FAQs, see [More certificate questions](https://help.aliyun.com/knowledge_list/42212.html?spm=a2c4g.11186623.6.557.22pJVS).
 
