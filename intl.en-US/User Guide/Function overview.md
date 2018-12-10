@@ -43,7 +43,7 @@
 |Function|Description|Default |
 |:-------|:----------|:-------|
 |[Back-to-source of range](reseller.en-US/User Guide/Domain Names/Video Service Configuration/Back-to-origin of range.md#)|Allows a user to notify an origin site server to return partial content within a specified range. This function helps with accelerated delivery of large files.|Disabled|
-|[Drag/drop playback](reseller.en-US/User Guide/Domain Names/Video Service Configuration/Drag/Drop Playback.md#)|Enables random drag or drop playback in a video or audio on-demand scenario.|Disabled|
+|[Drag/drop playback](reseller.en-US/User Guide/Domain Names/Video Service Configuration/Drag__Drop Playback.md#)|Enables random drag or drop playback in a video or audio on-demand scenario.|Disabled|
 |[Notify\_URL](reseller.en-US/User Guide/Domain Names/Video Service Configuration/Notify_URl Setting.md#)| 【Applicable to Live】Real-time information callback of stream status, promptly notifies users about the operation results of streaming or stream disconnection.|Disabled|
 
 ## Other settings {#section_ihf_hmx_wdb .section}
