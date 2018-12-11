@@ -2,7 +2,7 @@
 
 This document describes how to quickly get started with the CDN service. The procedure is as follows:
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/15440039616046_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/15444956056046_en-US.png)
 
 ## Step 1. Enable the CDN service {#section_fyr_1tv_tdb .section}
 
@@ -36,8 +36,8 @@ This document describes how to quickly get started with the CDN service. The pro
     |[Images and small files](../../../../reseller.en-US/User Guide/Business type/Type 1: Images And Small Files Acceleration.md#)|If the content to be accelerated is mostly images and web files \(For example, small files, images and web-styled file\), we recommend that you select the "images and small files" business type.|
     |[Large file downloads](../../../../reseller.en-US/User Guide/Business type/Type 2: Large File Downloads Acceleration.md#)|If the content to be accelerated is large files \(static files larger than 20 MB\), for example, games installation package, application update, mobile ROM update, application program package download and other scenarios, acceleration of **large file downloads** is recommended.|
     |[On-demand video/audio](../../../../reseller.en-US/User Guide/Business type/Type 3: On-Demand Video__Audio Acceleration.md#)|For large video files, acceleration of live streaming media is recommended to accelerate video on demand and live streaming services.|
-    |[Live streaming media](../../../../reseller.en-US/User Guide/Business type/Type 4: Live Streaming Media Acceleration.md#)|The acceleration of live streaming media is provided. Currently, RTMP-based and HLS-based live streaming acceleration is supported. For live streaming business, user-defined origin servers are not supported, and a central live streaming server `video-center.alivecdn.com`.|
-    |[Dynamic Route for CDN](../../../../reseller.en-US/User Guide/Business type/Type 5: station-wide Acceleration.md#)|Integrate dynamic acceleration and static acceleration, applicable to site which consists of dynamic and static contents, and contain more dynamic resources requests. With simple configuration, it can intellegently differentiate acceleration dynamic and static content. Static content will be cached, and dynamic content will be quickly retrieved from the origin site through Alibaba Cloud's optimal link algorithm and protocol layer optimization.|
+    |[Live streaming media](../../../../reseller.en-US/User Guide/Business type/Type 4: Live Streaming Media Acceleration.md#)|Currently, live streaming has been an independent product. Refer to [ApsaraVideo Live](https://www.alibabacloud.com/product/apsaravideo-for-live) for more information.|
+    |[Dynamic Route for CDN](../../../../reseller.en-US/User Guide/Business type/Type 5: Station-wide Acceleration.md#)|Currently, Dynamic Route for CDN has been an independent product. Refer to the [Dynamic Route for CDN](https://www.alibabacloud.com/product/dcdn) for more information.|
 
     Types of origin sites:
 
@@ -73,7 +73,7 @@ This document describes how to quickly get started with the CDN service. The pro
 ## Step 3. Configure CNAME {#section_efx_nzv_tdb .section}
 
 1.  Copy the CNAME address assigned by the system from the domain name list in **Domain Names** in the CDN console:
-2.  Go to the DNS console of your DNS service provider \(for example, www.net.cn, Alibaba Cloud DNS, DNSPod, xinnet. Tencent DNS, route53 and godaddy\) to add the cname record. Examples of the following service providers are provided: [EN-US\_TP\_5113.md\#](reseller.en-US//Configure CNAME by Alibaba Cloud DNS.md#).
+2.  Go to the DNS console of your DNS service provider \(for example, www.net.cn, Alibaba Cloud DNS, DNSPod, xinnet. Tencent DNS, route53 and godaddy\) to add the cname record. Examples of the following service providers are provided: [Configure Alibaba Cloud DNS](reseller.en-US//Configure CNAME by Alibaba Cloud DNS.md#).
 
 ## Step 4. Verify if CNAME is enabled for the domain name {#section_g4d_jzc_b2b .section}
 
