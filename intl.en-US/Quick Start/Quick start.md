@@ -2,7 +2,7 @@
 
 This document describes how to quickly get started with the CDN service. The procedure is as follows:
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/15444956056046_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/15445849006046_en-US.png)
 
 ## Step 1. Enable the CDN service {#section_fyr_1tv_tdb .section}
 
@@ -26,7 +26,7 @@ This document describes how to quickly get started with the CDN service. The pro
     -   Wildcard domain acceleration is supported. Chinese domain acceleration is not supported. Note this rule when you enter wildcard domains: `*.test.com`. For more information, see Wildcard Domain Acceleration Rules
     -   A CDN domain cannot added multiple times. If you encounter a **Domain already added** issue, submit a ticket to us for help.
     -   Up to 50 CDN domains can be added under one account.
-    -   The domain content must comply with CDN specifications. For more information, see [CDN Service Use Restrictions](../../../../reseller.en-US/User Guide/Limits.md#).
+    -   The domain content must comply with CDN specifications. For more information, see [CDN Service Use Restrictions](../../../../reseller.en-US/Product Introduction/Limits.md#).
     Business type description:
 
     The Alibaba Cloud CDN scheduling system performs specific scheduling optimization based on the different types of business selected by the user:
