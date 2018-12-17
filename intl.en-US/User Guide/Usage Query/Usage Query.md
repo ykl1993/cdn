@@ -16,5 +16,16 @@ You can query the data by the following dimensions:
 
 1.  Log on to the [CDN Console](https://cdn.console.aliyun.com).
 2.  On CDN Overview page, click **Usage** on the left.
-3.  On the Usage page, configure all conditions, including traffic/bandwidth/requests, time range, and billing regions. Then click**Query**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15905/15434060718923_en-US.png)
+3.  On the Usage page, configure all conditions, including traffic/bandwidth/requests, time range, and billing regions. Then click**Query**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15905/15450357788923_en-US.png)
+
+## Other Checklist {#section_it2_5qq_dgb .section}
+
+-   You can click **Billing Information**to query your billing list by day.
+
+-   You can click [**Billing Export**](reseller.en-US/User Guide/Usage Query/Billing export.md#) to export your billing list.。
+
+-   You can click [**Detailed Data Export**](reseller.en-US/User Guide/Usage Query/Detail Data Export.md#) to export detailed data.
+
+-   You can also click **Usage Bag** to check the **Usage Bag Name**, **Total**, **Remaining**, **Effective Date**, **Expiry Date**, and **Status** of each usage bag.
+
 
