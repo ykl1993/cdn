@@ -25,7 +25,7 @@ You can complete relevant function settings and view data in the left-side navig
 |:--------|:-----------------|
 |[Domain name management](../../../../reseller.en-US/Quick Start/Quick start.md#)|Add a CDN domain name, manage, or delete a CDN domain name, and change the basic and configuration information of the CDN domain name.|
 |[Monitoring](reseller.en-US/User Guide/Statistical Analysis.md#)|Include four parts, Traffic Monitoring, User Access Monitoring, Data Analysis, and Security Protection|
-|[Refresh](reseller.en-US/User Guide/Cache refresh.md#)|URL refresh and directory refresh are available.|
+|[Refresh](reseller.en-US/User Guide/Refresh and Preload.md#)|URL refresh and directory refresh are available.|
 |[Log](reseller.en-US/User Guide/Log Management/Log Downloading.md#)|Log downloads, log storage \(upcoming\), Cloud reports|
 |[Tools](reseller.en-US/User Guide/Diagnostic Tools.md#)|Link diagnostic tools, IP queries|
 
