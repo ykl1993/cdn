@@ -58,6 +58,36 @@
 |--------|-----------|-------|
 |[Peak Bandwidth](https://www.alibabacloud.com/help/doc-detail/54954.htm)|If the average bandwidth exceeds the maximum, the domain name automatically goes offline to protect your domain name security|Disabled|
 
+## Refresh and preload {#section_s3k_fxm_2gb .section}
+
+|Function|Description|Default|
+|:-------|:----------|:------|
+|[URL refresh and preload](reseller.en-US/User Guide/Refresh and Preload.md#)| -   Forces specified files on the CDN Cache node to expire in order to update back-to-source again.
+-   Actively pushes content from the origin site to the L2 Cache node. Upon first access, you can directly hit cache to relieve pressure on the origin site.
+
+ |Enabled|
+
+## **Data monitoring and statistical analysis** {#section_vfc_kwm_2gb .section}
+
+|Function|Description|Default|
+|:-------|:----------|:------|
+|[Data monitoring](reseller.en-US/User Guide/Data Monitoring.md#)|You can select Domain Name, Region, Operator, Time Granularity \(1 minute, 5 minute or 1 hour\) and Time Range\(Today, Yesterday, 7 Days, 30 Days or Custom\) to view the specific condition.|Enabled|
+|[Statistical analysis](reseller.en-US/User Guide/Statistical Analysis.md#)|In Statistical Analysis, you can check data of PV and UV, Area and ISP, Domain Name Rankings, Popular Referer, and Popular URLs.|Enabled|
+
+## **Usage query** {#section_dqq_dxm_2gb .section}
+
+|Function|Description|Default|
+|:-------|:----------|:------|
+|[Usage query](reseller.en-US/User Guide/Usage Query/Usage Query.md#)|You can use this function to obtain the actual usage of traffic, bandwidth, or requests during a certain period.|Enabled|
+|[Billing export](reseller.en-US/User Guide/Usage Query/Billing export.md#)|You can export actual usage data by day or by month, so as to compare it with the report output from the billing center.|Enabled|
+|[Detail data export](reseller.en-US/User Guide/Usage Query/Detail Data Export.md#)|You can export detail data for traffic/bps data or request times, so that you can calculate or review the usage you actually paid for.|Enabled|
+
+## Log management {#section_y3h_gxm_2gb .section}
+
+|Function|Description|Default|
+|:-------|:----------|:------|
+|[Log Downloading](reseller.en-US/User Guide/Log Management/Log Downloading.md#)|You can download the log files within 1 month.|Enabled|
+
 ## Other settings {#section_ihf_hmx_wdb .section}
 
 |Function|Description|Default |
