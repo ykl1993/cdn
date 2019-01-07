@@ -125,16 +125,17 @@ https://cdn.aliyuncs.com?Action=DescribeCdnDomainLogs&DomainName=gc.ggter.com&Lo
                         "LogName":"gc.ggter.com_2015_05_23_2100_2200.gz",
                         "LogPath":"cdnlog.cn-hangzhou.oss.aliyun-inc.com/gc.ggter.com/2015_05_23/gc.ggter.com_2015_05_23_2100_2200.gz? OSSAccessKeyId=3xmgf7JheOfOTUTf&Expires=1432539994&Signature=FpSQCbgNcxCBYIxKVoKC8mGghUQ%3D",
                         "LogSize":258,
-                        "Starttime": "loud: 00: 00Z"
-                    
-                
-            
-            "DomainName":"gc.ggter.com",
-            "PageNumber":1,
-            "PageSize":100,
-            "TotalCount":3
-        
-        "RequestId":"1805F349-0A2B-41D9-B4AD-33632AFC27F1"
+                        "StartTime":"2015-05-23T13:00:00Z"
+                    }
+                ]
+            },
+          
+        },
+        "RequestId":"1805F349-0A2B-41D9-B4AD-33632AFC27F1",
+    "PageNumber": 1, 
+      "TotalCount": 3, 
+      "PageSize": 100 
+    }
     
     ```
 
