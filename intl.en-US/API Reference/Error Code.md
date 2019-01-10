@@ -1,4 +1,6 @@
 # Error Code {#reference_mw2_y4x_5db .reference}
 
-You can go to [CDN API Error Center](https://error-center.aliyun.com/status/product/Cdn)to view all the error codes to troubleshoot problems.
+Go to [CDN API Error Code Center](https://error-center.alibabacloud.com/status/product/Cdn), so that you can view all general error codes to troubleshoot problems.
+
+For special error codes, you can check in specific API documents.
 
