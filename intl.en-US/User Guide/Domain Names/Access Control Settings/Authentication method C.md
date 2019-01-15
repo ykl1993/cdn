@@ -25,7 +25,7 @@ http://DomainName/FileName{&KEY1=<md5hash>&KEY2=<timestamp>}
     http://cdn.example.com/a37fa50a5fb8f71214b1e7c95ec7a1bd/55CE8100/test.flv
     ```
 
-    `<md5hash>` 为 a37fa50a5fb8f71214b1e7c95ec7a1bd`<timestamp>` is 55CE8100。
+    `<md5hash>` 为 a37fa50a5fb8f71214b1e7c95ec7a1bd`<timestamp>` is 55CE8100.
 
 
 Authentication fields
