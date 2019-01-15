@@ -25,7 +25,7 @@ Gets bandwidth data on different locates and ISPs for an accelerated domain name
 |Domainnames|String|No|Abc.com|The domain name to query cannot be empty.|
 |Ispnames|String|No|Unicom, Telecom| You need to query the target ISP list, separated by ',', and cannot be empty.
 
- The ISP name is obtained via the maid interface.
+ The ISP name is obtained by the maid interface.
 
  |
 |Locationnames|String|No|Liaoning, Guangxi| You need to query the target area list, separated by ',' and cannot be empty.
