@@ -5,7 +5,7 @@ Delete an added CDN domain name.
 **Note:** 
 
 -   Be careful when performing this operation \(we recommend that you restore the domain name A record at the DNS provider before deleting the domain name\) to ensure the domain name can still be accessed after deletion.
--   After DeleteCdnDomain is called successfully, all the records associated with the CDN domain name will be deleted. If you only wish to suspend use of the CDN domain name temporarily, we recommend that you use the StopCdnDomain interface.
+-   After DeleteCdnDomain is called successfully, all the records associated with the CDN domain name will be deleted. If you only want to suspend use of the CDN domain name temporarily, we recommend that you use the StopCdnDomain interface.
 
 ## Request parameters {#section_f3c_4ly_5db .section}
 
