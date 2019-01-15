@@ -48,7 +48,7 @@ Obtain the configuration of the specified CDN domain name.
  Example: /1/2/3.jpg /a/b/4.js.
 
  |
-|    └StaticPath|String|/to/no\_dynamic\_rou| When URI and configuration content are in regular match, the dynamic acceleration is closed. Regular matches are separated by space, and URIs completely matches \(^configuration content$\). If you want to absolutely close dynamic acceleration, use slash \(/\) or space.  
+|    └StaticPath|String|/to/no\_dynamic\_rou| When URI and configuration content are in regular match, the dynamic acceleration is closed. Regular matches are separated by space, and URIs completely matches \(^configuration content$\). If you only want to close dynamic acceleration, use slash \(/\) or space.  
 
  Example: /1 .py.
 
