@@ -16,12 +16,12 @@ Alibaba Cloud CDN supports 3 authentication methods: A, B, and C. You can choose
 
 ## Sample authentication code {#section_h25_k42_xdb .section}
 
-You can check [Sample authentication code](reseller.en-US/User Guide/Domain Names/Access Control Settings/Sample authentication code.md#).
+You can check [Sample authentication code](intl.en-US/User Guide/Domain Names/Access Control Settings/Sample authentication code.md#).
 
 ## Procedure {#section_n5x_l42_xdb .section}
 
 1.  Go to the CDN console. Go to the **Domain Names** page, then select the target domain name. Click **Manage**.
-2.  In the **Access Control** \> **Authentication Configuration** label, click **Modify**。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15390/154345321610073_en-US.png)
+2.  In the **Access Control** \> **Authentication Configuration** label, click **Modify**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15390/154754884510073_en-US.png)
 3.  Switch on **Authentication**, choose Authentication **type**, and enter **Main Key** and **Backup Key**.
 4.  Click **Confirm**.
 
