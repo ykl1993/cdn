@@ -14,12 +14,12 @@ Make sure that you have configured the domain name that you want to copy.
 
 **Warning:** You cannot return to the configuration before copying. Make sure the source domain name is on service or has existing configuration, and its bandwidth is large. Copy with caution.
 
-1.  On the Domain Names page, select the domain name you want to copy, then click **Copy Configuration**. ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17043/15389983738715_en-US.png)
-2.  Select the configuration items you wish to copy, then click **Next**.
+1.  On the Domain Names page, select the domain name you want to copy, then click **Copy Configuration**. ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17043/15475478788715_en-US.png)
+2.  Select the configuration items you want to copy, then click **Next**.
 
     **Note:** You cannot copy the origin site and other configurations at the same time.
 
-3.  Select the target domain name you wish to apply configurations to, then click **Next Step**.
+3.  Select the target domain name you want to apply configurations to, then click **Next Step**.
 
     You can also enter keywords to search for the domain name.
 
