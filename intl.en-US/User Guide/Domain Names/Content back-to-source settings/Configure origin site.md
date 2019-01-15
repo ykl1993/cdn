@@ -19,6 +19,7 @@ Main supported scenario: Master/Slave origin site switch.
 1.  Go to Domain Namespage, select the domain name, then click **Manage**.
 2.  Go to **Basic configuration** \> **Origin site info****Origin Site Configuration**, set origin site types, address, and port. \(Now you can set the back-to-origin port to Port 80, Port 443, or Custom.\)
     -   If you set your Origin site information to **IP** or **Origin Site**, pay as the internet-caused traffic.
+    -   If you set your Origin site information to**OSS domain**, pay as the intranet-caused traffic. [OSS Pricing Details](https://www.alibabacloud.com/zh/product/oss?spm=a2796.7960336.224002.50.17815179w6xyJ3#pricing).
     -   If you have set an OSS domain name for your **origin site**, still pay as the intranet-caused traffic.
 3.  Click **OK** to complete the configuration.
 
@@ -32,6 +33,6 @@ Main supported scenario: Master/Slave origin site switch.
 You can set custom port after enabling the white list.  The port number must be between 0 and 65535.
 
 -   You cannot set custom port when your static or dynamic protocol is set to **Follow**.
--   Make sure that your back-to-origin protocol and custom port are properly in use if you wish to set your back-to-origin protocol to **Follow** by using OpenAPI.
+-   Make sure that your back-to-origin protocol and custom port are properly in use if you want to set your back-to-origin protocol to **Follow** by using OpenAPI.
 -   Your back-to-origin method will always follow the protocol \(**HTTP** or **HTTPS**\) and custom port you have set by using port, no matter what you have set in console.
 
