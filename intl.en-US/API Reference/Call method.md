@@ -138,7 +138,7 @@ JSON example:
 
 Introduction
 
-The CDN service will perform identity authentication for every access request. Therefore, you must contain the signature information in the request no matter whether you submit a request via the HTTP or HTTPS protocol. By using `Access Key ID` and `Access Key Secret`, the CDN performs symmetric encryption to authenticate the request sender. `Access Key ID` and `Access Key Secret` are officially issued to visitors by Alibaba Cloud \(visitors can apply for and manage them on the official Alibaba Cloud website\).
+The CDN service will perform identity authentication for every access request. Therefore, you must contain the signature information in the request no matter whether you submit a request by the HTTP or HTTPS protocol. By using `Access Key ID` and `Access Key Secret`, the CDN performs symmetric encryption to authenticate the request sender. `Access Key ID` and `Access Key Secret` are officially issued to visitors by Alibaba Cloud \(visitors can apply for and manage them on the official Alibaba Cloud website\).
 
 **Note:** `Access Key ID`*indicates the identity of the visitor.*`Access Key Secret` is the secret key used to encrypt the signature string and to verify the signature string on the server. It must be kept strictly confidential and should only be known to Alibaba Cloud and the user.
 
