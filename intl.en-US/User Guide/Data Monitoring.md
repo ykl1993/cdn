@@ -33,12 +33,12 @@ You can select the**Domain Name**, **Region**, **Operator** or the **Time Range*
 1.  Log on to the CDN console, then go to the Domain Names page. Choose a domain name, then click **Manage**.
 2.  Go to **Data Monitoring** \> **Resource Monitoring** or **Real-time Monitoring**, and select the monitoring items and metrics. Click **Query**.
 
-    **Resource Monitoring**：
+    **Resource Monitoring**:
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15915/15332798268908_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15915/15475489058908_en-US.png)
 
-    **Real-time Monitoring**：
+    **Real-time Monitoring**:
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15915/15332798268909_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15915/15475489068909_en-US.png)
 
 
