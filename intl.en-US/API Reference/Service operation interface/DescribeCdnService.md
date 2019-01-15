@@ -24,7 +24,7 @@ Queries the CDN service status,  including current billing method, service subs
 
  |
 |ChangingAffectTime|String|2014-11-27T16:00:00Z|GMT.|
-|OperationLocks| | |Operation locking status, such as arrearage and security.|
+|OperationLocks| | |Operation locking status, such as outstanding payment and security.|
 |  └LockReason|String|financial|The reason of operation locking.|
 |RequestId|String|16A96B9A-F203-4EC5-8E43-CB92E68F4CD8|The ID of the request.|
 |InstanceId|String|aliuid|The instance ID.|
