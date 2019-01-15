@@ -19,8 +19,8 @@ You can customize a Web server domain name that a CDN node accesses in the back-
     -   If the origin site is **IP**, the back-to-source host is CDN domain name by default.
     -   If the origin site is **OSS origin site**, back-to-source host is origin site domain name by default.
 -   The value options includeCDN domain name, origin site domain name, and custom domain name.
--   Configuration change: Go to CDN Domain Names, select the desired domain name to go to management page, back-to-source configuration to modify the configuration of the back-to-source host.
+-   Configuration change: Go to CDN Domain Names, select the expected domain name to go to management page, back-to-source configuration to modify the configuration of the back-to-source host.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13745/15442562213355_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13745/15475478073355_en-US.png)
 
 
