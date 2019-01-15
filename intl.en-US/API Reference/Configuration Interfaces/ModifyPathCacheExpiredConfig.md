@@ -1,6 +1,6 @@
 # ModifyPathCacheExpiredConfig {#reference_rc4_pgg_vdb .reference}
 
-You can modify the path cache policy via this interface.
+You can modify the path cache policy by this interface.
 
 ## Request parameters {#section_rqy_fhg_vdb .section}
 
@@ -54,7 +54,7 @@ AED00EC1-32A8-4D48-BEB9-BD782AF3C6BD
 
 ## Error codes {#section_c2n_b3g_vdb .section}
 
-Error codes specific to this interface are as follows. For more error codes, see .
+Error codes specific to this interface are as follows. For more error codes, see [API Error Center](https://error-center.alibabacloud.com/status/product/Cdn).
 
 |Error code|Error message|HTTP status code |Meaning|
 |:---------|:------------|:----------------|:------|
