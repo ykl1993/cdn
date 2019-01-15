@@ -1,6 +1,6 @@
 # Certificate Format {#concept_grb_4pl_xdb .concept}
 
-Before [Enabling the HTTPS](reseller.en-US/User Guide/Domain Names/HTTPS Acceleration/HTTPS Secure Acceleration.md#) service, you must configure certificates. You can directly select managed or purchased certificates in [Alibaba Cloud Security](https://partners-intl.console.aliyun.com/#/cas), apply for free certificates, or manually upload custom certificates. Custom upload only supports certificates in `PEM` format. You must convert certificates and private keys from other formats to the PEM format.
+Before [Enabling the HTTPS](intl.en-US/User Guide/Domain Names/HTTPS Acceleration/HTTPS Secure Acceleration.md#) service, you must configure certificates. You can directly select [https://yundun.console.aliyun.com](https://yundun.console.aliyun.com) managed or purchased certificates in Alibaba Cloud Security, apply for free certificates, or manually upload custom certificates. Custom upload only supports certificates in `PEM` format. You must convert certificates and private keys from other formats to the PEM format.
 
 ## Certificate format requirements {#section_xgn_tpl_xdb .section}
 
@@ -20,7 +20,7 @@ Certificates issued by a root CA
 
 In Linux environments, certificates are  in the `PEM` format:
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5135/15444098143703_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5135/15475460343703_en-US.png)
 
 Certificate rules:
 
@@ -48,7 +48,7 @@ Certificate link rules:
 
 ## RSA private key format requirements {#section_yvf_lql_xdb .section}
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5135/15444098143704_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5135/15475460343704_en-US.png)
 
 RSA private key rules:
 
@@ -128,7 +128,7 @@ The PFX format is generally used in Windows Server.
 
 ## Free certificates {#section_rbm_std_zdb .section}
 
-The free certificate here is Alicloud CDN Digicert DV version SSL Free certificate, only available for Alibaba Cloud CDN service. It cannot be managed in the SSL Certificates service of Alibaba Cloud Security. This certificate is only used to enable HTTPS Secure Acceleration in CDN, and you cannot obtain its public and private keys for other use.
+The free certificate here is Alibaba Cloud CDN Digicert DV version SSL Free certificate, only available for Alibaba Cloud CDN service. It cannot be managed in the SSL Certificates service of Alibaba Cloud Security. This certificate is only used to enable HTTPS Secure Acceleration in CDN, and you cannot obtain its public and private keys for other use.
 
 -   The application process for a free certificate takes 5-10 minutes. While waiting, you can also go back and choose to upload a custom certificate or select a managed certificate.
 -   You can always switch among custom, managed or free certificate no matter which one you enable at the beginning.
@@ -137,7 +137,7 @@ The free certificate here is Alicloud CDN Digicert DV version SSL Free certifica
 
 ## Other certificate issues {#section_ovq_jrl_xdb .section}
 
--   You can disable, enable, and modify certificates. After you disable a certificate, the system no longer retains the certificate information. When you re-enable the certificate, you must upload the certificate and private key again. See [HTTPS Secure Acceleration settings tutorial](reseller.en-US/User Guide/Domain Names/HTTPS Acceleration/HTTPS Secure Acceleration.md#).
+-   You can disable, enable, and modify certificates. After you disable a certificate, the system no longer retains the certificate information. When you re-enable the certificate, you must upload the certificate and private key again. See [HTTPS Secure Acceleration settings tutorial](intl.en-US/User Guide/Domain Names/HTTPS Acceleration/HTTPS Secure Acceleration.md#).
 -   Only SSL/TLS "handshakes" with SNI information are supported.
 -   Ensure that the certificate and private key you upload match.
 -   Certificate updates take effect in 10 minutes.
