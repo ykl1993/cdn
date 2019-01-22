@@ -16,7 +16,7 @@
 
 ## Sources格式 { .section}
 
-\[\{“content”:”1.1.1.1”,”type”:”ipaddr”,””:”20”,”port”:80,”weight”:”15”\}\]
+\[\{"content":"1.1.1.1","type":"ipaddr","priority":"20","port":80,"weight":"15"\}\]
 
 ## Sources各字段含义 { .section}
 
@@ -60,7 +60,7 @@ JSON格式：
 
 ## 错误码 { .section}
 
-公共错误码参见 [附录](../../../../intl.zh-CN/旧版API参考/附录.md)。
+公共错误码参见 [附录](../../../../../intl.zh-CN/API参考/附录.md)。
 
 |错误代码|错误信息|HTTP 状态码|描述|
 |:---|:---|:-------|:-|
