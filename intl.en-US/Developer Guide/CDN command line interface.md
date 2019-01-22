@@ -18,7 +18,7 @@ aliyuncli is a tool based on Alibaba Cloud open APIs. With this tool, you can ea
     $sudo pip install --upgrade aliyuncli
     ```
 
--   For more information, see [Alibaba Cloud CLI](https://www.alibabacloud.com/help/product/29991.htm).
+-   For more information, see [Alibaba Cloud CLI](https://www.alibabacloud.com/help/doc-detail/66653.htm).
 
 ## Install CDN SDK {#section_c31_3gm_xdb .section}
 
