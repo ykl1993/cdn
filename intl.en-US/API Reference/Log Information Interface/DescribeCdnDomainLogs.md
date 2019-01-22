@@ -99,58 +99,40 @@ https://cdn.aliyuncs.com?Action=DescribeCdnDomainLogs&DomainName=gc.ggter.com&Lo
 
 **Normal return example**
 
--   JSON format
-
-    ```
-    
-        "DomainLogModel":{
-            "DomainLogDetails":{
-                "DomainLogDetail":[
-                    
-                        "EndTime":"2015-05-23T04:00:00Z",
-                        "LogName":"gc.ggter.com_2015_05_23_1100_1200.gz",
-                        "LogPath":"cdnlog.cn-hangzhou.oss.aliyun-inc.com/gc.ggter.com/2015_05_23/gc.ggter.com_2015_05_23_1100_1200.gz? Ossaccesskeyid = 3xmgf7JheOfOTUTf & Expires = 1432539994 & Signature = 7Ly4ccKN3afzAGYyWDbxBcOcn2I % 3D ",
-                        "LogSize":257,
-                        "StartTime":"2015-05-23T03:00:00Z"
-                    
-                    
-                        "EndTime":"2015-05-23T08:00:00Z",
-                        "LOGNAME": "maid ",
-                        "LogPath":"cdnlog.cn-hangzhou.oss.aliyun-inc.com/gc.ggter.com/2015_05_23/gc.ggter.com_2015_05_23_1500_1600.gz? OSSAccessKeyId=3xmgf7JheOfOTUTf&Expires=1432539994&Signature=dMv7VqPqZHXVbKPmorGIvylC66c%3D",
-                        "LogSize":194,
-                        "StartTime":"2015-05-23T07:00:00Z"
-                    
-                    
-                        "EndTime":"2015-05-23T14:00:00Z",
-                        "LogName":"gc.ggter.com_2015_05_23_2100_2200.gz",
-                        "LogPath":"cdnlog.cn-hangzhou.oss.aliyun-inc.com/gc.ggter.com/2015_05_23/gc.ggter.com_2015_05_23_2100_2200.gz? OSSAccessKeyId=3xmgf7JheOfOTUTf&Expires=1432539994&Signature=FpSQCbgNcxCBYIxKVoKC8mGghUQ%3D",
-                        "LogSize":258,
-                        "StartTime":"2015-05-23T13:00:00Z"
-                    }
-                ]
-            },
-          
+```
+{
+  "DomainLogModel": {
+    "DomainName": "example.com",
+    "DomainLogDetails": {
+      "DomainLogDetail": [
+        {
+          "EndTime": "2015-05-23T04:00:00Z",
+          "LogName": "gc.ggter.com_2015_05_23_1100_1200.gz",
+          "LogPath": "cdnlog.cn-hangzhou.oss.aliyun-inc.com/example.com/2015_05_23/xxx",
+          "LogSize": 257,
+          "StartTime": "2015-05-23T03:00:00Z"
         },
-        "RequestId":"1805F349-0A2B-41D9-B4AD-33632AFC27F1",
-    "PageNumber": 1, 
-      "TotalCount": 3, 
-      "PageSize": 100 
+        {
+          "EndTime": "2015-05-23T08:00:00Z",
+          "LogName": "gc.ggter.com_2015_05_23_1500_1600.gz",
+          "LogPath": "cdnlog.cn-hangzhou.oss.aliyun-inc.com/example.com/2015_05_23/xxx",
+          "LogSize": 194,
+          "StartTime": "2015-05-23T07:00:00Z"
+        },
+        {
+          "EndTime": "2015-05-23T14:00:00Z",
+          "LogName": "gc.ggter.com_2015_05_23_2100_2200.gz",
+          "LogPath": "cdnlog.cn-hangzhou.oss.aliyun-inc.com/example.com/2015_05_23/xxx",
+          "LogSize": 258,
+          "StartTime": "2015-05-23T13:00:00Z"
+        }
+      ]
     }
-    
-    ```
-
-
-**Exception return example**
-
--   JSON format
-
-    ```
-    
-        "Code":"InternalError",
-        "HostId":"cdn.aliyuncs.com",
-        "Message:" The request processing has failed due to some unknown error .",
-        "RequestId":"16A96B9A-F203-4EC5-8E43-CB92E68F4CD8"
-    
-    ```
-
+  },
+  "RequestId": "1805F349-0A2B-41D9-B4AD-33632AFC27F1",
+  "PageNumber": 1,
+    "TotalCount": 3,
+    "PageSize": 100
+}
+```
 
