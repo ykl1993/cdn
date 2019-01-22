@@ -38,6 +38,7 @@
 |名称|类型|描述|
 |:-|:-|:-|
 |DomainLogDetails|DomainLogDetail|DomainLogDetail组成的数据|
+|RequestID|String|该条任务请求ID。|
 
 ## 数据类型DomainLogDetail { .section}
 
@@ -87,14 +88,14 @@ https://cdn.aliyuncs.com?Action=DescribeCdnDomainLogs&DomainName=test1.example.c
                     "LogInfoDetail": [
                         {
                             "LogName": "example1.com_2018_03_25_180000_190000.gz",
-                            "LogPath": "cdnlog2.aliyuncs.com/test1.example.com/2018_03_25/example1.com_2018_03_25_180000_190000.gz?Expires=1522659931&OSSAccessKeyId=LTAIstjGueo4ZEuA&Signature=suZFyJHoD3RzZqK%2Bcu6P4VaNAVI%3D",
+                            "LogPath": "cdnlog2.aliyuncs.com/test1.example.com/2018_03_25/example1.com_2018_03_25_180000_190000.gz?xxx",
                             "EndTime": "2018-05-31T04:00:00Z",
                             "StartTime": "2018-05-31T03:00:00Z",
                             "LogSize": 2645401
                         },
                         {
                             "LogName": "example1.com_2018_03_25_190000_200000.gz",
-                            "LogPath": "cdnlog2.aliyuncs.com/test1.example.com/2018_03_25/example1.com_2018_03_25_190000_200000.gz?Expires=1522659931&OSSAccessKeyId=LTAIstjGueo4ZEuA&Signature=C01p%2BtA%2BfLywKP9Sru2Oxwy7Do0%3D",
+                            "LogPath": "cdnlog2.aliyuncs.com/test1.example.com/2018_03_25/example1.com_2018_03_25_190000_200000.gz?xxx",
                             "EndTime": "2018-05-31T06:00:00Z",
                             "StartTime": "2018-05-31T05:00:00Z",
                             "LogSize": 2653965
