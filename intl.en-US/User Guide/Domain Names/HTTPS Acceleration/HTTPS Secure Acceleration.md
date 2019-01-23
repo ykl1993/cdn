@@ -7,11 +7,8 @@ HTTPS \(Hyper Text Transfer Protocol over Secure Socket Layer\) is an HTTP chann
 HTTPS Acceleration Advantages:
 
 -   Encrypt important information during transmission, avoiding attack-caused information leaking, such as session ID or cookies.
--   Perform the data integrity during transimission, preventing man-in-the-middle attack \(MITM\), such as DNS or contents being hijacked by third party.
 
 Alibaba Cloud CDN provides HTTPS Secure acceleration. When you have uploaded certificate and secret keys after enabling HTTPS, so that you can check, disable, enable and edit the certificate.
-
-**Note:** [Submit a ticket](https://workorder-intl.console.aliyun.com) if you need SNI back-to-origin.
 
 ## How it works {#section_pcc_snl_xdb .section}
 
@@ -22,7 +19,7 @@ Here is the HTTPS encryption process:
  
 
 1.  You start an HTTPS request.
-2.  The server generates a public key and a secret key \(self-made or apply from professsional organization\).
+2.  The server generates a public key and a secret key \(self-made or apply from professional organization\).
 3.  The server sends the public certificate to your side.
 4.  You side verify the certificate.
 
@@ -56,28 +53,13 @@ HTTPS Secure Acceleration is a value-added service, so that you need to pay for 
 
 -   To enable acceleration domain name with the **HTTPS Secure Acceleration** feature, you need to upload the certificate and secret key in the `PEM` format.
 
-    **Note:** As Alibaba Cloud CDN only adopts Nginx-based Tengine service, only the certificate in `PEM` format is available. For more information, see [Certificate Format](intl.en-US/User Guide/Domain Names/HTTPS Acceleration/Certificate Format.md#).
+    **Note:** As Alibaba Cloud CDN only adopts Nginx-based Tengine service, only the certificate in `PEM` format is available. For more information, see [Certificate Format](reseller.en-US/User Guide/Domain Names/HTTPS Acceleration/Certificate Format.md#).
 
 -   Only SSL/TLS handshake with SNI information is available.
 -   The certificate you upload should be matched with your secret key, otherwise your verification may fail.
 -   Secret key with a password is unavailable.
 
 ## Procedure {#section_p3r_l4l_xdb .section}
-
-1.  Purchase a certificate. Only when you own the certificate that is matched with your domain name can you enable HTTPS Secure Acceleration. You can easily purchase Alibaba Cloud Certificate in the [YunDun console](https://yundun.console.aliyun.com/?spm=5176.2020520110.aliyun_sidebar.19.3ff6ZSicZSiceU&p=cas#/cas/home), or apply for free certificate.
-2.  Log on to the [CDN console](https://cdn.console.aliyun.com), and enter the **Domain Names** page. Select the domain name, and click **Manage**.
-3.  In **HTTPS Configurations** \> **HTTPS Cert**, click **Modify**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/154754612111410_en-US.png)
-4.  In the HTTPS Settings dialogue, enable **HTTPS Secure**.
-5.  Select your certificate type. You can choose **Alibaba Cloud**, **Custom** or **Free Cert**. Currently, only the `PEM` format is available.
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/154754612121687_en-US.png)
-
-    -   You can choose the Alibaba Cloud Certificate. If you have no matched certificate in your list, choose custom certificate. You need to upload the certificate contents and secret key after setting the certificate name. This certificate will be saved in your Alibaba Cloud Security. You can check in [My Certificate](https://yundun.console.aliyun.com/?spm=5176.2020520001.aliyun_sidebar.17.12004bd303Zdr8#/all).
-    -   You can also choose free certificate, namely, Alibaba Cloud CDN Digicert DV version SSL Free certificate. This free certificate is only available for Alibaba Cloud CDN service, and it can't be managed in the SSL Certificates service of Alibaba Cloud Security. This certificate is only used to enable HTTPS Secure Acceleration in CDN, and you cannot obtain its public and private keys for other use. After you choose to use the Free Cert type, it takes about 10 minutes for the certificate to be effective.
-6.  Verify whether the certificate is effective. You can access resources by using HTTPS after the certificate becomes effective \(about 1 hour\). Green HTTPS mark indicates that you have established private connection with the website, and HTTPS secure acceleration has comes into effect.
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/15475461213701_en-US.png)
-
 
 **Note:** About replacing your certificate:
 
