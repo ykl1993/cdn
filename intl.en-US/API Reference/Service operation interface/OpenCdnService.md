@@ -5,7 +5,7 @@ Subscribe to the CDN service. Only after subscribing can you perform domain name
 -   A single user can only subscribe once. 
 -   Subscription restrictions: The account must have passed real-name registration.
 
-**Note:** Make sure that before using this interface, you fully know billing method and price of CDN.  For more information, see Price overview。
+**Note:** Make sure that before using this interface, you fully understand the billing method and pricing of CDN. For more information, see Price overview.
 
 ## Request parameters {#section_lgd_3rt_vdb .section}
 
