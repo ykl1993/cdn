@@ -6,7 +6,7 @@
 -   You can customize a cache policy priority.
 -   The following figure shows the default cache policies.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5147/15483103553383_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5147/15483114353383_en-US.png)
 
     **Note:** 
 
@@ -24,9 +24,9 @@
 
 1.  Go to CDN Domain Names page, select a domain name to enter the Domain Names page and find Cache setting:
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5147/15483103553384_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5147/15483114353384_en-US.png)
 
-2.  Click **Modify**, you can manage cache policies by perform adding, modifying and deletion operations.
+2.  Click **Modify**, you can manage cache policies by perform adding, modifying, and deletion operations.
 3.  Click **Add** to add cache policies by directory paths or file name suffixes.  
 
 For example, set three cache policies for the CDN domain name `example.aliyun.com`:
