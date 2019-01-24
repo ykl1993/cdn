@@ -50,7 +50,7 @@ AddCdnDomain|
 -   overseas
 -   global
 
-Default value: domestic.  The setting is effective for international users, domestic users of level 3 or above.
+Default value: domestic.  The setting is effective for international users, domestic users of level 3 or a higher level.
 
  |
 |SourcePort|String|No|80| You can specify Port 443 and 80. Default value: 80.
