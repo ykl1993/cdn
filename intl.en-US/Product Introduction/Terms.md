@@ -28,7 +28,7 @@ DNS stands for Domain Name System. It provides a domain name resolution service,
 
 ## Edge nodes {#section_fm2_nlc_5db .section}
 
-In this document, the terms edge node, CDN node, cache node, acceleration node, and Alibaba Cloud node refer to Alibaba Cloud edge node, sometimes shortened to node. Edge nodes form a network of servers, and are located in areas across the globe. When a user requests content, the content is cached in the nearest edge node to the user, and then distributed to the user. In this way, edge nodes allow users to more efficiently acquire resources.
+In this document, the terms edge node, CDN node, cache node, acceleration node, and Alibaba Cloud node indicates Alibaba Cloud edge node, sometimes shortened to node. Edge nodes form a network of servers, and are located in areas across the globe. When a user requests content, the content is cached in the nearest edge node to the user, and then distributed to the user. In this way, edge nodes allow users to more efficiently acquire resources.
 
 ## Back-to-origin Host {#section_gm2_nlc_5db .section}
 
@@ -47,9 +47,9 @@ The protocol used during a back-to-origin request is consistent with the protoco
 
 ## Filter parameters {#section_im2_nlc_5db .section}
 
-With Filter Parameter, you can control whether to filter out the section of a URL after the “?” \(question mark\) when caching contents to nodes based on your business needs.
+With Filter Parameter, you can control whether to filter out the section of a URL after the "?" \(question mark\) when caching contents to nodes based on your business needs.
 
--   If you enable this function, CDN nodes will filter out the part of the URL after the "?", then cache only one copy of each URL if the part of the URL before the “?” is the same.
+-   If you enable this function, CDN nodes will filter out the part of the URL after the "?", then cache only one copy of each URL if the part of the URL before the "?" is the same.
 -   If you disable the function, CDN nodes will cache a copy of each URL.
 
 We recommend that you enable the Filter Parameter function if different parameters in your URL indicate the same content, which will efficiently improve the caching hit rate.
