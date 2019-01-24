@@ -8,7 +8,7 @@ You can query the data by the following dimensions:
 
 -   Domain name or user
 -   Traffic, bandwidth, or requests.
--   Billing regions. For more information, see [Billing regions](../../../../../intl.en-US/Pricing/Billing method/Basic Service.md#section_gl3_gdl_l2b).
+-   Billing regions. For more information, see [Billing regions](https://www.alibabacloud.com/product/cdn/pricing?spm=a2796.7980202.1167822.1.3f3a5f45jxbWQS).
 
 **Note:** You cannot export data from the Usage page. To export the data you require, go to Billing export or Detail export.
 
@@ -16,15 +16,15 @@ You can query the data by the following dimensions:
 
 1.  Log on to the [CDN Console](https://cdn.console.aliyun.com).
 2.  On CDN Overview page, click **Usage** on the left.
-3.  On the Usage page, configure all conditions, including traffic/bandwidth/requests, time range, and billing regions. Then click**Query**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15905/15475489758923_en-US.png)
+3.  On the Usage page, configure all conditions, including traffic/bandwidth/requests, time range, and billing regions. Then click**Query**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15905/15482985868923_en-US.png)
 
 ## Other Checklist {#section_it2_5qq_dgb .section}
 
 -   You can click **Billing Information**to query your billing list by day.
 
--   You can click [**Billing Export**](intl.en-US/User Guide/Usage Query/Billing export.md#) to export your billing list.
+-   You can click [**Billing Export**](reseller.en-US/User Guide/Usage Query/Billing export.md#) to export your billing list.
 
--   You can click [**Detailed Data Export**](intl.en-US/User Guide/Usage Query/Detail Data Export.md#) to export detailed data.
+-   You can click [**Detailed Data Export**](reseller.en-US/User Guide/Usage Query/Detail Data Export.md#) to export detailed data.
 
 -   You can also click **Usage Bag** to check the **Usage Bag Name**, **Total**, **Remaining**, **Effective Date**, **Expiry Date**, and **Status** of each usage bag.
 
