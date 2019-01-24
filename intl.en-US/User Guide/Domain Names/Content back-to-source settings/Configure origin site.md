@@ -6,7 +6,7 @@ In this document, you can get abreast of what is origin site and custom port, an
 
 Alibaba Cloud CDN supports three types of back-to-origin domain names: OSS back-to-origin domain name, IP address, and custom domain name. Multiple IP addresses and custom domain names are supported, and back-to-origin priority can be configured when multiple origin sites exist.
 
-When the back-to-origin type is IP address or custom domain name, multiple origin sites are allowed and their priorities are configurable. When multiple origin sites are added, the site priority is "main" and "standby", and the priority is "main"\> "standby".
+When the back-to-origin type is IP address or custom domain name, multiple origin sites are allowed and their priorities are configurable. When multiple origin sites are added, the site priority is "main" and "backup", and the priority is "main"\> "backup".
 
 All back-to-origin traffic is preferentially directed to higher-priority origin sites. If an origin site fails the health check for three consecutive times, all traffic is directed to lower-priority origin sites. If the origin site passes the health check, it is marked as available again and restored to its the original priority. When all origin sites have the same back-to-origin priority, CDN round-robin takes place.
 
@@ -19,7 +19,6 @@ Main supported scenario: Master/Slave origin site switch.
 1.  Go to Domain Namespage, select the domain name, then click **Manage**.
 2.  Go to **Basic configuration** \> **Origin site info****Origin Site Configuration**, set origin site types, address, and port. \(Now you can set the back-to-origin port to Port 80, Port 443, or Custom.\)
     -   If you set your Origin site information to **IP** or **Origin Site**, pay as the internet-caused traffic.
-    -   If you set your Origin site information to**OSS domain**, pay as the intranet-caused traffic. [OSS Pricing Details](https://www.alibabacloud.com/zh/product/oss?spm=a2796.7960336.224002.50.17815179w6xyJ3#pricing).
     -   If you have set an OSS domain name for your **origin site**, still pay as the intranet-caused traffic.
 3.  Click **OK** to complete the configuration.
 
