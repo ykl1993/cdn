@@ -12,20 +12,18 @@ Restrictions:
 
 |Name |Type|Required|Example values|Description|
 |:----|:---|:-------|:-------------|:----------|
-|Action|String|Yes.|AddCdnDomain| The name of this interface.  Value:
+|Action|String|Yes.|AddCdnDomain|The name of this interface. Value:
 
- AddCdnDomain
-
- |
-|CdnType|String|Yes|web| The CDN domain business type.  Scope of value:
+AddCdnDomain|
+|CdnType|String|Yes|web| The CDN domain business type. Scope of value:
 
 -   web: distribution of images and small files. 
 -   download: acceleration of large file downloads.
 -   video: acceleration of video and audio on demand.
--   liveStream:: acceleration of live streaming media.
+-   liveStream: acceleration of live streaming media.
 
  |
-|DomainName|String|Yes|www.yourdomain.com| The domain name that requests access to CDN.  Supports generic domain name,  and starts with “.”, such as .a.com.
+|DomainName|String|Yes|www.yourdomain.com| The domain name that requests access to CDN. Supports generic domain name,  and starts with ".", such as .a.com.
 
  |
 |Checkurl|String|No|www.yourdomain.com/test.html| Health check of the source site.
@@ -34,7 +32,7 @@ Restrictions:
 |LiveType|String|No|liveEdge| Live edge streaming.
 
  |
-|OwnerAccount|String|No|your OwnerAccount| OwnerAccount。
+|OwnerAccount|String|No|your OwnerAccount| OwnerAccount.
 
  |
 |Priorities|String|No|20| Priorities, separated by comma, and the number is consistent with sources.
@@ -57,14 +55,14 @@ Default value: domestic.  The setting is effective for international users, dom
  |
 |SourcePort|String|No|80| You can specify Port 443 and 80. Default value: 80.
 
- 443 port performs https source.  OSS does not suppport 443 port.
+ 443 port performs https source. OSS does not support 443 port.
 
  |
 |SourceType|String|No|domain| Source type.  Scope of value:
 
--   ipaddr：IP source site.
--   domain：source site of domain name. 
--   oss：oss is the source site.
+-   ipaddr: IP source site.
+-   domain: source site of domain name. 
+-   oss: oss is the source site.
 
 **Note:** If you select the business type of live streaming media acceleration, the source site type and information is not required.
 
@@ -76,7 +74,7 @@ Default value: domestic.  The setting is effective for international users, dom
 -   If the business type is live streaming media acceleration, the source address is not required to enter. If the business type is other type, source address is required \(inner user, the type is common source, and type enum value can be entered\).
 
  |
-|TopLevelDomain|String|否|www.yourTopLevelDomain| Top-level scheduling domain.
+|TopLevelDomain|String|No|www.yourTopLevelDomain| Top-level scheduling domain.
 
  |
 
