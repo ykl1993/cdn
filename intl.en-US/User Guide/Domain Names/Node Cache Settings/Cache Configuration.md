@@ -2,21 +2,21 @@
 
 ## Introduction {#section_dks_yhd_xdb .section}
 
--   This function can be used to **set the actions of a cache server against resources in different directory paths**, or **resources with different file name suffixes**. You can customize cache expiration rules for specified resources.
+-   This function can be used to **set the actions of a cache server against resources in different directory paths**, or **resources with different filename suffixes**. You can customize cache expiration rules for specified resources.
 -   You can customize a cache policy priority.
 -   The following figure shows the default cache policies.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5147/15475445543383_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5147/15483005953383_en-US.png)
 
     **Note:** 
 
-    -   This function is used to set file expiration time. The priority specified here is higher than that configured on the origin site.  If no cache policy is configured on the origin site, you can set a cache policy by directory and file name suffix \(the full path mode is supported\).
+    -   This function is used to set file expiration time. The priority specified here is higher than that configured on the origin site.  If no cache policy is configured on the origin site, you can set a cache policy by directory and filename suffix \(the full path mode is supported\).
     -   CDN cached files can be removed from the CDN node if  the cached files are not updated frequently.
 
 ## Notes {#section_tts_q3d_xdb .section}
 
--   For infrequently updated static files \(e.g. image files or application download files\), we suggest you set a cache time of 1 month or more;
--   For static files that must be updated or are updated frequently \(e.g. js and css files\), you can set a shorter cache time based on the actual situation;
+-   For infrequently updated static files \(for example, image files or application download files\), we suggest you set a cache time of 1 month or more;
+-   For static files that must be updated or are updated frequently \(for example js and css files\), you can set a shorter cache time based on the actual situation;
 -   For dynamic files \(for example, PHP files, JSP files,  and ASP files\), we recommend that you set the cache duration as 0s, indicating that the files are not cached. If dynamic files such as PHP files are not updated frequently, we recommend that that you set the cache duration to a small value.
 -   We recommend that the content on an origin site is updated with the same file name, but tagged with different version numbers; for example, img-v1.0.jpg and img-v2.1.jpg.
 
@@ -24,10 +24,10 @@
 
 1.  Go to CDN Domain Names page, select a domain name to enter the Domain Names page and find Cache setting:
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5147/15475445543384_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5147/15483005953384_en-US.png)
 
 2.  Click **Modify**, you can manage cache policies by perform adding, modifying and deletion operations.
-3.  Click **Add** to add cache policies by directory paths or file name suffixes.  
+3.  Click **Add** to add cache policies by directory paths or filename suffixes.  
 
 For example, set three cache policies for the CDN domain name `example.aliyun.com`:
 
