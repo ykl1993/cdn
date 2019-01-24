@@ -10,7 +10,7 @@ When the back-to-origin type is IP address or custom domain name, multiple origi
 
 All back-to-origin traffic is preferentially directed to higher-priority origin sites. If an origin site fails the health check for three consecutive times, all traffic is directed to lower-priority origin sites. If the origin site passes the health check, it is marked as available again and restored to its the original priority. When all origin sites have the same back-to-origin priority, CDN round-robin takes place.
 
-Origin site health check: 4-layer health check is automatically performed on origin sites every 5 seconds.
+Origin site health check: 4-layer health check is automatically performed on origin sites every 2.5 seconds.
 
 Main supported scenario: Master/Slave origin site switch.
 
