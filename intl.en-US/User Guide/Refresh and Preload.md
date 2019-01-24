@@ -14,7 +14,7 @@ Attentions:
 -   Up to 2,000 URLs with the same ID can be refreshed and warmed up each day.
 -   Provides an interface to refresh the cache in batches. For more information, see [RefreshObjectCaches](../../../../../reseller.en-US/API Reference/Refresh the preheating Interface/Cache refresh.md#).
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5168/15482962883428_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5168/15482963713428_en-US.png)
 
 ## Directory refresh {#section_hv2_hf2_xdb .section}
 
