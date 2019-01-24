@@ -19,11 +19,11 @@ Back-to-origin of Range feature is optional and is disabled by default. You can 
 
 1.  Go toDomain Namepage,selete your domain name, and click **Manage**.
 2.  Click **Modify Configuration** in **Video-related** \> **Back-to-origin of Range**.
-3.  Select **Enable**、**Disable**or**Force**.
+3.  Select **Enable**, **Disable** or **Force**.
 
-Go to the CDN domain name management page, click **Configure**, select **Enable/Disable/Force**Back-to-origin of Range function.
+Go to the CDN domain name management page, click **Configure**, select **Enable/Disable/Force** Back-to-origin of Range function.
 
 **Note:** You can enable **Force** if your origin site is capable of using this feature. After enabling it, all requests will be forced to perform Back-to-origin of range.
 
-See [Back-to-origin of Range](../../../../../intl.en-US/API Reference/Configuration Interfaces/SetRangeConfig.md#) for more API information.
+See [Back-to-origin of Range](../../../../../reseller.en-US/API Reference/Configuration Interfaces/SetRangeConfig.md#) for more API information.
 
