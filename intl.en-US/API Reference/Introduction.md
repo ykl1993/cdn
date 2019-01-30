@@ -6,5 +6,7 @@ Before using these interfaces, make sure that you fully understand the CDN produ
 
 Current CDN open API version: 2014-11-11.
 
+**Note:** The old version of API is not maintained, you can use the new version of API.
+
 For more information about relevant terms, see [Appendix](reseller.en-US/API Reference/Appendix.md#).
 
