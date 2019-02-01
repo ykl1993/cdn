@@ -28,10 +28,9 @@ All domains attempting to access CDN must be reviewed. CDN access is not allowed
 
 |Quantity|Limit quantity|
 |:-------|:-------------|
-|Quantity|Limit quantity|
 |Domain Name|The maximum number of CDN domains for each Alibaba Cloud account is **50** . |
 |IP origin site|The maximum number of IP origin sites for each CDN domain is **10**.|
-|Cache refresh and push operations|**refresh:**2000items/day/account. **Directory refresh:**100100 items/day/account.|
+|Cache refresh and push operations|**refresh:**2000items/day/account. **Directory refresh:**100 items/day/account.|
 
 If you have a large number of domain name acceleration needs, submit a ticket for special support.
 
