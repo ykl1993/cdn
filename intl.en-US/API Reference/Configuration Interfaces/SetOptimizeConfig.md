@@ -1,6 +1,6 @@
 # SetOptimizeConfig {#reference_ar2_cvf_vdb .reference}
 
-The page optimization function can be used to delete comments and repeated white spaces embedded in HTML, Javascript and CSS to effectively remove redundant page content, reduce the file size, and improve the efficiency of accelerated delivery.
+The page optimization function can be used to delete comments and repeated white spaces embedded in HTML, Javascript and CSS. It effectively removes redundant page content, reduce the file size, and improve the efficiency of accelerated delivery.
 
 ## Request parameters {#section_awn_fvf_vdb .section}
 
