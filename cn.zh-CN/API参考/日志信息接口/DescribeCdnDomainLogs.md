@@ -73,9 +73,6 @@
 |└DomainLogDetails| | | DomainLogDetail组成的数据。
 
  |
-|└LogPath|String|cdnlog.cn-hangzhou.oss.aliyun-inc.com/gc.ggter.com/2015\_05\_23/gc.ggter.com\_2015\_05\_23\_1100\_1200.gz?OSSAccessKeyId\\u003d3xmgf7JheOfOTUTf\\u0026Expires\\u003d1432539994\\u0026Signature\\u003d7Ly4ccKN3afzAGYyWDbxBcOcn2I%3D| 日志路径。
-
- |
 |└StartTime|String|2017-12-21T08:00:00:00Z| 开始时间。
 
  |
