@@ -2,8 +2,8 @@
 
 Obtain the domain names that are ranked by traffic.
 
--   When StartTime and EndTime are not specified, the interface reads data from the past month by default. Query by specified start time and end time is also supported. The two parameters must be both specified.
--   Data from the past 90 days can be obtained at most.
+-   When you do not specify StartTime and EndTime, the interface reads data from the past month by default. Query by specified start time and end time is also supported. You must specify the two parameters.
+-   You can obtain data from the past 90 days at most.
 
 ## Request parameters {#section_oth_xwm_vdb .section}
 
