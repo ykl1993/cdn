@@ -1,12 +1,12 @@
 # 万网/阿里云解析与配置CNAME流程 {#concept_uwr_kbw_tdb .concept}
 
-如果您想启用CDN加速服务，需要将您的加速域名指向阿里云CDN分配的CNAME地址，这样访问加速域名的请求才能转发到 CDN节点 上，达到加速效果。本文档以您的域名在阿里云解析（原万网）为例。
+您在CDN中添加自己的域名后，阿里云CDN会给您分配对应的CNAME地址。如果您想启用CDN加速服务，需要将加速域名指向CNAME地址。这样访问加速域名的请求才能转发到 CDN节点上，达到加速效果。本文档以您的域名在阿里云解析（原万网）为例。
 
-## 1. 获取加速域名的CNAME值 {#section_ey5_p4c_5db .section}
+## 1. 获取加速域名的CNAME地址 {#section_ey5_p4c_5db .section}
 
 **a.** 登录[CDN控制台](https://cdn.console.aliyun.com)，单击**域名管理**。
 
-**b.**单击您想复制域名的CNAME值。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15451209366056_zh-CN.png)
+**b.**复制加速域名对应的CNAME值。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15501332456056_zh-CN.png)
 
 ## 2. 添加CNAME记录 {#section_gy5_p4c_5db .section}
 
@@ -14,17 +14,17 @@
 
 **b.**在域名列表中找到您加速域名对应的主域名，进入**解析设置**页。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15451209376057_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15501332456057_zh-CN.png)
 
 **c.**单击**添加解析**，添加CNAME记录：
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15451209376058_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15501332456058_zh-CN.png)
 
 -   记录类型请选择为`CNAME`；
 -   主机记录即加速域名的前缀，例如：
 
-    |如果您的加速域名为...|前缀为...|
-    |:-----------|:-----|
+    |如果您的加速域名为...|主机记录为...|
+    |:-----------|:-------|
     |`testcdn.aliyun.com`|`testcdn`|
     |`www.aliyun.com`|`www`|
     |`aliyun.com`|`@`|
@@ -44,5 +44,5 @@
 
 配置CNAME后，不同的DNS服务商CNAME配置生效的时间也不同。您可以`ping`或`dig`您所添加的加速域名，如果被转向`*.*kunlun*.com`，即表示CNAME配置已经生效，CDN功能也已生效。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15451209376060_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5113/15501332456060_zh-CN.png)
 
