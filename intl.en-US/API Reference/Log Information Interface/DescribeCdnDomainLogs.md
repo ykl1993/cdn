@@ -22,11 +22,11 @@ Obtain the download address for the original access log of the specified domain 
 -   Example: 2016-10-20T04:00:00Z.
 
  |
-|LogDay|String|No|2015-05-24| The day when the log is obtained.
+|LogDay|String|No|2015-05-24| The date when the log is obtained.
 
 -   Format: yyyy-MM-dd.
 -   You can specify one of LogDay, StartTime and EndTime.
--   Default: Same day
+-   Default: Same date
 
  |
 |PageNumber|Long|No|2| The page number.
