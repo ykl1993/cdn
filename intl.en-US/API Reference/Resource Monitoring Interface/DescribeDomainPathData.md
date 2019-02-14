@@ -1,6 +1,6 @@
 # DescribeDomainPathData {#reference_cqp_j3n_vdb .reference}
 
-Obtain metric data of 5 minutes of CDN domain names path level, including traffic and times of accesses.
+Obtain the path-level monitoring data of acceleration domain name every 5 minutes, including traffic and times of accesses.
 
 **Note:** The domain name with bandwidth of more than 10G, or GC6 and GC7 client can apply by submitting ticket or consult service manager.  
 
