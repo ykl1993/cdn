@@ -16,6 +16,7 @@
 |DomainName|String|是|需要接入CDN的域名。支持泛域名，以符号“.”开头，如：.example.com。|
 |CdnType|String|是|加速域名的业务类型。 取值：-   web：图片及小文件分发；
 -   download：大文件下载加速。
+-   Video：视频点播加速。
 
 |
 |Sources|String|否|回源地址列表|
@@ -72,7 +73,7 @@ JSON格式：
 
 ## 错误码 {#section_klm_fyf_cgb .section}
 
-公共错误码参见 [附录](../../../../dita-oss-bucket/SP_19/DNCDN11878652/ZH-CN_TP_5278.dita)。
+公共错误码参见 [附录](../../../../../cn.zh-CN/旧版API参考/附录.md)。
 
 |错误代码|错误信息|HTTP 状态码|描述|
 |:---|:---|:-------|:-|
