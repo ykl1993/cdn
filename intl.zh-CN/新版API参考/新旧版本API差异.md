@@ -2,7 +2,7 @@
 
 本文档介绍了CDN新旧两个版本API接口的差异。
 
-旧版API文档请参阅[旧版API参考](../../../../../intl.zh-CN/API参考/API概述.md)。
+旧版API文档请参阅[旧版API参考](../../../../../intl.zh-CN/旧版API参考/API概述.md)。
 
 **说明：** 旧版API后期将不再维护，请您使用新版API。
 
@@ -136,7 +136,7 @@
                         "LogInfoDetail": [
                             {
                                 "LogName": "test1.test.com_2018_03_25_180000_190000.gz",
-                                "LogPath": "cdnlog2.aliyuncs.com/test1.test.com/2018_03_25/test1.test.com_2018_03_25_180000_190000.gz?Expires=1522659931&OSSAccessKeyId=LTAIstjGueo4ZEuA&Signature=suZFyJHoD3RzZqK%2Bcu6P4VaNAVI%3D",
+                                "LogPath": "cdnlog2.aliyuncs.com/test1.test.com/2018_03_25/test1.test.com_2018_03_25_180000_190000.gz?Expires=1522659931&OSSAccessKeyId=test&Signature=suZFyJHoD3RzZqK%2Bcu6P4VaNAVI%3D",
                                 "EndTime": "1521975600",
                                 "StartTime": "1521972000",
                                 "LogSize": 2645401
