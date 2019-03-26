@@ -2,11 +2,15 @@
 
 ## Discover Alibaba Cloud nodes {#section_sbx_pq2_zdb .section}
 
-Alibaba Cloud Content Delivery Network \(CDN\) uses a global network of 1500+ nodes to accelerate content delivery for websites and applications. In mainland China, supported by all major operators, it has over 1300 nodes that covers major cities in 34 provinces, with 100 Tbps bandwidth capability reserve. It also has over 300 nodes in over 70 other countries and regions across 6 continents, with 20 Tbps bandwidth capability reserve.
+Alibaba Cloud Content Delivery Network \(CDN\) uses a global network of 2500+ nodes covering over 70 countries, with the bandwidth reserve capacity of 120 Tbps, to accelerate content delivery for websites and applications.
 
 CDN continues to reliably serve businesses thanks to its ever-advancing technical specifications, including a 10 G optical network card, 40 TB to 1.5 PB storage space, and 40 Gbps to 200 Gbps bandwidth load capability.
 
 High-performance nodes enhance information delivery compared with traditional methods, accelerating distribution and boosting reliability. With CDN, businesses are able to continue to provide a high-quality services in even the most demanding of situations.
+
+You can see the distribution of Alibaba Cloud CDN nodes as the image below.
+
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5099/155357228132402_en-US.png)
 
 ## Configure nodes {#section_uj3_dr2_zdb .section}
 
@@ -16,14 +20,4 @@ High-performance nodes enhance information delivery compared with traditional me
 
 -   You can choose the acceleration zone: Mainland China, Hong Kong, Macao, Taiwan, and Outside-China, and Global Acceleration.
 
-
-## Search nodes {#section_vbx_pq2_zdb .section}
-
-The list of Alibaba Cloud CDN nodes is below in the image. Beyond Mainland China, over 300 nodes are distributed across the globe.
-
-Mainland China
-
-In Mainland China, there are over 1200 edge nodes in 34 provinces.
-
-Hong Kong, Macao, Taiwan and Outside-China ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5099/154461920532402_en-US.png)
 
