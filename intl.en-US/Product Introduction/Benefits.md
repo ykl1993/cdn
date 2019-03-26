@@ -1,8 +1,10 @@
 # Benefits {#concept_g5j_zt2_zdb .concept}
 
+You can be abreast of Alibaba Cloud CDN's benefits in this document.
+
 ## Stable and fast {#section_xwq_p52_zdb .section}
 
--   Advanced distributed system architecture: 1500+ globally.
+-   Advanced distributed system architecture: 2500+ globally.
 -   Adequate bandwidth and storage resources: a single node provides a bandwidth of more than 40 Gbps and a storage capacity of 40 TB to 1.5 PB.
 -   Stable and efficient performance indicators: greater than 95% hit rate and video fluency rate, and millisecond-level response time.
 -   Mature monitoring and service systems: 24/7 network-wide monitoring, smart monitoring and scheduling based on service quality.
@@ -17,4 +19,6 @@
 
 -   You can add, delete, modify, and query domain names on your own by using a wide range of simple custom configuration options. CDN supports customizing anti-leech measures, cache policies, HTTP request headers, and other functions.
 -   The open API interfaces provide functions such as service activation, content refreshing, monitoring data retrieval, and distribution log downloads.
+
+For more information on Alibaba Cloud CDN's functions, refer to [Alibaba Cloud CDN Function List](https://www.alibabacloud.com/help/doc-detail/27125.htm).
 
