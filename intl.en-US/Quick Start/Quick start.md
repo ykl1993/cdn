@@ -2,7 +2,7 @@
 
 This document describes how to quickly get started with the CDN service. The procedure is as follows:
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/15490129316046_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5111/15535885916046_en-US.png)
 
 ## Step 1. Enable the CDN service {#section_fyr_1tv_tdb .section}
 
@@ -26,20 +26,22 @@ This document describes how to quickly get started with the CDN service. The pro
     -   Wildcard domain acceleration is supported. Chinese domain acceleration is not supported. Note this rule when you enter wildcard domains: `*.test.com`. For more information, see Wildcard Domain Acceleration Rules
     -   A CDN domain cannot added multiple times. If you encounter a **Domain already added** issue, submit a ticket to us for help.
     -   Up to 50 CDN domains can be added under one account.
-    -   The domain content must comply with CDN specifications. For more information, see [CDN Service Use Restrictions](../../../../../reseller.en-US/Product Introduction/Limits.md#).
+    -   The domain content must comply with CDN specifications. For more information, see [CDN Service Use Restrictions](../../../../../reseller.en-US/Quick Start/Limits.md#).
     Business type description:
 
     The Alibaba Cloud CDN scheduling system performs specific scheduling optimization based on the different types of business selected by the user:
 
     |Business type|Note|
     |:------------|:---|
-    |[Images and small files](../../../../../reseller.en-US/User Guide/Business type/Type 1: Images And Small Files Acceleration.md#)|If the content to be accelerated is mostly images and web files \(For example, small files, images and web-styled file\), we recommend that you select the "images and small files" business type.|
+    |[Images and small files](../../../../../reseller.en-US/User Guide/Business type/Type 1: Images and small files acceleration.md#)|If the content to be accelerated is mostly images and web files \(For example, small files, images and web-styled file\), we recommend that you select the "images and small files" business type.|
     |[Large file downloads](../../../../../reseller.en-US/User Guide/Business type/Type 2: Large file downloads acceleration.md#)|If the content to be accelerated is large files \(static files larger than 20 MB\), for example, games installation package, application update, mobile ROM update, application program package download and other scenarios, acceleration of **large file downloads** is recommended.|
     |[On-demand video/audio](../../../../../reseller.en-US/User Guide/Business type/Type 3: On-demand video__audio acceleration.md#)|For large video files, acceleration of live streaming media is recommended to accelerate video on demand and live streaming services.|
     |[Live streaming media](../../../../../reseller.en-US/User Guide/Business type/Type 4: Live Streaming Media Acceleration.md#)|Currently, live streaming is an independent product. Refer to [ApsaraVideo Live](https://www.alibabacloud.com/product/apsaravideo-for-live) for more information.|
     |[Dynamic Route for CDN](../../../../../reseller.en-US/User Guide/Business type/Type 5: Dynamic Route for  CDN.md#)|Currently, Dynamic Route for CDN has been an independent product. Refer to the [Dynamic Route for CDN](https://www.alibabacloud.com/product/dcdn) for more information.|
 
     Types of origin sites:
+
+    **Note:** You cannot use your acceleration domain name as your CDN origin site.
 
     |Origin site type|Description|
     |:---------------|:----------|
