@@ -6,7 +6,9 @@ Alibaba Cloud Content Delivery Network \(CDN\) caches contents at physical nodes
 
 Suppose that your origin site is in Hong Kong, and the domain name www.a.com has access to the CDN service. The following steps take place when a user in Beijing requests contents from your site.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15438215864886_en-US.png)
+Now, IPv6 has been adopted on several Alibaba Cloud CDN edge nodes.
+
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15538281844886_en-US.png)
 
 1.  A user in Beijing requests content from your website or application \(with the domain name of www.a.com\).
 2.  The LDNS routes the request to the node that is the shortest geographical distance from the user \(steps 2 to 6 in the figure above\), which in this case is Beijing Node 2.2.2.2.

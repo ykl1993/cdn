@@ -4,13 +4,15 @@
 
 阿里云CDN将您源站资源缓存至阿里云遍布全球的加速节点上，当终端用户请求访问和获取这些资源时，无需回源，系统将就近调用CDN节点上已经缓存的资源。您可以参考[快速入门](../../../../../intl.zh-CN/快速入门/快速入门.md#)快速接入阿里云CDN。
 
+目前，CDN部分节点已支持IPv6进行访问。
+
 ## 工作原理 {#section_qry_wz2_h2b .section}
 
 通过以下案例，您可以清楚地了解CDN的工作原理。
 
 假设您的源站域名为 `www.a.com`。接入 CDN 开始使用加速服务后，当您的终端用户（北京）发起 HTTP 请求时，实际的处理流程如下：
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15532370434886_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15538281814886_zh-CN.png)
 
 1.  终端用户（北京） 向 `www.a.com`下的某资源发起请求，会先向 LDNS 发起域名解析请求。
 2.  当 LDNS 解析 `www.a.com` 时，会发现已经配置了 CNAME `www.a.tbcdn.com`。
