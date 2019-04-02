@@ -6,7 +6,7 @@
 
 阿里云CDN的WAF功能，是指CDN融合了云盾Web应用防火墙（Web Application Firewall，简称 WAF）能力，在CDN节点上，提供WAF防护功能。
 
-云盾Web应用防火墙基于云安全大数据能力，用于防御SQL注入、XSS跨站脚本、常见Web服务器插件漏洞、木马上传、非授权核心资源访问等OWASP常见攻击，并过滤海量恶意CC攻击，避免您的网站资产数据泄露，保障网站的安全与可用性。关于具体的WAF功能，请参见 [什么是Web应用防火墙](../../../../../cn.zh-CN/产品简介/45254什么是Web应用防火墙.md#)。
+云盾Web应用防火墙基于云安全大数据能力，用于防御SQL注入、XSS跨站脚本、常见Web服务器插件漏洞、木马上传、非授权核心资源访问等OWASP常见攻击，并过滤海量恶意CC攻击，避免您的网站资产数据泄露，保障网站的安全与可用性。关于具体的WAF功能，请参见[什么是Web应用防火墙](../../../../../cn.zh-CN/产品简介/45254什么是Web应用防火墙.md#)。
 
 ## 适用场景 {#section_erc_tmp_fhb .section}
 
@@ -22,9 +22,9 @@ CDN的WAF服务主要适用于金融、电商、O2O、互联网+、游戏、政�
 
 目前阿里云CDN的WAF功能属于公测阶段，您暂时无法自动在控制台开启WAF功能。（仅支持开启后自动关闭WAF功能）
 
-您可以扫下图二维码，加入CDN WAF钉钉讨论群。我们在了解您的需求后，会为您进行WAF配置。
+您可以扫下图二维码加入CDN WAF钉钉讨论群或[提工单](https://workorder.console.aliyun.com/console.htm?lang=&accounttraceid=98a8dde8-83d6-43df-9cfe-8934a7a4358d#/ticket/add?productCode=cdn)，我们在了解您的需求后，会为您进行WAF配置。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/134870/155376503341797_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/134870/155419582241797_zh-CN.png)
 
 ## 费用说明 {#section_crk_rpp_fhb .section}
 
