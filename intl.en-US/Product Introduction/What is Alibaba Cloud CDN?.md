@@ -8,7 +8,7 @@ Suppose that your origin site is in Hong Kong, and the domain name www.a.com has
 
 Now, IPv6 has been adopted on several Alibaba Cloud CDN edge nodes.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15538281844886_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15543483564886_en-US.png)
 
 1.  A user in Beijing requests content from your website or application \(with the domain name of www.a.com\).
 2.  The LDNS routes the request to the node that is the shortest geographical distance from the user \(steps 2 to 6 in the figure above\), which in this case is Beijing Node 2.2.2.2.
@@ -18,21 +18,31 @@ Now, IPv6 has been adopted on several Alibaba Cloud CDN edge nodes.
     -   If the content has been cached at the Beijing node, CDN directly delivers them to the user.
     -   If the files are not in the cache of the Beijing node, the node requests the content from the origin site. When the content is received, the Beijing node forwards to the user, in the light of his customized caching policy.
 
-## Operations {#section_hb5_xrn_hfb .section}
+## Operations {#section_i4g_cnf_l2b .section}
 
-You can log on [CDN Console](https://partners-intl.console.aliyun.com/#/cdn) to enjoy all functions.
+Before your Alibaba CDN trip, refer to [basic concepts](https://www.alibabacloud.com/help/doc-detail/27102.htm). It will help you understand CDN quickly.
+
+To get started with CDN, go to Quick Start. You can also follow the [CDN Learning Path](https://www.alibabacloud.com/getting-started/learningpath/cdn) to get a complete understanding of CDN.
+
+You can log on [CDN Console](https://cdn.console.aliyun.com) to enjoy all functions.
 
 Moreover, you can check [API documentations](https://www.alibabacloud.com/help/doc-detail/27155.htm) to flexibly realize your business targets.
 
-## Related services {#section_ehy_4sn_hfb .section}
+## Price and billing {#section_cdg_yqb_n2b .section}
 
-[Object Storage Service \(OSS\)](https://partners-intl.aliyun.com/help/product/31815.htm): Improves website access speed and reduces the data charges that may be incurred on the external network.
+See [Pricing overview](https://www.alibabacloud.com/help/doc-detail/73877.htm) to quickly know how Alibaba Cloud CDN charges. Basic services and value-added services are the main two parts. You can choose PayByTraffic or PayByBandwidth for basic services.
 
-[ApsaraVideo Live service](https://partners-intl.aliyun.com/help/product/29949.htm): Delivers an integrated solution including media asset, slice transcoding, visiting authentication, and content delivery acceleration.
+## Related services {#section_lpx_g3f_l2b .section}
 
-[Alibaba Cloud DNS](https://partners-intl.aliyun.com/help/product/34269.htm): Provides powerful but stable resolutions and dispatches services, ensuring a smooth experience for visiting users.
+[Dynamic Route for CDN](https://www.alibabacloud.com/help/product/64812.htm): Distinguishes dynamic and static resources and accelerates both separately.
 
-[Elastic Compute Service \(ECS\)](https://partners-intl.aliyun.com/help/product/25365.htm): Enhances website availability, protects the information on a server’s source station, and lowers the cost of bandwidth use.
+[Object Storage Service \(OSS\)](https://www.alibabacloud.com/help/product/31815.htm): Improves website access speed and reduces the data charges that may be incurred on the external network.
 
-[Server Load Balancer](https://partners-intl.aliyun.com/help/product/27537.htm): Sets the server's IP address to the source site, which relieves the bandwidth pressure.
+[ApsaraVideo Live service](https://www.alibabacloud.com/help/product/29949.htm): Delivers an integrated solution including media asset, slice transcoding, visiting authentication, and content delivery acceleration.
+
+[Alibaba Cloud DNS](https://www.alibabacloud.com/help/product/34269.htm): Provides powerful but stable resolutions and dispatches services, ensuring a smooth experience for visiting users.
+
+[Elastic Compute Service \(ECS\)](https://www.alibabacloud.com/help/product/25365.htm): Enhances website availability, protects the information on a server’s source station, and lowers the cost of bandwidth use.
+
+[Server Load Balancer](ttps://www.alibabacloud.com/help/product/27537.htm): Sets the server's IP address to the source site, which relieves the bandwidth pressure.
 

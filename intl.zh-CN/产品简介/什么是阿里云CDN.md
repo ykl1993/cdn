@@ -12,7 +12,7 @@
 
 假设您的源站域名为 `www.a.com`。接入 CDN 开始使用加速服务后，当您的终端用户（北京）发起 HTTP 请求时，实际的处理流程如下：
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15538281814886_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5098/15543483544886_zh-CN.png)
 
 1.  终端用户（北京） 向 `www.a.com`下的某资源发起请求，会先向 LDNS 发起域名解析请求。
 2.  当 LDNS 解析 `www.a.com` 时，会发现已经配置了 CNAME `www.a.tbcdn.com`。
@@ -20,8 +20,8 @@
 4.  LDNS 获取 DNS 返回的解析 IP。
 5.  用户获取解析 IP。
 6.  用户向获取的 IP 发起对该资源的访问请求。
-    -   若该 IP 对应的节点已经缓存了该资源，则会将数据直接返回给用户（如图中步骤7、8），此时请求结束。
-    -   若该节点未缓存该资源，则节点会向业务源站发起对该资源的请求。获取资源后，结合用户自定义配置的缓存策略（可参考产品文档中的[缓存配置](../../../../../intl.zh-CN/用户指南/域名管理/节点缓存设置/缓存配置.md#)），将资源缓存至节点（如图：北京节点），并返回给用户，此时请求结束。
+    -   若该IP对应的节点已缓存该资源，则会将数据直接返回给用户（如图中步骤7、8），此时请求结束。
+    -   若该IP对应的节点未缓存该资源，则节点会向业务源站发起对该资源的请求。获取资源后，结合用户自定义配置的缓存策略（可参考产品文档中的[缓存配置](../../../../../intl.zh-CN/用户指南/域名管理/节点缓存设置/缓存配置.md#)），将资源缓存至节点（如图：北京节点），并返回给用户，此时请求结束。
 
 ## 使用CDN {#section_i4g_cnf_l2b .section}
 
@@ -29,15 +29,13 @@
 
 您可以查看[CDN学习路径](https://www.alibabacloud.com/zh/getting-started/learningpath/cdn)，快速了解并上手CDN。
 
-您可以登录[CDN控制台](../../../../../intl.zh-CN/用户指南/新控制台说明.md#)，了解并使用了CDN的[全部功能](../../../../../intl.zh-CN/用户指南/CDN功能列表.md#)。
+您可以登录[CDN控制台](https://cdnnext.console.aliyun.com)，了解并使用了CDN的[全部功能](../../../../../intl.zh-CN/用户指南/CDN功能列表.md#)。
 
 您还可以使用CDN的[API](https://www.alibabacloud.com/help/zh/doc-detail/91856.htm)，更灵活地帮助您的业务。
 
 ## CDN定价 {#section_c3q_dnf_l2b .section}
 
-CDN的[定价策略](https://www.aliyun.com/price/product?spm=a2c4g.11186623.2.23.3c095cd5jsmLKS#/cdn/detail)：基础服务和 增值服务。其中，基础服务可以按流量或带宽两种方式计算。
-
-更多CDN定价策略，请参考[产品价格](https://www.alibabacloud.com/zh/product/cdn/pricing)。
+CDN的[定价策略](https://www.aliyun.com/price/product?spm=a2c4g.11186623.2.23.3c095cd5jsmLKS#/cdn/detail)：基础服务和增值服务。其中，基础服务可以按流量或带宽两种方式计算。
 
 ## 相关服务 {#section_lpx_g3f_l2b .section}
 
