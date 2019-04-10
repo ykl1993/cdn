@@ -1,15 +1,13 @@
 # HTTPS安全加速设置 {#concept_rns_qvk_xdb .concept}
 
-安全超文本传输协议（Hyper Text Transfer Protocol over Secure Socket Layer，简称 HTTPS），是以安全为目标的HTTP通道。简单来说，HTTPS 是 HTTP 的安全版，即将 HTTP 用 SSL/TLS 协议进行封装，HTTPS 的安全基础是 SSL/TLS。
+安全超文本传输协议（Hyper Text Transfer Protocol over Secure Socket Layer，简称HTTPS），是以安全为目标的HTTP通道。简单来说，HTTPS是HTTP的安全版，即将HTTP用SSL/TLS协议进行封装，HTTPS的安全基础是SSL/TLS协议。
 
 ## 功能优势 {#section_ynt_mnl_xdb .section}
 
 -   传输过程中对用户的关键信息进行加密，防止类似Session ID或者Cookie内容被攻击者捕获造成的敏感信息泄露等安全隐患。
--   传输过程中对数据进行完整性校验，防止DNS或内容遭第三方劫持、篡改等中间人攻击（MITM）隐患，了解更多使用HTTPS防止流量劫持。
+-   传输过程中对数据进行完整性校验，防止DNS或内容遭第三方劫持、篡改等中间人攻击（MITM）隐患，了解更多[使用HTTPS防止流量劫持](http://yq.aliyun.com/articles/2666)。
 
-阿里云CDN 提供了HTTPS安全加速方案。您只需要开启HTTPS后上传证书和私钥，并支持对证书进行查看、停用、启用、编辑操作。
-
-**说明：** 如果您有SNI回源的需要，请[提交工单](https://workorder-intl.console.aliyun.com)。
+阿里云CDN提供HTTPS安全加速方案，您只需要开启HTTPS后上传证书和私钥。此外，阿里云CDN还支持对证书进行查看、停用、启用、编辑操作。
 
 ## 工作原理 {#section_pcc_snl_xdb .section}
 
@@ -17,7 +15,7 @@
 
 以下是HTTPS加密流程：
 
- 
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/15548805353698_zh-CN.png)
 
 1.  客户端发起HTTPS请求。
 2.  服务端生成公钥和私钥（可以自己制作，也可以向专业组织申请）。
@@ -54,7 +52,7 @@ HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费，�
 
 -   开启**HTTPS安全加速**功能的加速域名，您需要上传证书，包含证书和私钥，均为 `PEM`格式。
 
-    **说明：** 由于CDN采用的Tengine服务基于Nginx，因此只支持Nginx能读取的证书，即`PEM`格式\)。具体方法，请看参考[证书格式说明及转化方法](intl.zh-CN/用户指南/域名管理/HTTPS安全加速/证书格式说明.md#)。
+    **说明：** 由于CDN采用的Tengine服务基于Nginx，因此只支持Nginx能读取的证书，即`PEM`格式\)。具体方法，请看参考[证书格式说明及转化方法](cn.zh-CN/用户指南/域名管理/HTTPS安全加速/证书格式说明.md#)。
 
 -   只支持携带SNI信息的SSL/TLS握手。
 -   您上传的证书需要和私钥匹配，否则会校验出错。
@@ -62,19 +60,22 @@ HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费，�
 
 ## 操作步骤 {#section_p3r_l4l_xdb .section}
 
-1.  购买证书。您需要具备匹配加速域名的证书才能开启HTTPS安全加速。您可以在[云盾控制台](https://yundun.console.aliyun.com/?spm=5176.2020520110.aliyun_sidebar.19.3ff6ZSicZSiceU&p=cas#/cas/home)快速申请免费的证书或购买高级证书。
-2.  登录[CDN控制台](https://cdn.console.aliyun.com)，进入CDN**域名管理**页。选择域名，单击**管理**。
-3.  在**HTTPS设置** \> **HTTPS证书**，单击**修改配置**。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/155073251211410_zh-CN.png)
+1.  购买证书。您需要具备匹配加速域名的证书才能开启HTTPS安全加速。您可以在[云盾控制台](https://yundun.console.aliyun.com/?spm=5176.8232292.domaindetail.24.9498142fSMfoJd&p=cas#/cas/home)快速申请免费的证书或购买高级证书。
+2.  登录[CDN控制台](http://partners-intl.console.aliyun.com/#/cdn)，进入CDN**域名管理**页。选择域名，单击**管理**。
+3.  在**HTTPS设置** \> **HTTPS证书**，单击**修改配置**。
+
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/155488053511410_zh-CN.png)
+
 4.  在HTTPS设置对话框中，开启**HTTPS安全加速**。
 5.  选择证书。您可以选择的证书类型包括：**云盾**、**自定义**和**免费证书**。目前仅支持 `PEM`的证书格式。
 
     -   您可以选择云盾。若证书列表中无当前适配的证书，您可以选择自定义上传。您需要在设置证书名称后，上传证书内容和私钥，该证书将会在阿里云云盾的证书服务中保存。您可以在[我的证书](https://yundun.console.aliyun.com/?spm=5176.2020520110.all.12.16df56a1u1IhI6&p=cas#/cas/home)里查看。
-    -   您也可以选择免费证书，即阿里云的Digicert免费型DV版SSL证书。CDN的免费证书的只适用于CDN的HTTP安全加速业务，因此您无法在阿里云云盾控制台管理该证书，也无法查看到公钥和私钥。设置免费证书后，大约需要等候10分钟生效。
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/155073251211413_zh-CN.png)
+    -   您也可以选择免费证书，即阿里云的Digicert免费型DV版SSL证书。CDN的免费证书只适用于CDN的HTTPS安全加速业务，因此您无法在阿里云云盾控制台管理该证书，也无法查看到公钥和私钥。设置免费证书后，大约需要等候10分钟生效。
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/155488053511413_zh-CN.png)
 
 6.  验证证书是否生效。证书生效后（约1小时），使用HTTPS方式访问资源。如果浏览器中出现绿色HTTPS标识，表明当前与网站建立的是私密连接，HTTPS安全加速生效。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/15507325123701_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/15548805353701_zh-CN.png)
 
 
 **说明：** 关于更换证书：
