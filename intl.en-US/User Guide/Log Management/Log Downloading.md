@@ -30,7 +30,5 @@ Log field description
 |UA header|Mozilla/5.0 \(compatible; AhrefsBot/5.0; +[http://ahrefs.com/robot/](http://ahrefs.com/robot/)\)|
 |File type|text/html|
 
-Console location:
-
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5171/3516_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5171/15555678753516_en-US.png)
 
