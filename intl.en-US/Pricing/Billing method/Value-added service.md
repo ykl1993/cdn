@@ -6,3 +6,5 @@ In addition to the basic services, the HTTPS Acceleration is charged separately 
 
 When you enable static HTTPS requests on CDN console, you need to pay for this item. For more information, see
 
+For more information, see [Pricing](https://www.alibabacloud.com/product/cdn/pricing).
+
