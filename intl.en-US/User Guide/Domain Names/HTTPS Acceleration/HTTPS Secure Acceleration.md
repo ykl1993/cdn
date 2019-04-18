@@ -62,17 +62,17 @@ HTTPS Secure Acceleration is a value-added service, so that you need to pay for 
 
 1.  Purchase a certificate. Only when you own the certificate that is matched with your domain name can you enable HTTPS Secure Acceleration. You can easily purchase Alibaba Cloud Certificate in the [SSL Certificate console](https://yundun.console.aliyun.com/?spm=5176.2020520110.aliyun_sidebar.19.3ff6ZSicZSiceU&p=cas#/cas/home), or apply for free certificate.
 2.  Log on to the [CDN console](https://cdn.console.aliyun.com), and enter the **Domain Names** page. Select the domain name, and click **Manage**.
-3.  In **HTTPS Configurations** \> **HTTPS Cert**, click **Modify**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/155556918011410_en-US.png)
+3.  In **HTTPS Configurations** \> **HTTPS Cert**, click **Modify**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/155556935811410_en-US.png)
 4.  In the HTTPS Settings dialogue, enable **HTTPS Secure**.
 5.  Select your certificate type. You can choose **Alibaba Cloud**, **Custom** or **Free Cert**. Currently, only the `PEM` format is available.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/155556918021687_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/155556935921687_en-US.png)
 
-    -   You can choose the Alibaba Cloud Certificate. If you have no matched certificate in your list, choose custom certificate. You need to upload the certificate contents and secret key after setting the certificate name. This certificate will be saved in your Alibaba Cloud Security. You can check in [My Certificate](https://yundun.console.aliyun.com/?spm=5176.2020520001.aliyun_sidebar.17.12004bd303Zdr8#/all).
+    -   You can choose the Alibaba Cloud Certificate. If you have no matched certificate in your list, choose custom certificate. You need to upload the certificate contents and secret key after setting the certificate name. This certificate will be saved in your Alibaba Cloud Security. You can check in [My Certificate](https://yundunnext.console.aliyun.com/?spm=5176.2020520156.aliyun_sidebar.23.421dDbMODbMOnB&p=cas#/overview/cn-hangzhou).
     -   You can also choose free certificate, namely, Alibaba Cloud CDN Digicert DV version SSL Free certificate. This free certificate is only available for Alibaba Cloud CDN service, and it can't be managed in the SSL Certificates service of Alibaba Cloud Security. This certificate is only used to enable HTTPS Secure Acceleration in CDN, and you cannot obtain its public and private keys for other use. After you choose to use the Free Cert type, it takes about 10 minutes for the certificate to be effective.
 6.  Verify whether the certificate is effective. You can access resources by using HTTPS after the certificate becomes effective \(about 1 hour\). Green HTTPS mark indicates that you have established private connection with the website, and HTTPS secure acceleration has comes into effect.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/15555691803701_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5134/15555693593701_en-US.png)
 
 
 **Note:** About replacing your certificate:
