@@ -17,7 +17,7 @@ With this function, you can specify the domain name that the system need to acce
 
 Change configuration: Enter CDN domain name management page, select domain name access configuration page, return to source settings, you can modify the configuration of the returned host.
 
-![](images/3347_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/5145/155627305345609_en-US.png)
 
 The difference between a source station and a return source host \(one IP/host is capable of binding Multiple Domain Names/sites\) ,, therefore, you need to specify which domain name/site to return to when the source is returned by setting the feed host \):
 
