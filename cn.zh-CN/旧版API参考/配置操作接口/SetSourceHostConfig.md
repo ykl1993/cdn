@@ -1,8 +1,8 @@
-# SetSourceHostConfig {#doc_api_1013181 .reference}
+# SetSourceHostConfig {#doc_api_Cdn_SetSourceHostConfig .reference}
 
 调用SetSourceHostConfig接口设置回源host功能。
 
-**说明：** 若源站为OSS域名，需将OSS域名设置为回源host（即源站域名），方可正常回源。
+**说明：** 若源站为OSS域名，需将OSS域名设置为回源host（即源站域名），才能正常回源。
 
 ## 调试 {#apiExplorer .section}
 
@@ -12,18 +12,21 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|SetSourceHostConfig|操作接口名，系统规定参数，取值：**SetSourceHostConfig**
+|Action|String|是|SetSourceHostConfig|操作接口名，系统规定参数。取值：**SetSourceHostConfig**。
 
  |
 |DomainName|String|是|www.yourdomain.com|您的加速域名
 
  |
-|Enable|String|否|On|枚举**on**,**off**。是否打开自定义host配置。
+|Enable|String|否|On|是否打开自定义host配置。取值：
+
+ -   **on**
+-   **off**
 
  默认值：**on**。
 
  |
-|BackSrcDomain|String|否|www.aliyun.com|自定义回源域名
+|BackSrcDomain|String|否|www.aliyun.com|自定义回源域名。
 
  |
 
@@ -41,7 +44,7 @@
 
 ``` {#request_demo}
 
-http(s)://[Endpoint]/?Action=SetSourceHostConfig
+http(s)://cdn.aliyuncs.com?Action=SetSourceHostConfig
 &DomainName=www.yourdomain.com
 &<公共请求参数>
 
