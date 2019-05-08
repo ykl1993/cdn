@@ -1,4 +1,4 @@
-# DescribeDomainSlowRatio {#doc_api_1013243 .reference}
+# DescribeDomainSlowRatio {#doc_api_Cdn_DescribeDomainSlowRatio .reference}
 
 调用DescribeDomainSlowRatio接口获取视频加速域名5分钟维度的慢速比数据。
 
@@ -14,7 +14,7 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|DescribeDomainSlowRatio|操作接口名，系统规定参数 取值：**DescribeDomainSlowRatio**
+|Action|String|是|DescribeDomainSlowRatio|操作接口名，系统规定参数。取值：**DescribeDomainSlowRatio**。
 
  |
 |DomainName|String|是|test.test.com|加速域名
@@ -44,7 +44,7 @@
 
 |名称|类型|示例值|描述|
 |--|--|---|--|
-|DataInterval|Integer|300|时间间隔，单位：秒。
+|DataInterval|Integer|300|时间间隔。单位：秒。
 
  |
 |EndTime|String|017-09-30T16:00:00Z|结束时间
@@ -96,7 +96,8 @@
 
 ``` {#request_demo}
 
-http(s)://[Endpoint]/?DomainName=test.test.com
+http(s)://cdn.aliyuncs.com?Action=DescribeDomainSlowRatio
+&DomainName=test.test.com
 &<公共请求参数>
 
 ```
