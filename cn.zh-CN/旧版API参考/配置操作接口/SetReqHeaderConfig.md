@@ -1,4 +1,4 @@
-# SetReqHeaderConfig {#doc_api_1013151 .reference}
+# SetReqHeaderConfig {#doc_api_Cdn_SetReqHeaderConfig .reference}
 
 调用SetReqHeaderConfig接口设置回源自定义头。
 
@@ -10,19 +10,19 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|SetReqHeaderConfig|操作接口名，系统规定参数，取值：**SetReqHeaderConfig**
+|Action|String|是|SetReqHeaderConfig|操作接口名，系统规定参数。取值：**SetReqHeaderConfig**。
 
  |
-|DomainName|String|是|www.macaron.org.cn|您的加速域名
+|DomainName|String|是|www.macaron.org.cn|您的加速域名。
 
  |
-|Key|String|是|testkey|回源自定义头key
+|Key|String|是|testkey|回源自定义头key。
 
  |
-|Value|String|是|testvalue|回源自定义头value
+|Value|String|是|testvalue|回源自定义头value。
 
  |
-|ConfigId|Long|否|123|配置ID，修改指定id的配置
+|ConfigId|Long|否|123|配置ID，修改指定id的配置。
 
  |
 
@@ -40,7 +40,7 @@
 
 ``` {#request_demo}
 
-http(s)://[Endpoint]/?Action=SetReqHeaderConfig
+http(s)://cdn.aliyuncs.com?Action=SetReqHeaderConfig
 &DomainName=www.macaron.org.cn
 &Key=testkey
 &Value=testvalue
