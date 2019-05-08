@@ -1,66 +1,86 @@
-# DescribeL2VipsByDomain {#reference_nhk_gjn_vdb .reference}
+# DescribeL2VipsByDomain {#doc_api_Cdn_DescribeL2VipsByDomain .reference}
 
-按域名查询L2节点vip列表。配置白名单后才可以生效。
+调用DescribeL2VipsByDomain接口查询L2节点vip列表。
+
+按域名查询L2节点vip列表，配置白名单后才可以生效。
 
 **说明：** 
 
--   支持日峰值带宽为 1Gbps 以上的用户提工单申请该接口的调用权限。单击[立即申请](https://workorder.console.aliyun.com/console.htm?lang=#/ticket/add?productCode=cdn)。
--   使用场景介绍，参见 [CDN的回源地址有哪些？](../../../../intl.zh-CN/.md)
+-   支持日峰值带宽为**1Gbps**以上的用户提工单申请该接口调用权限，[立即申请](https://workorder.console.aliyun.com/console.htm?lang=#/ticket/add?productCode=cdn)。
+-   使用场景介绍，请了解：[CDN的回源地址有哪些？](40205)
 
-## 请求参数 {#section_km5_h4n_vdb .section}
+## 调试 {#apiExplorer .section}
 
-|参数|类型|是否必选|示例值|描述|
-|Action|String|是|DescribeL2VipsByDomain|系统规定参数。取值：DescribeL2VipsByDomain|
-|DomainName|String|是|www.yourdomain.com| 域名。
+前往【[API Explorer](https://api.aliyun.com/#product=Cdn&api=DescribeL2VipsByDomain)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
 
- 取值范围： 只支持单个域名，需加白名单。
+## 请求参数 {#parameters .section}
+
+|名称|类型|是否必选|示例值|描述|
+|--|--|----|---|--|
+|Action|String|是|DescribeL2VipsByDomain|操作接口名，系统规定参数。取值：**DescribeL2VipsByDomain**。
+
+ |
+|DomainName|String|是|www.yourdomain.com|域名。只支持单个域名，需加白名单。
 
  |
 
-## 返回参数 {#section_hyx_l4n_vdb .section}
+## 返回参数 {#resultMapping .section}
 
-|参数|类型|示例值|描述|
-|DomainName|String|xxxx.com|域名。|
-|Vips|String|“Vip”: \[ “1.1.1.1/25”, “2.2.2.2/25” \]|Vip列表。|
-|RequestId|String|16A96B9A-F203-4EC5-8E43-CB92E68F4CD8|请求ID。|
+|名称|类型|示例值|描述|
+|--|--|---|--|
+|DomainName|String|xxxx.com|域名
 
-## 示例 {#section_uz2_x1n_vdb .section}
+ |
+|Vips| |"Vip": \[ "1.1.1.1/25", "2.2.2.2/25" \]|Vip列表
 
-**请求示例**
+ |
+|RequestId|String|16A96B9A-F203-4EC5-8E43-CB92E68F4CD8|请求ID
+
+ |
+
+## 示例 {#demo .section}
+
+请求示例
+
+``` {#request_demo}
+
+http(s)://cdn.aliyuncs.com?Action=DescribeL2VipsByDomain
+&DomainName=www.yourdomain.com
+&<公共请求参数>
 
 ```
-https://cdn.aliyuncs.com?Action=DescribeL2VipsByDomain&DomainName=xxxx.com&公共请求参数
+
+正常返回示例
+
+`XML` 格式
+
+``` {#xml_return_success_demo}
+<APINAMEResponse>
+  <RequestId>CC6986CB-7A85-4094-B1E1-D65A9AAB8A4E</RequestId>
+  <HostId>cdn.aliyuncs.com</HostId>
+  <Code>InvalidDomain.NotFound</Code>
+  <Message>The domain provided does not belong to you.</Message>
+</APINAMEResponse>
+
 ```
 
-**正常返回示例**
+`JSON` 格式
 
--   JSON格式
+``` {#json_return_success_demo}
+{
+	"Message":"The domain provided does not belong to you.",
+	"RequestId":"CC6986CB-7A85-4094-B1E1-D65A9AAB8A4E",
+	"HostId":"cdn.aliyuncs.com",
+	"Code":"InvalidDomain.NotFound"
+}
+```
 
-    ```
-    {
-        "DomainName":"xxxx.com",
-        "RequestId":"820E7900-5CA9-4AEF-B0DD-20ED5F64BE55",
-        "Vips":{
-            "Vip":[
-                "1.1.1.1/25",
-                "2.2.2.2/25"
-            ]
-        }
-    }
-    ```
+## 错误码 { .section}
 
+|HttpCode|错误码|错误信息|描述|
+|--------|---|----|--|
+|400|MissingParameter|The specified value of parameter "DomainName" can not be empty.|参数“DomainName”不能为空。|
+|400|IllegalOperation|Illegal domain operate is not permitted.|非法操作。|
 
-**异常返回示例**
-
--   JSON格式
-
-    ```
-    {
-        "Code":"InternalError",
-        "HostId":"cdn.aliyuncs.com",
-        "Message":"The request processing has failed due to some unknown error.",
-        "RequestId":"16A96B9A-F203-4EC5-8E43-CB92E68F4CD8"
-    }
-    ```
-
+[查看本产品错误码](https://error-center.aliyun.com/status/product/Cdn)
 
