@@ -1,4 +1,4 @@
-# DescribeDomainHitRateData {#doc_api_1013193 .reference}
+# DescribeDomainHitRateData {#doc_api_Cdn_DescribeDomainHitRateData .reference}
 
 调用DescribeDomainHitRateData接口获取加速域名的字节命中率（命中字节百分比）。
 
@@ -14,9 +14,7 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|DescribeDomainHitRateData|操作接口名，系统规定参数。
-
- 取值：**DescribeDomainHitRateData**
+|Action|String|是|DescribeDomainHitRateData|操作接口名，系统规定参数。取值：**DescribeDomainHitRateData**。
 
  |
 |DomainName|String|否|www.yourdomain.com|需要查询的加速域名，只支持一个域名，不写代表所有。
@@ -49,7 +47,7 @@
 |DomainName|String|test.com|加速域名信息
 
  |
-|DataInterval|String|300|每条记录的时间间隔，以秒为单位
+|DataInterval|String|300|每条记录的时间间隔，以秒为单位。
 
  |
 |StartTime|String|2015-12-10T20:00Z|开始时间
@@ -77,7 +75,8 @@
 
 ``` {#request_demo}
 
-http(s)://[Endpoint]/?<公共请求参数>
+http(s)://cdn.aliyuncs.com?Action=DescribeDomainHitRateData
+&<公共请求参数>
 
 ```
 
