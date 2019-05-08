@@ -1,4 +1,4 @@
-# DescribeCdnRegionAndIsp {#doc_api_1013155 .reference}
+# DescribeCdnRegionAndIsp {#doc_api_Cdn_DescribeCdnRegionAndIsp .reference}
 
 调用DescribeCdnRegionAndIsp接口获取区域和运营商列表。
 
@@ -10,9 +10,7 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|DescribeCdnRegionAndIsp|操作接口名，系统规定参数。
-
- 取值：**DescribeCdnRegionAndIsp**
+|Action|String|是|DescribeCdnRegionAndIsp|操作接口名，系统规定参数。取值：**DescribeCdnRegionAndIsp**。
 
  |
 
@@ -48,7 +46,7 @@
 
 ``` {#request_demo}
 
-http(s)://[Endpoint]/?Action=DescribeCdnRegionAndIsp
+http(s)://cdn.aliyuncs.com?Action=DescribeCdnRegionAndIsp
 &<公共请求参数>
 
 ```
