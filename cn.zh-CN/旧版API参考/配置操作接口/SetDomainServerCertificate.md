@@ -1,4 +1,4 @@
-# SetDomainServerCertificate {#doc_api_1013145 .reference}
+# SetDomainServerCertificate {#doc_api_Cdn_SetDomainServerCertificate .reference}
 
 调用SetDomainServerCertificate接口设置某域名下证书功能是否启用及修改证书信息。
 
@@ -10,22 +10,26 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|SetDomainServerCertificate|操作接口名，系统规定参数。取值：**SetDomainServerCertificate**
+|Action|String|是|SetDomainServerCertificate|操作接口名，系统规定参数。取值：**SetDomainServerCertificate**。
 
  |
 |DomainName|String|是|www.yourdomain.com|指定证书所属加速域名，需属于https加速类型。
 
  |
-|ServerCertificateStatus|String|是|on|HTTPS证书是否启用，取值**on**：启用；**off**：不启用，默认取值：**off**：不启用
+|ServerCertificateStatus|String|是|on|HTTPS证书是否启用。取值：
+
+ -   **on**：启用
+-   **off**：不启用
+-   默认值：**off**
 
  |
 |ForceSet|String|否|1|设置为1时，忽略证书名称重复的校验，覆盖原有同名证书信息。
 
  |
-|Region|String|否|cn-hangzhou|地区
+|Region|String|否|cn-hangzhou|地区。
 
  |
-|CertName|String|否|myCert1|证书名称
+|CertName|String|否|myCert1|证书名称。
 
  |
 |ServerCertificate|String|否|xxxxxx|安全证书内容，不启用证书则无需输入，配置证书请输入证书内容。
@@ -54,7 +58,7 @@
 
 ``` {#request_demo}
 
-http(s)://[Endpoint]/?Action=SetDomainServerCertificate
+http(s)://cdn.aliyuncs.com?Action=SetDomainServerCertificate
 &DomainName=www.yourdomain.com
 &ServerCertificateStatus=on
 &<公共请求参数>
