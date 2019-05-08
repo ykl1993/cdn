@@ -1,6 +1,6 @@
-# ModifyHttpHeaderConfig {#doc_api_1013179 .reference}
+# ModifyHttpHeaderConfig {#doc_api_Cdn_ModifyHttpHeaderConfig .reference}
 
-调用ModifyHttpHeaderConfig接口修改自定义http头。
+调用ModifyHttpHeaderConfig接口修改自定义HTTP头。
 
 ## 调试 {#apiExplorer .section}
 
@@ -10,16 +10,16 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|ModifyHttpHeaderConfig|操作接口名，系统规定参数，取值：**ModifyHttpHeaderConfig**
+|Action|String|是|ModifyHttpHeaderConfig|操作接口名，系统规定参数。取值：**ModifyHttpHeaderConfig**。
 
  |
-|ConfigID|String|是|892783|要修改的配置ID
+|ConfigID|String|是|892783|要修改的配置ID。
 
  |
-|DomainName|String|是|www.yourdomain.com|您的加速域名
+|DomainName|String|是|www.yourdomain.com|您的加速域名。
 
  |
-|HeaderKey|String|是|content-type|要设置HTTP头参数。取值：
+|HeaderKey|String|是|content-type|HTTP头参数。取值：
 
  -   **content-type**
 -   **cache-control**
@@ -31,7 +31,7 @@
 -   **access-control-max-age**
 
  |
-|HeaderValue|String|是|application|要设置的HTTP头参数的取值
+|HeaderValue|String|是|application|HTTP头参数的取值。
 
  |
 
@@ -49,7 +49,7 @@
 
 ``` {#request_demo}
 
-http(s)://[Endpoint]/?Action=ModifyHttpHeaderConfig
+http(s)://cdn.aliyuncs.com?Action=ModifyHttpHeaderConfig
 &ConfigID=892783
 &DomainName=www.yourdomain.com
 &HeaderKey=content-type
