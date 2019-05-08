@@ -14,12 +14,10 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|DescribeDomainTopReferVisit|操作接口名，系统规定参数。
-
- 取值：**DescribeDomainTopReferVisit**
+|Action|String|是|DescribeDomainTopReferVisit|操作接口名，系统规定参数。取值：**DescribeDomainTopReferVisit**。
 
  |
-|DomainName|String|否|www.yourdomain.com|只支持一个域名，若参数为空，默认返回所有加速域名合并后数据
+|DomainName|String|否|www.yourdomain.com|只支持一个域名，若参数为空，默认返回所有加速域名合并后数据。
 
  |
 |SortBy|String|否|pv|排序方式。
@@ -28,9 +26,11 @@
 -   默认值：**pv**。
 
  |
-|StartTime|String|否|2017-12-21T08:00:00:00Z|-   获取数据起始时间点，北京时间。
--   格式为：YYYY-MM-DD。
--   不写默认读取过去24小时数据。
+|StartTime|String|否|2017-12-21T08:00:00:00Z|获取数据起始时间点，北京时间。
+
+ 格式为：YYYY-MM-DD。
+
+ 不写默认读取过去24小时数据。
 
  |
 
@@ -56,7 +56,7 @@
 |└VisitData|String|3|访问次数
 
  |
-|└Flow|String|200|流量。单位：byte
+|└Flow|String|200|流量。单位：byte。
 
  |
 |└FlowProportion|Float|0.5|流量占比
@@ -72,7 +72,7 @@
 
 ``` {#request_demo}
 
-http(s)://cdn.aliyuncs.com/?Action=DescribeDomainTopReferVisit
+http(s)://cdn.aliyuncs.com?Action=DescribeDomainTopReferVisit
 &<公共请求参数>
 
 ```
