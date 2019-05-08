@@ -1,4 +1,4 @@
-# SetIgnoreQueryStringConfig {#doc_api_1013165 .reference}
+# SetIgnoreQueryStringConfig {#doc_api_Cdn_SetIgnoreQueryStringConfig .reference}
 
 调用SetIgnoreQueryStringConfig接口设置过滤参数功能。
 
@@ -10,21 +10,25 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|SetIgnoreQueryStringConfig|操作接口名，系统规定参数，取值：**SetIgnoreQueryStringConfig**
+|Action|String|是|SetIgnoreQueryStringConfig|操作接口名，系统规定参数。取值：**SetIgnoreQueryStringConfig**。
 
  |
-|DomainName|String|是|www.macaron.org.cn|要开启该功能的加速域名
+|DomainName|String|是|www.macaron.org.cn|要开启该功能的加速域名。
 
  |
-|Enable|String|是|On|配置过滤参数功能的开启或关闭。
+|Enable|String|是|On|是否配置过滤参数功能。取值：
 
- 取值：**On**、**Off**
-
- |
-|HashKeyArgs|String|否|time|保留参数，多个用逗号（英文、半角）分隔，最多配置10个保留参数
+ -   **On**
+-   **Off**
 
  |
-|KeepOssArgs|String|否|on|取值：**On**、**Off**。**On**表示回源保留所有参数，**Off**表示关闭
+|HashKeyArgs|String|否|time|保留参数。多个用逗号（英文、半角）分隔，最多配置10个保留参数。
+
+ |
+|KeepOssArgs|String|否|on|取值：
+
+ -   **On**：回源保留所有参数
+-   **Off**：关闭
 
  |
 
@@ -42,7 +46,7 @@
 
 ``` {#request_demo}
 
-http(s)://[Endpoint]/?Action=SetIgnoreQueryStringConfig
+http(s)://cdn.aliyuncs.com?Action=SetIgnoreQueryStringConfig
 &DomainName=www.macaron.org.cn
 &Enable=On
 &<公共请求参数>
