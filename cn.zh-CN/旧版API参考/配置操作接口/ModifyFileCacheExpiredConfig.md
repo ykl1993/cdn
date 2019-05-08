@@ -1,4 +1,4 @@
-# ModifyFileCacheExpiredConfig {#doc_api_1013175 .reference}
+# ModifyFileCacheExpiredConfig {#doc_api_Cdn_ModifyFileCacheExpiredConfig .reference}
 
 调用ModifyFileCacheExpiredConfig接口修改文件过期配置。
 
@@ -10,24 +10,24 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|ModifyFileCacheExpiredConfig|操作接口名，系统规定参数，取值：**ModifyFileCacheExpiredConfig**
+|Action|String|是|ModifyFileCacheExpiredConfig|操作接口名，系统规定参数。取值：**ModifyFileCacheExpiredConfig**。
 
  |
 |CacheContent|String|是|jpg,png|填写文件名后缀，逗号分隔。
 
  |
-|ConfigID|String|是|905535|要修改的配置ID
+|ConfigID|String|是|905535|要修改的配置ID。
 
  |
-|DomainName|String|是|www.yourdomain.com|您的加速域名
+|DomainName|String|是|www.yourdomain.com|您的加速域名。
 
  |
-|TTL|String|是|600|缓存时间设置，单位为秒
+|TTL|String|是|600|缓存时间设置。单位：秒。
 
  |
-|Weight|String|否|22|此条配置的权重值。
+|Weight|String|否|22|该配置权重值。
 
- 取值范围：1-99，数值越大，优先级越高。
+ 取值范围：1~99。数值越大，优先级越高。
 
  默认值：1。
 
@@ -47,7 +47,7 @@
 
 ``` {#request_demo}
 
-http(s)://[Endpoint]/?Action=ModifyFileCacheExpiredConfig
+http(s)://cdn.aliyuncs.com?Action=ModifyFileCacheExpiredConfig
 &CacheContent=jpg,png
 &ConfigID=905535
 &DomainName=www.yourdomain.com
