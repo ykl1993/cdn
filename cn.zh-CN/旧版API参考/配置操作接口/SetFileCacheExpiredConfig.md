@@ -10,19 +10,23 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|SetFileCacheExpiredConfig|操作接口名，系统规定参数，取值：**SetFileCacheExpiredConfig**
+|Action|String|是|SetFileCacheExpiredConfig|操作接口名，系统规定参数。取值：**SetFileCacheExpiredConfig**。
 
  |
-|CacheContent|String|是|jpg,png|填写文件名后缀，逗号分隔
+|CacheContent|String|是|jpg,png|填写文件名后缀，逗号分隔。
 
  |
-|DomainName|String|是|www.yourdomain.com|您的加速域名
+|DomainName|String|是|www.yourdomain.com|您的加速域名。
 
  |
-|TTL|String|是|600|缓存时间设置，单位为秒。
+|TTL|String|是|600|缓存时间设置。单位：秒。
 
  |
-|Weight|String|否|22|此条配置的权重值，取值范围为1-99, 数值越大, 优先级越高。默认值为1。
+|Weight|String|否|22|该配置权重值。
+
+ 取值：1~99。数值越大，优先级越高。
+
+ 默认值：1。
 
  |
 
@@ -40,7 +44,7 @@
 
 ``` {#request_demo}
 
-http(s)://[Endpoint]/?Action=SetFileCacheExpiredConfig
+http(s)://cdn.aliyuncs.com?Action=SetFileCacheExpiredConfig
 &CacheContent=jpg,png
 &DomainName=www.yourdomain.com
 &TTL=600
