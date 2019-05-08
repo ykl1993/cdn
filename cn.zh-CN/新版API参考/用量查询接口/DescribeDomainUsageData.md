@@ -1,11 +1,11 @@
 # DescribeDomainUsageData {#reference4231 .reference}
 
-查询域名特定在特定计费区域的用量数据。
+查询域名在特定计费区域的用量数据。
 
 **说明：** 
 
 -   支持批量域名查询，多个域名用半角逗号分隔，最多可以一次查询100个域名。如果为空则返回账号下所有域名的数据。
--   用量数据包括流量，带宽和请求数三类，单位分别为byte、bps和次。
+-   用量数据包括流量、带宽和请求数三类，单位分别为byte、bps和次。
 
 ## 请求参数 { .section}
 
@@ -20,15 +20,15 @@
 |EndTime|String|是|结束时间需大于起始时间，不能相差超过31天。获日期格式按照ISO8601表示法，并使用UTC时间。格式为：YYYY-MM-DDThh:mm:ssZ。|
 |DataProtocol|String|否|需要获取的数据的协议。包括https、http和all。默认为all。|
 |Type|String|否|需要获取的用量类型。static代表静态；dynamic 代表动态；all 代表全部。默认为all。|
-|Area|String|否|区域代号。包括：CN、OverSeas、AP1、AP2、AP3、NA、SA、EUMEAA、all。不传为CN：中国大陆。|
+|Area|String|否|区域代号。包括：CN、OverSeas、AP1、AP2、AP3、NA、SA、EU、MEAA、all。不传为CN：中国大陆。|
 |Field|String|是|请求的数据类型。包括：bps、traf、acc，其中 acc 不支持area。|
-|Interval|String|否|强制指定获取指定时间粒度的数据。支持300、3600或86400，分别代表5分钟、1小时和1天。**说明：** 
+|Interval|String|否|强制指定获取指定时间粒度的数据。支持300、3600或86400，分别代表5分钟、1小时和1天。 **说明：** 
 
 -   如果指定Interval为300，最长可查询近半年的数据，单次查询时间跨度最长为3天。
 -   如果指定Interval为3600或86400，最长可查询近1年的数据。
 -   如果不指定Interval，单次查询跨度最长为1个月。当查询时间为1-3天时，数据按小时粒度返回。当查询时间大于4天时，数据按天粒度返回。
 
-|
+ |
 
 ## 参数组合说明 {#section_zk4_tzf_2hb .section}
 
@@ -36,8 +36,8 @@
 
 |计费数据|DataProtocol参数取值|Type参数取值|Field参数取值|Area参数取值|
 |:---|:---------------|:-------|:--------|:-------|
-|流量|all或不传|all或不传|traf|CN OverSeas AP1 AP2 AP3 NA SA EU MEAA|
-|带宽|all或不传|all或不传|bps|CN OverSeas AP1 AP2 AP3 NA SA EU MEAA|
+|流量|all或不传|all或不传|traf|CN、OverSeas、AP1、AP2、AP3、NA、SA、EU、MEAA|
+|带宽|all或不传|all或不传|bps|CN、OverSeas、AP1、AP2、AP3、NA、SA、EU、MEAA|
 |静态HTTPS请求数|https|static|acc|all|
 |动态HTTP请求数|http|dynamic|acc|all|
 |动态HTTPS请求数|https|dynamic|acc|all|
