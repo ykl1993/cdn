@@ -9,7 +9,7 @@
 
 ## 请求参数 { .section}
 
-|参数|类型|是否必需|描述|
+|参数|类型|是否必须|描述|
 |:-|:-|:---|:-|
 |Action|String|是|操作接口名，系统规定参数。取值：DescribeDomainUsageData。|
 |DomainName|String|否| -   若参数为空，默认返回所有加速域名合并后数据。
@@ -46,21 +46,21 @@
 
 |名称|类型|描述|
 |:-|:-|:-|
-|DomainName|String|加速域名信息|
+|DomainName|String|加速域名信息。|
 |DataInterval|String|每条记录的时间间隔，以秒为单位。|
-|StartTime|DateTime|开始时间|
-|EndTime|DateTime|结束时间|
-|Type|String|用量类型|
-|Area|String|用量区域|
-|UsageDataPerInterval|UsageData\[\]|每个时间间隔的流量数据|
+|StartTime|DateTime|开始时间。|
+|EndTime|DateTime|结束时间。|
+|Type|String|用量类型。|
+|Area|String|用量区域。|
+|UsageDataPerInterval|UsageData\[\]|每个时间间隔的流量数据。|
 
 ## UsageData { .section}
 
 |名称|类型|描述|
 |:-|:-|:-|
-|TimeStamp|String|时间片起始时刻|
+|TimeStamp|String|时间片起始时刻。|
 |PeakTime|String|Field为bps时，该值为峰值带宽时刻，否则值和TimeStamp相同。|
-|Value|String|用量|
+|Value|String|用量。|
 
 ## 示例 { .section}
 
@@ -162,20 +162,20 @@
 
 |错误代码|错误信息|HTTP 状态码|描述|
 |:---|:---|:-------|:-|
-|Throttling|Request was denied due to request throttling.|503|请求被流量控制限制|
+|Throttling|Request was denied due to request throttling.|503|请求被流量控制限制。|
 |IllegalOperation|Illegal domain, operation is not permitted.|403|非法域名，无法操作。|
-|OperationDenied|Your account does not open CDN service yet.|403|未开通CDN服务|
-|OperationDenied|Your CDN service is suspended.|403|CDN服务已被停止|
-|InvalidDomain.NotFound|The domain provided does not belong to you.|404|域名不存在或不属于当前用户|
-|InvalidDomain.Offline|The domain provided is offline.|404|域名已下线|
+|OperationDenied|Your account does not open CDN service yet.|403|未开通CDN服务。|
+|OperationDenied|Your CDN service is suspended.|403|CDN服务已被停止。|
+|InvalidDomain.NotFound|The domain provided does not belong to you.|404|域名不存在或不属于当前用户。|
+|InvalidDomain.Offline|The domain provided is offline.|404|域名已下线。|
 |ServiceBusy|The specified Domain is configuring, please retry later.|403|域名正在配置中，请稍后再试。|
-|InvalidDomain.Configure\_failed|Failed to configure the provided domain.|500|域名配置失败|
-|InvalidParameter|Invalid Parameter.|400|参数错误|
-|InvalidParameterProduct|Invalid Parameter Product.|400|Product参数错误|
-|InvalidParameterArea|Invalid Parameter Area.|400|Area参数错误|
-|InvalidParameterField|Invalid Parameter Field.|400|Field参数错误|
-|InvalidParameterStartTime|Invalid Parameter StartTime.|400|StartTime参数错误|
-|InvalidParameterEndTime|Invalid Parameter EndTime.|400|EndTime参数错误|
-|InvalidTimeRange|StartTime and EndTime range should less than 1 month.|400|EndTime和StartTime差值不能超过31天|
-|InvalidParameterInterval|Invalid Parameter Interval.|400|Interval参数错误|
+|InvalidDomain.Configure\_failed|Failed to configure the provided domain.|500|域名配置失败。|
+|InvalidParameter|Invalid Parameter.|400|参数错误。|
+|InvalidParameterProduct|Invalid Parameter Product.|400|Product参数错误。|
+|InvalidParameterArea|Invalid Parameter Area.|400|Area参数错误。|
+|InvalidParameterField|Invalid Parameter Field.|400|Field参数错误。|
+|InvalidParameterStartTime|Invalid Parameter StartTime.|400|StartTime参数错误。|
+|InvalidParameterEndTime|Invalid Parameter EndTime.|400|EndTime参数错误。|
+|InvalidTimeRange|StartTime and EndTime range should less than 1 month.|400|EndTime和StartTime差值不能超过31天。|
+|InvalidParameterInterval|Invalid Parameter Interval.|400|Interval参数错误。|
 
