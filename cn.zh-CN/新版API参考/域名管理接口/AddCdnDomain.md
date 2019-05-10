@@ -4,7 +4,7 @@
 
 **说明：** 
 
--   创建加速域名之前, 必须先开通CDN服务。
+-   创建加速域名之前, 您需要先开通CDN服务。请参见[开通CDN服务](../../../../cn.zh-CN/产品定价/开通CDN服务.md#)。
 -   加速域名必须已备案完成。
 -   源站内容，如果不在阿里云平台上，需要审核，审核工作会在下一工作日前完成。
 
@@ -14,18 +14,18 @@
 |:-|:-|:---|:-|
 |Action|String|是|操作接口名，系统规定参数。 取值：AddCdnDomain。|
 |DomainName|String|是|需要接入CDN的域名。支持泛域名，以符号“.”开头，如：.example.com。|
-|CdnType|String|是|加速域名的业务类型。 取值：-   web：图片及小文件分发；
+|CdnType|String|是|加速域名的业务类型。 取值： -   web：图片及小文件分发。
 -   download：大文件下载加速。
 -   Video：视频点播加速。
 
-|
-|Sources|String|否|回源地址列表|
-|CheckUrl|String|否|检测url|
-|Scope|String|否|取值范围：-   domestic
+ |
+|Sources|String|是|回源地址列表。|
+|CheckUrl|String|否|检测url。|
+|Scope|String|否|取值范围： -   domestic
 -   overseas
 -   global
 
-默认值：domestic。国际用户、国内L3及以上用户设置有效。|
+ 默认值：domestic。国际用户、国内L3及以上用户设置有效。|
 |ResourceGroupId|String|否|资源组id，不传时，自动补全默认资源组id。|
 |TopLevelDomain|String|否|顶级接入域。|
 
@@ -37,11 +37,11 @@
 
 |参数|类型|是否必须|描述|
 |:-|:-|:---|:-|
-|type|String|是|源站类型 。取值：-   ipaddr：IP源站
--   domain：域名源站
--   oss：OSS Bucket为源站
+|type|String|是|源站类型 。取值： -   ipaddr：IP源站。
+-   domain：域名源站。
+-   oss：OSS Bucket为源站。
 
-|
+ |
 |content|String|是|回源地址。可以是IP或域名。|
 |port|Integer|否|可以指定443或80。默认值：80。443走https回源或自定义端口。|
 |priority|String|否|源站地址对应的优先级。默认值：20。|
@@ -55,15 +55,15 @@
 
 ## 示例 {#section_hlm_fyf_cgb .section}
 
-请求示例：
+请求示例
 
 ```
 http://cdn.aliyuncs.com?Action=AddCdnDomain&CdnType=web&DomainName=example.com&Sources=[{"content":"1.1.1.1","type":"ipaddr","priority":"20","port":80}]&<公共请求参数>
 ```
 
-返回示例：
+返回示例
 
-JSON格式：
+`JSON`格式
 
 ```
 {
@@ -73,7 +73,7 @@ JSON格式：
 
 ## 错误码 {#section_klm_fyf_cgb .section}
 
-公共错误码参见 [附录](../../../../../cn.zh-CN/旧版API参考/附录.md)。
+公共错误码详情请参见 [附录](../../../../cn.zh-CN/旧版API参考/附录.md)。
 
 |错误代码|错误信息|HTTP 状态码|描述|
 |:---|:---|:-------|:-|
