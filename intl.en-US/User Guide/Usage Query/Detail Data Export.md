@@ -14,7 +14,7 @@ With this feature, you can export detail data for traffic/bps data or request ti
 ## Procedure {#section_kry_kcp_r2b .section}
 
 1.  Log on to the CDN console, enter the Domain Names page, select the domain name, then click **Manage**.
-2.  On the **Usage** \> **Detail Data Export** page, click **Create Task**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17304/15434538388941_en-US.png)
-3.  Enter **Task Name** \(required\), the choose **Type**、**Inquiry Time**\(required\), **Export Content**, and **Export Frequency**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17304/15434538388942_en-US.png)
+2.  On the **Usage** \> **Detail Data Export** page, click **Create Task**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17304/15580629508941_en-US.png)
+3.  Enter **Task Name** \(required\), the choose **Type**, **Inquiry Time**\(required\), **Export Content**, and **Export Frequency**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17304/15580629508942_en-US.png)
 4.  Click **Confirm**.
 
